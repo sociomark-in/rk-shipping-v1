@@ -51,6 +51,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'pages';
 
+$route['features'] = 'Pages/features';
+$route['track-your-consignment'] = 'Pages/track';
 $route['api/track/consignment'] = 'Consignment/track';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

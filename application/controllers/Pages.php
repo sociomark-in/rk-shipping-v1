@@ -18,8 +18,32 @@ class Pages extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/userguide3/general/urls.html
 	 */
+
+	public function __construct()
+	{
+		parent::__construct();
+		$this->load->helper("url_current");
+	}
 	public function index()
 	{
-		$this->load->view('pages/index');
+		$data['page'] = [
+			'title' => APP_NAME . " • Home Page"
+		];
+		$this->load->view('pages/index', $data);
+	}
+	public function features()
+	{
+		$data['page'] = [
+			'title' => APP_NAME . " • Features"
+		];
+		$this->load->view('pages/features', $data);
+	}
+	
+	public function track()
+	{
+		$data['page'] = [
+			'title' => APP_NAME . " • Track Your Consignment"
+		];
+		$this->load->view('pages/track', $data);
 	}
 }

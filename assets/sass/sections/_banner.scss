@@ -1,0 +1,53 @@
+.swiper.banner {
+	height: 90vh;
+	.swiper-button-prev,
+	.swiper-button-next {
+		left: 1rem;
+		right: unset;
+		bottom: 2rem;
+		top: unset;
+	}
+	.swiper-button-next {
+		left: 5rem;
+	}
+	.swiper-slide {
+		background: linear-gradient(
+			90deg,
+			rgba(2, 0, 36, 1) 20%,
+			rgba(2, 0, 36, 0) 100%
+		);
+		&.swiper-slide-active {
+			.slide-content .title h2,
+			.slide-content .desc p {
+				opacity: 1;
+				transform: translateX(0);
+				transition: all 1.5s ease-in-out;
+			}
+			.slide-content .desc p {
+				transition-delay: 0.5s;
+			}
+		}
+		.slide-content {
+			height: 100%;
+			padding: calc(max(5%, 2rem));
+			.title {
+				h2 {
+					color: white;
+					text-transform: uppercase;
+					opacity: 0;
+					transform: translateX(-2rem);
+					font-size: calc(max(5vw, 2.5rem));
+					line-height: 1;
+				}
+			}
+			.desc {
+				p {
+					color: white;
+					opacity: 0;
+					transform: translateX(-2rem);
+					font-size: 1.3rem;
+				}
+			}
+		}
+	}
+}
