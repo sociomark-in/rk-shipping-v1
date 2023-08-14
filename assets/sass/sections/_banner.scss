@@ -12,10 +12,12 @@
 	}
 	.swiper-slide {
 		background: linear-gradient(
-			90deg,
-			rgba(2, 0, 36, 1) 20%,
-			rgba(2, 0, 36, 0) 100%
-		);
+				90deg,
+				rgba(2, 0, 36, 1) 20%,
+				rgba(2, 0, 36, 0) 100%
+			),
+			url("../../assets/media/images/banner/3.png");
+		background-size: cover;
 		&.swiper-slide-active {
 			.slide-content .title h2,
 			.slide-content .desc p {
@@ -45,7 +47,7 @@
 					color: white;
 					opacity: 0;
 					transform: translateX(-2rem);
-					font-size: 1.3rem;
+					font-size: max(1.3rem, 1.2vw);
 				}
 			}
 		}

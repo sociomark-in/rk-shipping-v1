@@ -8,6 +8,7 @@
 </head>
 
 <body>
+    <?php $this->load->view('components/_scrollto') ?>
     <header>
         <?php $this->load->view('components/_common_nav') ?>
     </header>
@@ -23,11 +24,11 @@
                             <div class="row h-100 align-items-center">
                                 <div class="col-lg-6 col-10">
                                     <div class="title">
-                                        <h2>Lorem ipsum dolor sit amet.</h2>
+                                        <h2>Logistics Delivered Better</h2>
                                     </div>
                                     <div class="desc">
                                         <p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit porro soluta facilis. Maiores, nostrum tenetur? Veniam ea quaerat perferendis deserunt!
+                                            Twenty plus years in this business does gives us bragging rights to say we can do it better and ofcourse faster!
                                         </p>
                                     </div>
                                 </div>
@@ -39,11 +40,11 @@
                             <div class="row h-100 align-items-center">
                                 <div class="col-lg-6 col-10">
                                     <div class="title">
-                                        <h2>Lorem ipsum dolor sit amet.</h2>
+                                        <h2>Professional Logistics</h2>
                                     </div>
                                     <div class="desc">
                                         <p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit porro soluta facilis. Maiores, nostrum tenetur? Veniam ea quaerat perferendis deserunt!
+                                            You are in the safe hands. Our professional staff ensures precise documentation on-time submissions leading to on-time deliveries.
                                         </p>
                                     </div>
                                 </div>
@@ -55,11 +56,33 @@
                             <div class="row h-100 align-items-center">
                                 <div class="col-lg-6 col-10">
                                     <div class="title">
-                                        <h2>Lorem ipsum dolor sit amet.</h2>
+                                        <h2>Logistics is a Team Sport</h2>
                                     </div>
                                     <div class="desc">
                                         <p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit porro soluta facilis. Maiores, nostrum tenetur? Veniam ea quaerat perferendis deserunt!
+                                            Global partners, close pool of vendors, seamless teamwork to deliver tailor-made door-to-door solutions, Accelerate your shipments or have it just in time.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-content">
+                            <div class="row h-100 align-items-center">
+                                <div class="col-lg-6 col-10">
+                                    <div class="title">
+                                        <h2>Customer-focused Logistics</h2>
+                                    </div>
+                                    <div class="desc">
+                                        <p>
+                                            We exist because we create value for our customers!
+                                        </p>
+                                        <p>
+                                            Our customer-focused approach guarantees quality service offering significant cost and time saving enabling businesses to cross the finish line first!
+                                        </p>
+                                        <p>
+                                            We win when you - <b>Our Customer</b> wins!
                                         </p>
                                     </div>
                                 </div>
@@ -101,19 +124,28 @@
                     <div class="offset-xl-1 col-xl-5 col-md-6">
                         <div class="text-content">
                             <div class="title">
-                                <p class="section-pill">Lorem, ipsum dolor.</p>
-                                <h2 class="section-title">About Us</h2>
+                                <p class="section-pill">About Us</p>
+                                <!-- <h2 class="section-title">About Us</h2> -->
                             </div>
                             <div class="desc">
                                 <p>
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae tempora reprehenderit numquam nulla aliquam excepturi, ipsa eaque, aliquid repellat neque doloribus, quas sequi impedit quae consequatur voluptatum doloremque. Ab ratione perspiciatis eligendi possimus quo vel explicabo culpa placeat totam ullam. Possimus sequi vero doloribus sapiente impedit rerum similique vel dicta!
+                                    Proficient Services was established to provide the Indian industry and business community with integrated shipping related services ranging from Container, Shipping, Forwarding, Transportation, Warehousing, Air Freight, Consolidation, Door to Door Delivery Services, Heavy Lift Transportation and Special Project Handling etc. We are fully geared with facilities and manpower to provide services to our client with a high standard of professionalism. Our combined existing networks and experience in the Air Freighting, Forwarding, Shipping, Transportation and warehousing gives us the edge over our competitors to become a one stop Shipping and Air Freighting agency catering effectively to the complex needs of our clients.
                                 </p>
-                                <p>
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae tempora reprehenderit numquam nulla aliquam excepturi, ipsa eaque, aliquid repellat neque doloribus, quas sequi impedit quae consequatur voluptatum doloremque. Ab ratione perspiciatis eligendi possimus quo vel explicabo culpa placeat totam ullam. Possimus sequi vero doloribus sapiente impedit rerum similique vel dicta!
-                                </p>
-                                <p>
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, minus quos. At quidem maxime minima quae nulla nesciunt iure, illo similique quibusdam quisquam commodi, ut porro harum sit esse repudiandae.
-                                </p>
+                                <div class="read-more collapsed" aria-controlled-by="expand-btn">
+                                    <p>
+                                        Proficient Services was established to provide the Indian industry and business community with integrated shipping related services ranging from Container, Shipping, Forwarding, Transportation, Warehousing, Air Freighting, Consolidation, Door to Door Delivery Services, Heavy Lift Transportation and Special Project Handling etc. We are fully geared with facilities and manpower to provide services to our client with a high standard of professionalism. Our combined existing networks and experience in the Air Freighting, Forwarding, Shipping, Transportation and warehousing gives us the edge over our competitors to become a one stop Shipping and Air Freighting agency catering effectively to the complex needs of our clients.
+                                    </p>
+
+                                    <p>
+                                        'IT'S A SMALL WORLD' Ask our clients
+                                    </p>
+                                    <p>
+                                        Our association with established agents worldwide enhance our services Internationally. As a result we are able to co-ordinate, plan, arrange and control the timely shipment of your materials, equipments and project cargos from various worldwide sources to various construction sites, supply base and other locations that you may assign.
+                                    </p>
+                                    <p>
+                                        We hold all the required government licenses for custom clearance and operate a small fleet of our vehicle for local collection and deliveries.
+                                    </p>
+                                </div>
                             </div>
                             <div class="cta py-3">
                                 <div class="persona row g-0 m-0 justify-content-between">
@@ -141,8 +173,9 @@
         <section id="services">
             <div class="container">
                 <div class="title text-center">
-                    <p class="section-pill m-auto mb-3">Lorem, ipsum dolor.</p>
+                    <p class="section-pill m-auto mb-3">Our Services</p>
                     <h2 class="section-title">Our Services For You</h2>
+                    <p>Quickly optimize cooperative models for long-term high-impact ROI. Dynamically drive innovative e-commerce and distributed paradigms.</p>
                 </div>
                 <div class="swiper services">
                     <!-- Additional required wrapper -->
@@ -153,7 +186,7 @@
                                 <div class="slide-content">
                                     <div class="card widget-card-02 h-100">
                                         <div class="media-content">
-                                            <img src="<?= base_url() ?>assets/media/mockup/service/1.png" class="w-100" alt="...">
+                                            <img src="<?= base_url() ?>assets/media/images/service/tab4.jpg" class="w-100" alt="...">
                                         </div>
                                         <div class="card-body">
                                             <div class="icon">
@@ -187,69 +220,85 @@
         <section id="why-us">
             <div class="container">
                 <div class="row m-0">
-                    <div class="col-lg-5 col-md-6">
+                    <div class="col-12">
                         <div class="text-content">
                             <div class="title">
                                 <p class="section-pill pill-white mb-3">Why Choose Us</p>
-                                <h2 class="section-title">Lorem, ipsum dolor.</h2>
+                                <h2 class="section-title">Why Choose Us?</h2>
                             </div>
                             <div class="desc">
-                                <ul class="widget-pointers_with_icon">
-                                    <li class="point d-flex gap-3">
+                                <ul class="widget-pointers_with_icon row m-0">
+                                    <li class="point d-flex gap-3 col-md-6 col-12">
                                         <div class="icon">
-                                            <img src="" alt="">
+                                            <img src="<?= base_url('assets/media/images/wcu/') ?>icon-1.png" alt="">
                                         </div>
                                         <div class="text">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                                            Collaborative Customer Relationships
                                         </div>
                                     </li>
-                                    <li class="point d-flex gap-3">
+                                    <li class="point d-flex gap-3 col-md-6 col-12">
                                         <div class="icon">
-                                            <img src="" alt="">
+                                            <img src="<?= base_url('assets/media/images/wcu/') ?>icon-1.png" alt="">
                                         </div>
                                         <div class="text">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                                            Optimized Network to Save You Money
                                         </div>
                                     </li>
-                                    <li class="point d-flex gap-3">
+                                    <li class="point d-flex gap-3 col-md-6 col-12">
                                         <div class="icon">
-                                            <img src="" alt="">
+                                            <img src="<?= base_url('assets/media/images/wcu/') ?>icon-1.png" alt="">
                                         </div>
                                         <div class="text">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                                            Proven Industry Expertise
                                         </div>
                                     </li>
-                                    <li class="point d-flex gap-3">
+                                    <li class="point d-flex gap-3 col-md-6 col-12">
                                         <div class="icon">
-                                            <img src="" alt="">
+                                            <img src="<?= base_url('assets/media/images/wcu/') ?>icon-1.png" alt="">
                                         </div>
                                         <div class="text">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing.
-                                        </div>
-                                    </li>
-                                    <li class="point d-flex gap-3">
-                                        <div class="icon">
-                                            <img src="" alt="">
-                                        </div>
-                                        <div class="text">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing.
+                                            Flexible Transportation Solutions
                                         </div>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-7 col-md-6">
-
+                        <div class="row m-0 justify-content-center g-0">
+                            <div class="col-lg-10 col-12">
+                                <div class="widget-counter row m-0">
+                                    <div class="col-lg-4 col-md-6 col-12 widget-counter-element">
+                                        <h3><span>5000</span>+</h3>
+                                        <h4>Project Complete</h4>
+                                        <p>
+                                            Conveniently impact front-end niches via maintainable.
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-12 widget-counter-element">
+                                        <h3><span>5000</span>+</h3>
+                                        <h4>Project Complete</h4>
+                                        <p>
+                                            Conveniently impact front-end niches via maintainable.
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-12 widget-counter-element">
+                                        <h3><span>5000</span>+</h3>
+                                        <h4>Project Complete</h4>
+                                        <p>
+                                            Conveniently impact front-end niches via maintainable.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="services">
+        <section id="team">
             <div class="container">
                 <div class="title text-center">
-                    <p class="section-pill m-auto mb-3">Lorem, ipsum dolor.</p>
-                    <h2 class="section-title">Our Services For You</h2>
+                    <p class="section-pill m-auto mb-3">Team Members</p>
+                    <h2 class="section-title">Our Professional Team</h2>
                 </div>
                 <div class="swiper services">
                     <!-- Additional required wrapper -->
@@ -258,7 +307,7 @@
                         <?php for ($i = 0; $i < 12; $i++) : ?>
                             <div class="swiper-slide">
                                 <div class="slide-content">
-                                    <div class="card widget-card-02 h-100">
+                                    <div class="card widget-card-03 h-100">
                                         <div class="media-content">
                                             <img src="<?= base_url() ?>assets/media/mockup/service/1.png" class="w-100" alt="...">
                                         </div>
@@ -291,34 +340,25 @@
                 </div>
             </div>
         </section>
-        <section id="services">
+        <section id="testimonials">
             <div class="container">
-                <div class="title text-center">
-                    <p class="section-pill m-auto mb-3">Lorem, ipsum dolor.</p>
-                    <h2 class="section-title">Our Services For You</h2>
+                <div class="title text-center mb-3">
+                    <p class="section-pill m-auto mb-3">Happy Clients</p>
+                    <h2 class="section-title">Trusted by our 365,000 Clients</h2>
+                    <p>
+                        Dramatically enhance interactive metrics for reliable services. Proactively unleash fully researched e-commerce.
+                    </p>
                 </div>
-                <div class="swiper services">
+                <div class="swiper testimonial-slider">
                     <!-- Additional required wrapper -->
                     <div class="swiper-wrapper">
                         <!-- Slides -->
                         <?php for ($i = 0; $i < 12; $i++) : ?>
                             <div class="swiper-slide">
                                 <div class="slide-content">
-                                    <div class="card widget-card-02 h-100">
+                                    <div class="testimonial-item">
                                         <div class="media-content">
-                                            <img src="<?= base_url() ?>assets/media/mockup/service/1.png" class="w-100" alt="...">
-                                        </div>
-                                        <div class="card-body">
-                                            <div class="icon">
-                                                <img src="" alt="">
-                                            </div>
-                                            <h5 class="card-title">Special title treatment</h5>
-                                            <p class="card-text">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa odit soluta asperiores expedita provident distinctio.
-                                            </p>
-                                            <div class="card-footer text-body-secondary">
-                                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                            </div>
+                                            <img src="<?= base_url() ?>assets/media/images/partner/aacargo.jpg" class="w-100" alt="...">
                                         </div>
                                     </div>
                                 </div>
@@ -331,11 +371,15 @@
                     <!-- If we need navigation buttons -->
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
-
-                    <!-- If we need scrollbar -->
-                    <!-- <div class="swiper-scrollbar"></div> -->
                 </div>
             </div>
+
+            <!-- If we need scrollbar -->
+            <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
+        </section>
+        <section id="contact-us">
+
         </section>
     </main>
     <footer>
@@ -347,8 +391,8 @@
             new Swiper('.banner', {
                 loop: true,
                 navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
+                    nextEl: '.banner .swiper-button-next',
+                    prevEl: '.banner .swiper-button-prev',
                 },
             }),
             new Swiper('.services', {
@@ -356,22 +400,41 @@
                 slidesPerView: 1,
                 spaceBetween: 10,
                 navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
+                    nextEl: '.services .swiper-button-next',
+                    prevEl: '.services .swiper-button-prev',
                 },
                 breakpoints: {
-                    640: {
+                    824: {
                         slidesPerView: 2,
                         spaceBetween: 20,
                     },
-                    768: {
+                    1024: {
                         slidesPerView: 3,
                         spaceBetween: 30,
+                    }
+                }
+            }),
+            new Swiper('.testimonial-slider', {
+                loop: true,
+                slidesPerView: 2,
+                spaceBetween: 10,
+                navigation: {
+                    nextEl: '.testimonial-slider .swiper-button-next',
+                    prevEl: '.testimonial-slider .swiper-button-prev',
+                },
+                breakpoints: {
+                    824: {
+                        slidesPerView: 4,
+                        spaceBetween: 20,
                     },
                     1024: {
-                        slidesPerView: 4,
+                        slidesPerView: 7,
                         spaceBetween: 30,
                     },
+                    1400: {
+                        slidesPerView: 8,
+                        spaceBetween: 40,
+                    }
                 }
             })
         ];

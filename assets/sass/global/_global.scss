@@ -4,7 +4,7 @@
     --paragraph-color: #565969;
     --body-font: 'Public Sans', sans-serif;
     --heading-font: 'Yantramanav', sans-serif;
-    --body-font-size: 16px;
+    --body-font-size: max(16px, 1vw);
     --line-height30: 1.7;
 }
 
