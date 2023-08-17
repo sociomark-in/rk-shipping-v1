@@ -1,4 +1,3 @@
-
 <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
         <a class="navbar-brand" href="<?= base_url("") ?>">
@@ -10,23 +9,30 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link <?= (base_url("") == current_url()) ? "active" : "" ?>" <?= (base_url("") == current_url()) ? 'aria-current="page"' : "" ?> href="<?= base_url("") ?>">Home</a>
+                    <a class="nav-link" href="<?= base_url("") ?>">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link <?= (base_url("#about-us") == current_url()) ? "active" : "" ?>" <?= (base_url("#about-us") == current_url()) ? 'aria-current="page"' : "" ?> href="<?= base_url("#about-us") ?>">About&nbsp;Us</a>
+                    <a class="nav-link" href="<?= base_url("#about-us") ?>">About&nbsp;Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link <?= (base_url("#services") == current_url()) ? "active" : "" ?>" <?= (base_url("#services") == current_url()) ? 'aria-current="page"' : "" ?> href="<?= base_url("#services") ?>">Services</a>
+                    <a class="nav-link" href="<?= base_url("#services") ?>">Services</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="<?= base_url("#why-us") ?>">Why&nbsp;Proficient</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?= base_url("#team") ?>">Proficient&nbsp;Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?= base_url("#testimonials") ?>">Our&nbsp;Clients</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?= base_url("#contact-us") ?>">Contact&nbsp;Us</a>
+                </li>
+                <!-- <li class="nav-item">
                     <a class="nav-link <?= (base_url("#contact-us") == current_url()) ? "active" : "" ?>" <?= (base_url("#contact-us") == current_url()) ? 'aria-current="page"' : "" ?> href="<?= base_url("#contact-us") ?>">Contact&nbsp;Us</a>
-                </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link <?= (base_url("track-your-consignment") == current_url()) ? "active" : "" ?>" <?= (base_url("track-your-consignment") == current_url()) ? 'aria-current="page"' : "" ?> href="<?= base_url("track-your-consignment") ?>">Cargo&nbsp;Tracking</a>
                 </li> -->
-                <!-- <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true"><?= current_url() ?></a>
-                </li> -->
+
             </ul>
         </div>
     </div>

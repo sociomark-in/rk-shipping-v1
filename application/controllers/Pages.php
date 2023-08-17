@@ -27,7 +27,7 @@ class Pages extends CI_Controller {
 	public function index()
 	{
 		$data['page'] = [
-			'title' => APP_NAME . " • Home Page"
+			'title' => APP_NAME . " • Logistics Delivered Better"
 		];
 		$this->load->view('pages/index', $data);
 	}

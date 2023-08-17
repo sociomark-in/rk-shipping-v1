@@ -9,13 +9,12 @@ main {
 				font-size: 1.1rem;
 				font-weight: 500;
 				margin-bottom: 1rem;
-                color: $color-white;
-                background-color: $color-primary;
-                &.pill-white{
-                    color: $color-primary-dark;
-                    background-color: $color-white;
-
-                }
+				color: $color-white;
+				background-color: $color-primary;
+				&.pill-white {
+					color: $color-primary-dark;
+					background-color: $color-white;
+				}
 			}
 			h2.section-title {
 				text-transform: uppercase;
@@ -61,8 +60,8 @@ main {
 				.desc {
 					padding-bottom: 1rem;
 					border-bottom: 1px solid rgba($color: #000000, $alpha: 0.4);
-					.read-more{
-						&.collapsed{
+					.read-more {
+						&.collapsed {
 							display: none;
 							height: 0;
 						}
@@ -75,31 +74,75 @@ main {
 				}
 			}
 		}
-        &#services{
-            background: 
-			linear-gradient(0deg, $color-primary-dark 0%, $color-primary-dark 30%, transparent 30%, transparent 100%),
-			repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.1) 0, rgba(0, 0, 0, 0.1) 1px, transparent 0, transparent 50%);
-			background-size: cover,10px 10px;
+		&#services {
+			background: linear-gradient(
+					0deg,
+					$color-primary-dark 0%,
+					$color-primary-dark 30%,
+					transparent 30%,
+					transparent 100%
+				),
+				repeating-linear-gradient(
+					-45deg,
+					rgba(0, 0, 0, 0.1) 0,
+					rgba(0, 0, 0, 0.1) 1px,
+					transparent 0,
+					transparent 50%
+				);
+			background-size: cover, 10px 10px;
 			background-repeat: repeat;
-        }
-        &#testimonials{
-			.testimonial-slider{
-				.testimonial-item{
+		}
+		&#testimonials {
+			min-height: fit-content;
+			.testimonial-slider {
+				.testimonial-item {
 					filter: grayscale(1);
-					&:hover{
+					&:hover {
 						filter: grayscale(0);
 					}
 				}
 			}
-        }
-        &#team{
-        }
-        &#why-us{
-            background: linear-gradient(0deg, transparent 0%, transparent 30%, rgba($color-primary-dark, 0.8) 30%, rgba($color-primary-dark, 0.8) 100%);
+		}
+		&#contact-us {
+			position: relative;
+			padding: 0;
+			.videowrapper {
+				width: 100%;
+				aspect-ratio: 1.8;
+				overflow: hidden;
+				video {
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+					object-position: center;
+				}
+			}
+			.text-content {
+				padding: calc(max(5%, 1rem)) 0;
+				padding-top: calc(max(7%, 1.5rem));
+				min-height: 80vh;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background-color: rgba($color-primary-dark, 0.5);
+			}
+		}
+		&#team {
+		}
+		&#why-us {
+			background: linear-gradient(
+				0deg,
+				transparent 0%,
+				transparent 30%,
+				rgba($color-primary-dark, 0.8) 30%,
+				rgba($color-primary-dark, 0.8) 100%
+			);
 			color: $color-white;
-            h2{
+			h2 {
 				color: $color-white;
 			}
-        }
+		}
 	}
 }

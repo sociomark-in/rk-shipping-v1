@@ -379,7 +379,17 @@
             </div>
         </section>
         <section id="contact-us">
-
+            <div class="videowrapper">
+                <video id="myVideomob" class="res-video" muted loop autoplay poster="<?= base_url('assets/media/images/') ?>posters/video-poster-img.jpg">
+                    <source src="<?= base_url('assets/media/images/') ?>video/My-Video2.mp4" type="video/mp4">
+                    <source src="<?= base_url('assets/media/images/') ?>video/My-Video2.mp4" type="video/webm">
+                </video>
+                <div class="vidbuttons">
+                    <button type="button" class="play playpausebtn" style="display: none;"></button>
+                    <button type="button" class="pause playpausebtn" style="display: block;"></button>
+                </div>
+            </div>
+            <div class="text-content"></div>
         </section>
     </main>
     <footer>
