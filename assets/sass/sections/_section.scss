@@ -1,0 +1,148 @@
+main {
+	section {
+		.title {
+			margin-bottom: 1rem;
+			.section-pill {
+				border-radius: 2rem;
+				padding: 0.5rem 1rem;
+				width: fit-content;
+				font-size: 1.1rem;
+				font-weight: 500;
+				margin-bottom: 1rem;
+				color: $color-white;
+				background-color: $color-primary;
+				&.pill-white {
+					color: $color-primary-dark;
+					background-color: $color-white;
+				}
+			}
+			h2.section-title {
+				text-transform: uppercase;
+				font-weight: 700;
+			}
+		}
+		&:not(#banner-section) {
+			padding: calc(max(5%, 1rem)) 0;
+			padding-top: calc(max(7%, 1.5rem));
+			min-height: 80vh;
+		}
+		&#about-us {
+			.media-content {
+				position: relative;
+				.img-overlap {
+					position: relative;
+					.img-front {
+						position: absolute;
+						z-index: 1;
+						right: 3rem;
+						bottom: -3rem;
+					}
+					.img-back {
+						width: 80%;
+					}
+					.shape {
+						position: absolute;
+						z-index: -1;
+						left: -5%;
+						bottom: -10%;
+					}
+				}
+				.img-text {
+					position: absolute;
+					width: calc(min(50%, 10rem));
+					aspect-ratio: 1;
+					top: 20%;
+					right: 0;
+					box-shadow: -8px 8px 10px 2px rgba($color: #000000, $alpha: 0.1);
+				}
+			}
+			.text-content {
+				.desc {
+					padding-bottom: 1rem;
+					border-bottom: 1px solid rgba($color: #000000, $alpha: 0.4);
+					.read-more {
+						&.collapsed {
+							display: none;
+							height: 0;
+						}
+					}
+				}
+				.cta {
+					.persona {
+						display: flex;
+					}
+				}
+			}
+		}
+		&#services {
+			background: linear-gradient(
+					0deg,
+					$color-primary-dark 0%,
+					$color-primary-dark 30%,
+					transparent 30%,
+					transparent 100%
+				),
+				repeating-linear-gradient(
+					-45deg,
+					rgba(0, 0, 0, 0.1) 0,
+					rgba(0, 0, 0, 0.1) 1px,
+					transparent 0,
+					transparent 50%
+				);
+			background-size: cover, 10px 10px;
+			background-repeat: repeat;
+		}
+		&#testimonials {
+			min-height: fit-content;
+			.testimonial-slider {
+				.testimonial-item {
+					filter: grayscale(1);
+					&:hover {
+						filter: grayscale(0);
+					}
+				}
+			}
+		}
+		&#contact-us {
+			position: relative;
+			padding: 0;
+			.videowrapper {
+				width: 100%;
+				aspect-ratio: 1.8;
+				overflow: hidden;
+				video {
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+					object-position: center;
+				}
+			}
+			.text-content {
+				padding: calc(max(5%, 1rem)) 0;
+				padding-top: calc(max(7%, 1.5rem));
+				min-height: 80vh;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background-color: rgba($color-primary-dark, 0.5);
+			}
+		}
+		&#team {
+		}
+		&#why-us {
+			background: linear-gradient(
+				0deg,
+				transparent 0%,
+				transparent 30%,
+				rgba($color-primary-dark, 0.8) 30%,
+				rgba($color-primary-dark, 0.8) 100%
+			);
+			color: $color-white;
+			h2 {
+				color: $color-white;
+			}
+		}
+	}
+}
