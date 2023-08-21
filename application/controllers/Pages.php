@@ -3,6 +3,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Pages extends CI_Controller {
 
+	public $data;
+
 	/**
 	 * Index Page for this controller.
 	 *
@@ -26,24 +28,30 @@ class Pages extends CI_Controller {
 	}
 	public function index()
 	{
-		$data['page'] = [
-			'title' => APP_NAME . " • Logistics Delivered Better"
+		$this->load->helper('directory');
+		$map = directory_map(FCPATH . 'assets/media/images/partner');
+		// print_r($map);die;
+		$this->data = [
+			'page'=>[
+				'title' => APP_NAME . " • Logistics Delivered Better"
+			],
+			'brands' => $map
 		];
-		$this->load->view('pages/index', $data);
+		$this->load->view('pages/index', $this->data);
 	}
 	public function features()
 	{
-		$data['page'] = [
+		$this->data['page'] = [
 			'title' => APP_NAME . " • Features"
 		];
-		$this->load->view('pages/features', $data);
+		$this->load->view('pages/features', $this->data);
 	}
 	
 	public function track()
 	{
-		$data['page'] = [
+		$this->data['page'] = [
 			'title' => APP_NAME . " • Track Your Consignment"
 		];
-		$this->load->view('pages/track', $data);
+		$this->load->view('pages/track', $this->data);
 	}
 }

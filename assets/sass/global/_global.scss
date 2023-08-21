@@ -147,9 +147,7 @@ input[type="reset"]:focus,
 input[type="submit"]:focus,
 select:focus {
     outline: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    border: 1px solid #ddd;
+    box-shadow: 0 0 0 1px #ddd;
 }
 
 code {

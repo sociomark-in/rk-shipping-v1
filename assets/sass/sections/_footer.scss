@@ -22,6 +22,25 @@ footer {
 				text-transform: uppercase;
 				font-size: max(1.5rem, 1vw);
 			}
+			.icon{
+				width: 5rem;
+				aspect-ratio: 1;
+				padding: 0.25rem;
+				display: grid;
+				place-items: center;
+				background-color: $color-primary;
+				position: relative;
+				border-radius: 0.25rem;
+				box-shadow: 0.5rem 0.5rem 0 0px rgba($color: $color-primary, $alpha: 0.3);
+				margin-bottom: 1rem;
+				// &::after{
+				// 	content: '';
+				// 	width: 100%;
+				// 	height: 100%;
+				// 	background-color: rgba($color: $color-primary, $alpha: 0.3);
+				// 	position: absolute;
+				// }
+			}
 		}
 	}
     .other-links{

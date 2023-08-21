@@ -21,7 +21,7 @@ main {
 				font-weight: 700;
 			}
 		}
-		&:not(#banner-section) {
+		&:not(.banner-section) {
 			padding: calc(max(5%, 1rem)) 0;
 			padding-top: calc(max(7%, 1.5rem));
 			min-height: 80vh;
@@ -95,20 +95,35 @@ main {
 		&#testimonials {
 			min-height: fit-content;
 			.testimonial-slider {
-				.testimonial-item {
-					filter: grayscale(1);
-					&:hover {
-						filter: grayscale(0);
+				.swiper-slide {
+					.testimonial-item {
+						filter: grayscale(1);
+					}
+					&.swiper-slide-active {
+						.testimonial-item {
+							filter: grayscale(0);
+						}
 					}
 				}
+				// .testimonial-item {
+				// 	filter: grayscale(1);
+				// 	&:hover {
+				// 		filter: grayscale(0);
+				// 	}
+				// }
 			}
 		}
 		&#contact-us {
 			position: relative;
 			padding: 0;
+			min-height: fit-content;
 			.videowrapper {
+				position: absolute;
+				z-index: 0;
+				top: 0;
+				left: 0;
 				width: 100%;
-				aspect-ratio: 1.8;
+				height: 100%;
 				overflow: hidden;
 				video {
 					width: 100%;
@@ -118,14 +133,11 @@ main {
 				}
 			}
 			.text-content {
+				position: relative;
+				z-index: 1;
 				padding: calc(max(5%, 1rem)) 0;
 				padding-top: calc(max(7%, 1.5rem));
 				min-height: 80vh;
-				position: absolute;
-				top: 0;
-				left: 0;
-				width: 100%;
-				height: 100%;
 				background-color: rgba($color-primary-dark, 0.5);
 			}
 		}
@@ -143,6 +155,11 @@ main {
 			h2 {
 				color: $color-white;
 			}
+		}
+
+		&.gandhi-quote{
+			min-height: fit-content;
+			padding: 2rem 0;
 		}
 	}
 }
