@@ -1,12 +1,35 @@
 /*---------------------------------------------------
 	widget styles
 ----------------------------------------------------*/
+$colors : (
+	'white' : $color-white,
+	'primary' : $color-primary,
+	'dark' : $color-primary-dark
+);
+
 .btn,
 .btn-lg {
 	border: none;
 	border-radius: 0;
 	text-transform: uppercase;
 	font-size: 1rem;
+	@each $class, $color in $colors{
+		&.btn-#{$class}{
+			background-color: $color;
+			box-shadow: 0 0 0 1px $color;
+		}
+		&.btn-#{$class}-outline{
+			border: none;
+			box-shadow: 0 0 0 1px $color;
+			color: $color;
+			&:hover{
+				background: $color-white;
+				box-shadow: 0 0 0 1px $color;
+				border: none;
+				color: $color-primary-dark;
+			}
+		}
+	}
 }
 .btn-lg {
 	font-weight: 600;
@@ -110,6 +133,39 @@
 	}
 }
 
+.widget-glassy-card {
+	background: rgba($color: $color-white, $alpha: 0.1);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(10px);
+	border: none;
+	// border: 1px solid rgba($color: $color-white, $alpha: 0.3);
+	.card-header {
+		border-bottom: none;
+		background-color: transparent;
+		padding: 1rem 1rem 0;
+		*{
+			color: $color-white;
+		}
+	}
+}
+
+.widget-glassy-form{
+	background-color: transparent;
+	.form-control{
+		background-color: rgba($color: $color-white, $alpha: 0.2);
+		border: none;
+		color: $color-white;
+		border-radius: 0;
+		&:focus{
+			box-shadow: 0 0 0 1px #ddd;
+		}
+	}
+	.form-label{
+		color: $color-white;
+	}
+}
+
 .widget-pointers_with_icon {
 	.point {
 		align-items: center;
@@ -121,8 +177,8 @@
 			background-color: $color-white;
 			position: relative;
 			z-index: 1;
-			&::after{
-				content: '';
+			&::after {
+				content: "";
 				z-index: 0;
 				position: absolute;
 				width: 100%;
@@ -134,7 +190,7 @@
 				left: -0.5rem;
 			}
 		}
-		.text{
+		.text {
 			font-weight: 600;
 		}
 	}
@@ -156,21 +212,21 @@
 	.widget-counter-element {
 		padding: 1rem;
 		padding-right: 1.5rem;
-		*{
+		* {
 			color: $color-white;
 		}
-		h3{
+		h3 {
 			margin: 0;
 			color: $color-primary;
-			span{
+			span {
 				color: $color-primary;
 			}
 		}
-		h4{
+		h4 {
 			font-size: 1.3rem;
 			text-transform: uppercase;
 		}
-		p{
+		p {
 		}
 		&:not(:last-of-type) {
 			border-right: 3px solid $color-primary;
@@ -178,7 +234,7 @@
 	}
 }
 
-.widget-scroll_to{
+.widget-scroll_to {
 	position: fixed;
 	z-index: 9999;
 	bottom: 1rem;
@@ -188,7 +244,7 @@
 	cursor: pointer;
 	border-radius: 50%;
 	border: 5px solid $color-primary;
-	img{
+	img {
 		width: 100%;
 		height: 100%;
 		object-fit: cover;

@@ -13,7 +13,7 @@
         <?php $this->load->view('components/_common_nav') ?>
     </header>
     <main>
-        <section id="banner-section">
+        <section class="banner-section">
             <!-- Slider main container -->
             <div class="swiper banner">
                 <!-- Additional required wrapper -->
@@ -267,21 +267,21 @@
                             <div class="col-lg-10 col-12">
                                 <div class="widget-counter row m-0">
                                     <div class="col-lg-4 col-md-6 col-12 widget-counter-element">
-                                        <h3><span>5000</span>+</h3>
+                                        <h3><span class="counterPlugin">5000</span>+</h3>
                                         <h4>Project Complete</h4>
                                         <p>
                                             Conveniently impact front-end niches via maintainable.
                                         </p>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-12 widget-counter-element">
-                                        <h3><span>5000</span>+</h3>
+                                        <h3><span class="counterPlugin">300</span>+</h3>
                                         <h4>Project Complete</h4>
                                         <p>
                                             Conveniently impact front-end niches via maintainable.
                                         </p>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-12 widget-counter-element">
-                                        <h3><span>5000</span>+</h3>
+                                        <h3><span class="counterPlugin">600</span>+</h3>
                                         <h4>Project Complete</h4>
                                         <p>
                                             Conveniently impact front-end niches via maintainable.
@@ -290,6 +290,15 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gandhi-quote">
+            <div class="container">
+                <div class="row g-0 m-0 justify-content-center">
+                    <div class="col-xl-6 col-lg-8 col-10">
+                        <img src="<?= base_url('assets/media/images/gandhi/') ?>quote-01.png" alt="Gandhi Quote 01">
                     </div>
                 </div>
             </div>
@@ -353,12 +362,12 @@
                     <!-- Additional required wrapper -->
                     <div class="swiper-wrapper">
                         <!-- Slides -->
-                        <?php for ($i = 0; $i < 12; $i++) : ?>
+                        <?php for ($i = 0; $i < count($brands); $i++) : ?>
                             <div class="swiper-slide">
                                 <div class="slide-content">
                                     <div class="testimonial-item">
                                         <div class="media-content">
-                                            <img src="<?= base_url() ?>assets/media/images/partner/aacargo.jpg" class="w-100" alt="...">
+                                            <img src="<?= base_url('assets/media/images/partner/') . $brands[$i] ?>" class="w-100" alt="...">
                                         </div>
                                     </div>
                                 </div>
@@ -369,8 +378,8 @@
                     <!-- <div class="swiper-pagination"></div> -->
 
                     <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
+                    <!-- <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div> -->
                 </div>
             </div>
 
@@ -389,7 +398,62 @@
                     <button type="button" class="pause playpausebtn" style="display: block;"></button>
                 </div>
             </div>
-            <div class="text-content"></div>
+            <div class="text-content">
+                <div class="contact-section">
+                    <div class="container">
+                        <div class="row m-0">
+                            <div class="col-md-6 col-12"></div>
+                            <div class="col-md-6 col-12">
+                                <div class="card widget-glassy-card">
+                                    <div class="card-header">
+                                        <h4>Get a Quote</h4>
+                                    </div>
+                                    <div class="card-body widget-glassy-form">
+                                        <?= form_open('') ?>
+                                        <div class="row m-0">
+                                            <div class="col-lg-6 col-12">
+                                                <div class="mb-3">
+                                                    <label class="form-label" for="">Your Name</label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-12">
+                                                <div class="mb-3">
+                                                    <label class="form-label" for="">Your Email Address</label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-12">
+                                                <div class="mb-3">
+                                                    <label class="form-label" for="">Your Name</label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-12">
+                                                <div class="mb-3">
+                                                    <label class="form-label" for="">Your Email Address</label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="mb-3">
+                                                    <label class="form-label" for="">Your Email Address</label>
+                                                    <textarea class="form-control"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <button type="submit" class="btn btn-primary me-2">submit</button>
+                                                <button type="reset" class="btn btn-white-outline me-2">Clear</button>
+                                            </div>
+                                        </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
@@ -426,28 +490,62 @@
             }),
             new Swiper('.testimonial-slider', {
                 loop: true,
+                centeredSlides: true,
+                autoplay: {
+                    delay: 1000,
+                    disableOnInteraction: false
+                },
                 slidesPerView: 2,
                 spaceBetween: 10,
-                navigation: {
-                    nextEl: '.testimonial-slider .swiper-button-next',
-                    prevEl: '.testimonial-slider .swiper-button-prev',
-                },
+                // navigation: {
+                //     nextEl: '.testimonial-slider .swiper-button-next',
+                //     prevEl: '.testimonial-slider .swiper-button-prev',
+                // },
                 breakpoints: {
                     824: {
                         slidesPerView: 4,
                         spaceBetween: 20,
                     },
                     1024: {
-                        slidesPerView: 7,
+                        slidesPerView: 5,
                         spaceBetween: 30,
                     },
                     1400: {
-                        slidesPerView: 8,
+                        slidesPerView: 6,
                         spaceBetween: 40,
                     }
                 }
             })
         ];
+    </script>
+
+    <script src="<?= base_url("/assets/js/counter.min.js") ?>"></script>
+    <script>
+        $(".counterPlugin").each(function(){
+            $(this).counter({
+                countFrom: 0
+            });
+
+            /* $("#counter").counter({
+                autoStart: true, // true/false, default: true
+                duration: 5000, // milliseconds, default: 1500
+                countFrom: 10, // start counting at this number, default: 0
+                countTo: 30, // count to this number, default: 0
+                runOnce: true, // only run the counter once, default: false
+                placeholder: "?", // replace the number with this before counting,
+                // most useful with autoStart: false. default: undefined
+                easing: "easeOutCubic", // see http://gsgd.co.uk/sandbox/jquery/easing
+                // for all available effects, see visual examples:
+                // http://easings.net
+                // default: "easeOutQuad"
+                onStart: function() {}, // callback on start of the counting
+                onComplete: function() {}, // callback on completion of the counting
+                numberFormatter: // function used to format the displayed numbers.
+                    function(number) {
+                        return "$ " + number;
+                    }
+            }); */
+        });
     </script>
 </body>
 
