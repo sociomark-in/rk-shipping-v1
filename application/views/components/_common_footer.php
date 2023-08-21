@@ -92,7 +92,7 @@
                                 <h3>Our Services</h3>
                             </div>
                             <div class="desc">
-                                <ul>
+                                <ul class="list-unstyled">
                                     <li><a href=""></a></li>
                                     <li><a href=""></a></li>
                                     <li><a href=""></a></li>
@@ -109,7 +109,7 @@
                                 <h3>Useful Links</h3>
                             </div>
                             <div class="desc">
-                                <ul>
+                                <ul class="list-unstyled">
                                     <li><a href=""></a></li>
                                     <li><a href=""></a></li>
                                     <li><a href=""></a></li>
@@ -123,7 +123,7 @@
                     <div class="cf-item">
                         <div class="text-content">
                             <div class="logo">
-                                <img src="<?= base_url("assets/media/logo.png") ?>" alt="R K Shipping Logo">
+                                <img src="<?= base_url("assets/media/logo-img.png") ?>" alt="R K Shipping Logo">
                             </div>
                             <div class="desc">
                                 <p>
