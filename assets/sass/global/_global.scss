@@ -2,10 +2,12 @@
     --main-color: #FA4318;
     --heading-color: #080C24;
     --paragraph-color: #565969;
-    --body-font: 'Public Sans', sans-serif;
-    --heading-font: 'Yantramanav', sans-serif;
+    // --body-font: 'Public Sans', sans-serif;
+    --body-font: 'Lato', sans-serif;
+    // --heading-font: 'Yantramanav', sans-serif;
+    --heading-font: 'Robinson Regular', sans-serif;
     --body-font-size: max(16px, 1vw);
-    --line-height30: 1.7;
+    --line-height30: 1.5;
 }
 
 html {
@@ -32,6 +34,7 @@ body {
     line-height: var(--line-height30);
     font-size: var(--body-font-size);
 }
+
 
 h1 {
     font-size: 84px;
@@ -68,15 +71,13 @@ h5,
 h6 {
     color: var(--heading-color);
     font-weight: 700;
-    font-family: var(--heading-font);
+    // font-family: var(--heading-font);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
 }
 
 p {
     color: var(--paragraph-color);
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
     margin-bottom: 10px;
 }
 

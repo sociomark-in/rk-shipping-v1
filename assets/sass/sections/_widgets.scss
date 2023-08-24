@@ -1,10 +1,10 @@
 /*---------------------------------------------------
 	widget styles
 ----------------------------------------------------*/
-$colors : (
-	'white' : $color-white,
-	'primary' : $color-primary,
-	'dark' : $color-primary-dark
+$colors: (
+	"white": $color-white,
+	"primary": $color-primary,
+	"dark": $color-primary-dark,
 );
 
 .btn,
@@ -13,16 +13,16 @@ $colors : (
 	border-radius: 0;
 	text-transform: uppercase;
 	font-size: 1rem;
-	@each $class, $color in $colors{
-		&.btn-#{$class}{
+	@each $class, $color in $colors {
+		&.btn-#{$class} {
 			background-color: $color;
 			box-shadow: 0 0 0 1px $color;
 		}
-		&.btn-#{$class}-outline{
+		&.btn-#{$class}-outline {
 			border: none;
 			box-shadow: 0 0 0 1px $color;
 			color: $color;
-			&:hover{
+			&:hover {
 				background: $color-white;
 				box-shadow: 0 0 0 1px $color;
 				border: none;
@@ -48,8 +48,8 @@ $colors : (
 		$color-primary 14%,
 		rgba(0, 212, 255, 0) 14%,
 		rgba(0, 212, 255, 0) 22%,
-		rgba(255, 255, 255, 1) 22%,
-		rgba(255, 255, 255, 1) 100%
+		white 22%,
+		white 100%
 	);
 	&::after {
 		position: absolute;
@@ -62,6 +62,7 @@ $colors : (
 	}
 	.card-body {
 		text-align: center;
+		border: none;
 		h3 {
 			font-size: 4rem;
 			margin-bottom: 0;
@@ -73,52 +74,45 @@ $colors : (
 	}
 }
 
-.widget-card-02 {
-	border-radius: 0;
-	.media-content {
-		position: relative;
-		&::before,
-		&::after {
-			position: absolute;
-			bottom: 0;
-			content: "";
-			width: 2rem;
-			aspect-ratio: 1;
-			background-color: $color-white;
-		}
-		&::before {
-			left: 0;
-			background: linear-gradient(
-				45deg,
-				$color-white 0%,
-				$color-white 50%,
-				transparent 50%,
-				transparent 100%
-			);
-		}
-		&::after {
-			right: 0;
-			background: linear-gradient(
-				315deg,
-				$color-white 0%,
-				$color-white 50%,
-				transparent 50%,
-				transparent 100%
-			);
+.widget-service-card {
+	@mixin bg_normal($url) {
+		background: url("../../assets/media/images/banner/3.png"),
+			rgba($color-primary-dark, $alpha: 0.99);
+		background-size: cover;
+		background-blend-mode: soft-light;
+	}
+	@mixin bg_hover($url) {
+		background: url("../../assets/media/images/banner/3.png"),
+			rgba($color-primary-dark, $alpha: 0.6);
+		background-size: cover;
+		background-blend-mode: soft-light;
+	}
+	border-radius: 1rem;
+	&.freight-service {
+		@include bg_normal("../../assets/media/images/banner/3.png");
+		&:hover {
+			@include bg_hover("../../assets/media/images/banner/3.png");
 		}
 	}
+	&.customs-clearance {
+		@include bg_normal("../../assets/media/images/banner/3.png");
+		&:hover {
+			@include bg_hover("../../assets/media/images/banner/3.png");
+		}
+	}
+	* {
+		color: $color-white;
+	}
 	.card-body {
-		position: relative;
-		padding-top: 2.5rem;
+		background-color: transparent;
+		border: none;
 		.icon {
-			position: absolute;
-			right: 10%;
-			top: -10%;
 			width: 4rem;
 			aspect-ratio: 1;
 			border-radius: 50%;
 			background-color: $color-white;
 			border: 0.5rem solid $color-primary;
+			margin-bottom: 1rem;
 		}
 		h5 {
 			font-weight: 600;
@@ -144,24 +138,24 @@ $colors : (
 		border-bottom: none;
 		background-color: transparent;
 		padding: 1rem 1rem 0;
-		*{
+		* {
 			color: $color-white;
 		}
 	}
 }
 
-.widget-glassy-form{
+.widget-glassy-form {
 	background-color: transparent;
-	.form-control{
+	.form-control {
 		background-color: rgba($color: $color-white, $alpha: 0.2);
 		border: none;
 		color: $color-white;
 		border-radius: 0;
-		&:focus{
+		&:focus {
 			box-shadow: 0 0 0 1px #ddd;
 		}
 	}
-	.form-label{
+	.form-label {
 		color: $color-white;
 	}
 }

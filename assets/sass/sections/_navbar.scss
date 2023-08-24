@@ -2,12 +2,62 @@
     # Nav bar 
 ----------------------------------------------*/
 
-nav.navbar{
-    background-color: white;
-    .navbar-brand{
-        img{
-            height: 60px;
-            width: auto;
+nav.navbar {
+	background-color: transparent;
+	.navbar-brand {
+		img {
+			height: 60px;
+			width: auto;
+		}
+	}
+	.navbar-toggler {
+		border: none;
+		width: 3.5rem;
+		aspect-ratio: 1;
+		display: grid;
+		place-items: center;
+		border-radius: 50%;
+		background-color: white;
+		padding: 0;
+		.navbar-toggler-icon {
+			filter: brightness(0);
+		}
+
+		&.collapsed {
+		}
+	}
+    .navbar-collapse{
+        &.collapse{
+            // transform: translateX(100px);
+            transition: all .5s ease-in-out;
+            &.show{
+                // transform: translate(0);
+            }
         }
     }
+	.navbar-nav {
+		padding: 1rem;
+		// background-color: $color-white;
+		// border: 1px solid $color-white;
+		width: 100%;
+		margin: 0 1rem;
+		width: calc(100% - 2rem);
+		height: calc(80vh - 100px);
+		position: fixed;
+		top: 100px;
+		right: 0;
+		.nav-item {
+			padding: 0 1rem;
+			&:hover {
+				background: rgba($color: $color-white, $alpha: 0.05);
+				border-radius: 16px;
+				box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+				backdrop-filter: blur(10px);
+			}
+			a {
+				color: $color-white;
+				font-size: 1.2rem;
+			}
+		}
+	}
 }

@@ -1,5 +1,5 @@
 .swiper.banner {
-	height: 90vh;
+	height: 100vh;
 	.swiper-button-prev,
 	.swiper-button-next {
 		left: 1rem;
@@ -12,10 +12,14 @@
 	}
 	.swiper-slide {
 		background: linear-gradient(
-				90deg,
-				rgba(2, 0, 36, 1) 20%,
-				rgba(2, 0, 36, 0) 100%
+				-45deg,
+				transparent 50%,
+				$color-pastel-blue 50%,
+				$color-pastel-blue 75%,
+				transparent 75%,
+				transparent 100%
 			),
+			linear-gradient(90deg, $color-black 0%, transparent 100%),
 			url("../../assets/media/images/banner/3.png");
 		background-size: cover;
 		&.swiper-slide-active {
@@ -41,6 +45,7 @@
 					font-size: calc(max(5vw, 2.5rem));
 					line-height: 1;
 				}
+				margin-bottom: 1.5rem;
 			}
 			.desc {
 				p {
