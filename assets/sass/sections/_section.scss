@@ -76,20 +76,13 @@ main {
 		}
 		&#services {
 			background: linear-gradient(
-					0deg,
-					$color-primary-dark 0%,
-					$color-primary-dark 30%,
-					transparent 30%,
-					transparent 100%
-				),
-				repeating-linear-gradient(
-					-45deg,
-					rgba(0, 0, 0, 0.1) 0,
-					rgba(0, 0, 0, 0.1) 1px,
-					transparent 0,
-					transparent 50%
-				);
-			background-size: cover, 10px 10px;
+				0deg,
+				transparent 0%,
+				transparent 30%,
+				rgba($color: $color-primary, $alpha: 0.1) 30%,
+				rgba($color: $color-primary, $alpha: 0.1) 100%
+			);
+			background-size: cover;
 			background-repeat: repeat;
 		}
 		&#testimonials {
@@ -140,7 +133,7 @@ main {
 				min-height: 80vh;
 				background-color: rgba($color-primary-dark, 0.8);
 				.contact-footer {
-					*{
+					* {
 						color: $color-white;
 					}
 					padding: 1.5rem 0;
@@ -150,7 +143,7 @@ main {
 							text-transform: uppercase;
 							font-size: max(1.5rem, 1vw);
 						}
-						.icon{
+						.icon {
 							width: 5rem;
 							aspect-ratio: 1;
 							padding: 0.25rem;
@@ -159,7 +152,8 @@ main {
 							background-color: $color-primary;
 							position: relative;
 							border-radius: 0.25rem;
-							box-shadow: 0.5rem 0.5rem 0 0px rgba($color: $color-primary, $alpha: 0.3);
+							box-shadow: 0.5rem 0.5rem 0 0px
+								rgba($color: $color-primary, $alpha: 0.3);
 							margin-bottom: 1rem;
 							// &::after{
 							// 	content: '';
@@ -174,6 +168,17 @@ main {
 			}
 		}
 		&#team {
+			background: linear-gradient(
+				-90deg,
+				transparent 0%,
+				transparent calc(min(100%, 48rem)),
+				rgba($color: $color-primary, $alpha: 0.1) calc(min(100%, 48rem)),
+				rgba($color: $color-primary, $alpha: 0.1) 100%
+			);
+			background-size: cover;
+			.teams-desc {
+				padding: 1.5rem 2rem;
+			}
 		}
 		&#why-us {
 			background: linear-gradient(
@@ -189,7 +194,7 @@ main {
 			}
 		}
 
-		&.gandhi-quote{
+		&.gandhi-quote {
 			min-height: fit-content;
 			padding: 2rem 0;
 		}

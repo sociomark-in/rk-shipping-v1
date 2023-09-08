@@ -182,19 +182,36 @@
                     </p>
                 </div>
                 <div class="row m-0">
-                    <div class="col-xl-4 col-12 mb-3">
-                        <div class="card widget-service-card h-100 freight-service">
-                            <div class="card-body">
+                    <?php for ($i = 0; $i < 8; $i++) : ?>
+                        <div class="col-xxl-3 col-xl-4 col-12">
+                            <div class="card widget-service-card freight-service">
                                 <div class="icon">
                                     <img src="" alt="">
                                 </div>
-                                <h5 class="card-title">Sea / Air Fright</h5>
-                                <p class="card-text">
-                                    Direct & Consolidated airfreight/sea freight services world-wide.Preferential bookings covering door to door delivery, time sensitive shipments, dangerous goods and out of gauge cargo. Coordination with Lines and tracking of consignments for freight movement control till final delivery to enable customer to plan distribution and disbursement logistics of goods even before arrival.
-                                </p>
-                                <!-- <div class="card-footer text-body-secondary">
+                                <div class="card-body">
+                                    <h4 class="card-title">Sea / Air Fright</h4>
+                                    <p class="card-text">
+                                        Direct & Consolidated airfreight/sea freight services world-wide.<br>Preferential bookings covering door to door delivery, time sensitive shipments, dangerous goods and out of gauge cargo.
+                                    </p>
+                                    <!-- <div class="card-footer text-body-secondary">
                                             <a href="#" class="btn btn-primary">Go somewhere</a>
                                         </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    <?php endfor ?>
+                    <!-- <div class="col-xl-4 col-12 mb-3">
+                        <div class="card widget-service-card h-100 customs-clearance">
+                            <div class="card-body h-100">
+                                <div class="icon">
+                                    <img src="" alt="">
+                                </div>
+                                <h5 class="card-title">Customs Clearance</h5>
+                                <div class="card-text">
+                                    <p>
+                                        Indian customs procedures are complex and involves various dox, incentives/concessions in duty. Our team consists of well experienced and trained staff, supported by fully computerized documentation and armed with the latest communication equipment.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -209,19 +226,7 @@
                                     <p>
                                         Indian customs procedures are complex and involves various dox, incentives/concessions in duty. Our team consists of well experienced and trained staff, supported by fully computerized documentation and armed with the latest communication equipment.
                                     </p>
-                                    <!-- <p>
-                                        Completion of all post shipment formalities and endorsements (Duty drawbacks, Refunds, DEEC/DEPB logging and other export benefits) enable our clients to complete their commercial transactions without any hindrances. We hold all the required government licenses for custom clearance and operation in Mumbai.
-                                    </p> -->
-                                    <!-- <p>
-                                        Thus our experience in the Air Freighting, Forwarding, Shipping, Documentation, Existing networks/association with established agents worldwide, Transportation and Warehousing enhance our services and enable us to give a complete solution to our clients freight forwarding needs.
-                                    </p>
-                                    <p>
-                                        We strive to offer the most efficient means of Ocean, Air and Land Transportation to all points on the globe, at the fairest possible cost. We accomplish this goal by pooling our vast resources and significant experience in the international freight forwarding and customs brokerage industries, adding value to our clients' international supply-chain operations.
-                                    </p> -->
                                 </div>
-                                <!-- <div class="card-footer text-body-secondary">
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div> -->
                             </div>
                         </div>
                     </div>
@@ -236,19 +241,7 @@
                                     <p>
                                         Indian customs procedures are complex and involves various dox, incentives/concessions in duty. Our team consists of well experienced and trained staff, supported by fully computerized documentation and armed with the latest communication equipment.
                                     </p>
-                                    <!-- <p>
-                                        Completion of all post shipment formalities and endorsements (Duty drawbacks, Refunds, DEEC/DEPB logging and other export benefits) enable our clients to complete their commercial transactions without any hindrances. We hold all the required government licenses for custom clearance and operation in Mumbai.
-                                    </p> -->
-                                    <!-- <p>
-                                        Thus our experience in the Air Freighting, Forwarding, Shipping, Documentation, Existing networks/association with established agents worldwide, Transportation and Warehousing enhance our services and enable us to give a complete solution to our clients freight forwarding needs.
-                                    </p>
-                                    <p>
-                                        We strive to offer the most efficient means of Ocean, Air and Land Transportation to all points on the globe, at the fairest possible cost. We accomplish this goal by pooling our vast resources and significant experience in the international freight forwarding and customs brokerage industries, adding value to our clients' international supply-chain operations.
-                                    </p> -->
                                 </div>
-                                <!-- <div class="card-footer text-body-secondary">
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div> -->
                             </div>
                         </div>
                     </div>
@@ -263,19 +256,7 @@
                                     <p>
                                         Indian customs procedures are complex and involves various dox, incentives/concessions in duty. Our team consists of well experienced and trained staff, supported by fully computerized documentation and armed with the latest communication equipment.
                                     </p>
-                                    <!-- <p>
-                                        Completion of all post shipment formalities and endorsements (Duty drawbacks, Refunds, DEEC/DEPB logging and other export benefits) enable our clients to complete their commercial transactions without any hindrances. We hold all the required government licenses for custom clearance and operation in Mumbai.
-                                    </p> -->
-                                    <!-- <p>
-                                        Thus our experience in the Air Freighting, Forwarding, Shipping, Documentation, Existing networks/association with established agents worldwide, Transportation and Warehousing enhance our services and enable us to give a complete solution to our clients freight forwarding needs.
-                                    </p>
-                                    <p>
-                                        We strive to offer the most efficient means of Ocean, Air and Land Transportation to all points on the globe, at the fairest possible cost. We accomplish this goal by pooling our vast resources and significant experience in the international freight forwarding and customs brokerage industries, adding value to our clients' international supply-chain operations.
-                                    </p> -->
                                 </div>
-                                <!-- <div class="card-footer text-body-secondary">
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div> -->
                             </div>
                         </div>
                     </div>
@@ -290,49 +271,10 @@
                                     <p>
                                         Indian customs procedures are complex and involves various dox, incentives/concessions in duty. Our team consists of well experienced and trained staff, supported by fully computerized documentation and armed with the latest communication equipment.
                                     </p>
-                                    <!-- <p>
-                                        Completion of all post shipment formalities and endorsements (Duty drawbacks, Refunds, DEEC/DEPB logging and other export benefits) enable our clients to complete their commercial transactions without any hindrances. We hold all the required government licenses for custom clearance and operation in Mumbai.
-                                    </p> -->
-                                    <!-- <p>
-                                        Thus our experience in the Air Freighting, Forwarding, Shipping, Documentation, Existing networks/association with established agents worldwide, Transportation and Warehousing enhance our services and enable us to give a complete solution to our clients freight forwarding needs.
-                                    </p>
-                                    <p>
-                                        We strive to offer the most efficient means of Ocean, Air and Land Transportation to all points on the globe, at the fairest possible cost. We accomplish this goal by pooling our vast resources and significant experience in the international freight forwarding and customs brokerage industries, adding value to our clients' international supply-chain operations.
-                                    </p> -->
                                 </div>
-                                <!-- <div class="card-footer text-body-secondary">
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div> -->
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xl-4 col-12 mb-3">
-                        <div class="card widget-service-card h-100 customs-clearance">
-                            <div class="card-body h-100">
-                                <div class="icon">
-                                    <img src="" alt="">
-                                </div>
-                                <h5 class="card-title">Customs Clearance</h5>
-                                <div class="card-text">
-                                    <p>
-                                        Indian customs procedures are complex and involves various dox, incentives/concessions in duty. Our team consists of well experienced and trained staff, supported by fully computerized documentation and armed with the latest communication equipment.
-                                    </p>
-                                    <!-- <p>
-                                        Completion of all post shipment formalities and endorsements (Duty drawbacks, Refunds, DEEC/DEPB logging and other export benefits) enable our clients to complete their commercial transactions without any hindrances. We hold all the required government licenses for custom clearance and operation in Mumbai.
-                                    </p> -->
-                                    <!-- <p>
-                                        Thus our experience in the Air Freighting, Forwarding, Shipping, Documentation, Existing networks/association with established agents worldwide, Transportation and Warehousing enhance our services and enable us to give a complete solution to our clients freight forwarding needs.
-                                    </p>
-                                    <p>
-                                        We strive to offer the most efficient means of Ocean, Air and Land Transportation to all points on the globe, at the fairest possible cost. We accomplish this goal by pooling our vast resources and significant experience in the international freight forwarding and customs brokerage industries, adding value to our clients' international supply-chain operations.
-                                    </p> -->
-                                </div>
-                                <!-- <div class="card-footer text-body-secondary">
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div> -->
-                            </div>
-                        </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -423,48 +365,46 @@
             </div>
         </section>
         <section id="team">
-            <div class="container">
-                <div class="title text-center">
-                    <p class="section-pill m-auto mb-3">Team Members</p>
-                    <h2 class="section-title">Our Professional Team</h2>
+            <div class="container-fluid p-0">
+                <div class="row m-0 justify-content-end">
+                    <div class="col-lg-6 col-12">
+                        <div class="title mx-3">
+                            <p class="section-pill mb-3">Team Members</p>
+                            <h2 class="section-title">Our Proficient Team</h2>
+                        </div>
+                    </div>
                 </div>
-                <div class="swiper services">
-                    <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                        <!-- Slides -->
-                        <?php for ($i = 0; $i < 12; $i++) : ?>
-                            <div class="swiper-slide">
-                                <div class="slide-content">
-                                    <div class="card widget-card-03 h-100">
-                                        <div class="media-content">
-                                            <img src="<?= base_url() ?>assets/media/mockup/service/1.png" class="w-100" alt="...">
-                                        </div>
-                                        <div class="card-body">
-                                            <div class="icon">
-                                                <img src="" alt="">
-                                            </div>
-                                            <h5 class="card-title">Special title treatment</h5>
-                                            <p class="card-text">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa odit soluta asperiores expedita provident distinctio.
-                                            </p>
-                                            <div class="card-footer text-body-secondary">
-                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="row m-0">
+                    <div class="col-lg-6 col-12">
+
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="teams-desc mb-3 bg-primary-translucent">
+                            <div class="row">
+                                <div class="col-lg-9 col-12">
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio dolore inventore quo adipisci officiis doloribus autem fuga. Vero earum iusto, inventore temporibus iure numquam nostrum rerum doloremque, voluptas optio sit?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper teams-slider">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <?php for ($i = 0; $i < 12; $i++) : ?>
+                                    <div class="swiper-slide bg-white">
+                                        <div class="slide-content">
+                                            <div class="media-content">
+                                                <img src="<?= base_url() ?>assets/media/mockup/service/1.png" class="w-100" alt="...">
+                                                Slide <?= $i?>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                <?php endfor ?>
                             </div>
-                        <?php endfor ?>
+                        </div>
                     </div>
-                    <!-- If we need pagination -->
-                    <!-- <div class="swiper-pagination"></div> -->
-
-                    <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-
-                    <!-- If we need scrollbar -->
-                    <!-- <div class="swiper-scrollbar"></div> -->
                 </div>
             </div>
         </section>
@@ -493,17 +433,8 @@
                             </div>
                         <?php endfor ?>
                     </div>
-                    <!-- If we need pagination -->
-                    <!-- <div class="swiper-pagination"></div> -->
-
-                    <!-- If we need navigation buttons -->
-                    <!-- <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div> -->
                 </div>
             </div>
-
-            <!-- If we need scrollbar -->
-            <!-- <div class="swiper-scrollbar"></div> -->
             </div>
         </section>
         <section id="contact-us">
@@ -668,6 +599,14 @@
                         spaceBetween: 30,
                     }
                 }
+            }),
+            new Swiper('.teams-slider', {
+                loop: true,
+                effect: 'fade',
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: false
+                },
             }),
             new Swiper('.testimonial-slider', {
                 loop: true,

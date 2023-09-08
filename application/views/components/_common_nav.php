@@ -10,7 +10,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav widget-glassy-card">
+            <ul class="navbar-nav widget-glassy-card-black">
                 <li class="nav-item">
                     <a class="nav-link" href="<?= base_url("") ?>">Home</a>
                 </li>
