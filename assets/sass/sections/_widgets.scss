@@ -7,7 +7,7 @@ $colors: (
 	"dark": $color-primary-dark,
 );
 
-.bg-primary-translucent{
+.bg-primary-translucent {
 	background-color: rgba($color: $color-primary, $alpha: 0.2);
 }
 
@@ -83,9 +83,9 @@ $colors: (
 	border-radius: 0.25rem;
 	margin: 2rem 0;
 	border: none;
-	box-shadow: 2px 4px 10px 0 rgba($color: #000000, $alpha: 0.2);
-	*{
-		color: $color-primary-dark
+	box-shadow: 2px 4px 10px 0 rgba($color: $color-primary-dark, $alpha: 0.1);
+	* {
+		color: $color-primary-dark;
 	}
 	.icon {
 		position: absolute;
@@ -142,6 +142,49 @@ $colors: (
 		padding: 1rem 1rem 0;
 		* {
 			color: $color-white;
+		}
+	}
+}
+
+.widget-testimonial-card {
+	border: none;
+	background: none;
+	position: relative;
+	.image {
+		position: absolute;
+		top: 5%;
+		left: -10%;
+		width: max(6vw, 3rem);
+		aspect-ratio: 1;
+		background-color: $color-white;
+		border-radius: 50%;
+	}
+	.card-header {
+		background: transparent;
+		border-bottom: none;
+		padding: 0;
+		margin-left: 3rem;
+		* {
+			margin-bottom: 0;
+			line-height: 1;
+		}
+		h3,p{
+			width: fit-content;
+		}
+		h3 {
+			text-transform: uppercase;
+		}
+	}
+	.card-body {
+		background-color: white;
+		padding: 0;
+		border-radius: 0.5rem;
+		box-shadow: 6px 6px 10px 2px rgba($color: $color-primary-dark, $alpha: 0.1);
+		.text-content {
+			max-height: max(35vh, 15rem);
+			overflow-y: scroll;
+			margin: 1.5rem;
+			margin-left: 3rem;
 		}
 	}
 }

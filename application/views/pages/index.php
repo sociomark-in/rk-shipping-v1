@@ -104,7 +104,7 @@
         <section id="about-us">
             <div class="container">
                 <div class="row m-0">
-                    <div class="col-xl-6 col-md-6 col-12">
+                    <div class="col-xl-7 col-md-6 col-12">
                         <div class="media-content mb-5">
                             <div class="img-overlap">
                                 <img class="shape" src="<?= base_url() ?>assets/media/images/about/shape.png" alt="">
@@ -122,7 +122,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="offset-xl-1 col-xl-5 col-md-6 col-12">
+                    <div class="col-xl-5 col-md-6 col-12">
                         <div class="text-content">
                             <div class="title">
                                 <p class="section-pill">About Us</p>
@@ -130,7 +130,7 @@
                             </div>
                             <div class="desc">
                                 <p>
-                                    Proficient Services was established to provide the Indian industry and business community with integrated shipping related services ranging from Container, Shipping, Forwarding, Transportation, Warehousing, Air Freight, Consolidation, Door to Door Delivery Services, Heavy Lift Transportation and Special Project Handling etc. We are fully geared with facilities and manpower to provide services to our client with a high standard of professionalism. Our combined existing networks and experience in the Air Freighting, Forwarding, Shipping, Transportation and warehousing gives us the edge over our competitors to become a one stop Shipping and Air Freighting agency catering effectively to the complex needs of our clients.
+                                    Proficient Services is a premier provider of shipping-related services, offering an array of options including Container, Shipping, Forwarding, Transportation, Warehousing, Air Freight, Consolidation, Door Delivery Services, Heavy Lift Transportation, and Special Project Handling. Our team of seasoned professionals possesses an extensive network and unparalleled expertise in Air Freighting, Forwarding, Shipping, Transportation, and Warehousing. With our one-stop agency, we cater to the complex needs of our clients, always delivering top-notch services that exceed expectations.
                                 </p>
                                 <div class="read-more collapsed" aria-controlled-by="expand-btn">
                                     <p>
@@ -178,103 +178,33 @@
                     <h2 class="section-title">Our Services For You</h2>
                     <p>
                         <!-- Quickly optimize cooperative models for long-term high-impact ROI. Dynamically drive innovative e-commerce and distributed paradigms. -->
-                        We offer tailor-made services to suit every customer's needs. Our employees are especially trained to understand every single client's requirements to offer services as desired. In short, we maintain a personal touch with our customer. Our friendly approach and integrity to serve our customers promptly is what sets us apart from major players in the field.
+                        <!-- We offer tailor-made services to suit every customer's needs. Our employees are especially trained to understand every single client's requirements to offer services as desired. In short, we maintain a personal touch with our customer. Our friendly approach and integrity to serve our customers promptly is what sets us apart from major players in the field. -->
+                        We provide customized services that meet each client's unique needs. Our skilled team delivers with precision and maintains a personal connection. Our friendly approach sets us apart, and we aim to exceed your expectations.
                     </p>
                 </div>
-                <div class="row m-0">
-                    <?php for ($i = 0; $i < 8; $i++) : ?>
-                        <div class="col-xxl-3 col-xl-4 col-12">
-                            <div class="card widget-service-card freight-service">
-                                <div class="icon">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="card-body">
-                                    <h4 class="card-title">Sea / Air Fright</h4>
-                                    <p class="card-text">
-                                        Direct & Consolidated airfreight/sea freight services world-wide.<br>Preferential bookings covering door to door delivery, time sensitive shipments, dangerous goods and out of gauge cargo.
-                                    </p>
-                                    <!-- <div class="card-footer text-body-secondary">
+                <div class="services swiper">
+                    <div class="swiper-wrapper">
+                        <?php for ($i = 0; $i < 6; $i++) : ?>
+                            <div class="swiper-slide">
+                                <div class="card widget-service-card freight-service">
+                                    <div class="icon">
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title">Sea / Air Fright <?= $i ?></h4>
+                                        <p class="card-text">
+                                            Direct & Consolidated airfreight/sea freight services world-wide.<br>Preferential bookings covering door to door delivery, time sensitive shipments, dangerous goods and out of gauge cargo.
+                                        </p>
+                                        <!-- <div class="card-footer text-body-secondary">
                                             <a href="#" class="btn btn-primary">Go somewhere</a>
                                         </div> -->
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    <?php endfor ?>
-                    <!-- <div class="col-xl-4 col-12 mb-3">
-                        <div class="card widget-service-card h-100 customs-clearance">
-                            <div class="card-body h-100">
-                                <div class="icon">
-                                    <img src="" alt="">
-                                </div>
-                                <h5 class="card-title">Customs Clearance</h5>
-                                <div class="card-text">
-                                    <p>
-                                        Indian customs procedures are complex and involves various dox, incentives/concessions in duty. Our team consists of well experienced and trained staff, supported by fully computerized documentation and armed with the latest communication equipment.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                        <?php endfor ?>
                     </div>
-                    <div class="col-xl-4 col-12 mb-3">
-                        <div class="card widget-service-card h-100 customs-clearance">
-                            <div class="card-body h-100">
-                                <div class="icon">
-                                    <img src="" alt="">
-                                </div>
-                                <h5 class="card-title">Customs Clearance</h5>
-                                <div class="card-text">
-                                    <p>
-                                        Indian customs procedures are complex and involves various dox, incentives/concessions in duty. Our team consists of well experienced and trained staff, supported by fully computerized documentation and armed with the latest communication equipment.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-12 mb-3">
-                        <div class="card widget-service-card h-100 customs-clearance">
-                            <div class="card-body h-100">
-                                <div class="icon">
-                                    <img src="" alt="">
-                                </div>
-                                <h5 class="card-title">Customs Clearance</h5>
-                                <div class="card-text">
-                                    <p>
-                                        Indian customs procedures are complex and involves various dox, incentives/concessions in duty. Our team consists of well experienced and trained staff, supported by fully computerized documentation and armed with the latest communication equipment.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-12 mb-3">
-                        <div class="card widget-service-card h-100 customs-clearance">
-                            <div class="card-body h-100">
-                                <div class="icon">
-                                    <img src="" alt="">
-                                </div>
-                                <h5 class="card-title">Customs Clearance</h5>
-                                <div class="card-text">
-                                    <p>
-                                        Indian customs procedures are complex and involves various dox, incentives/concessions in duty. Our team consists of well experienced and trained staff, supported by fully computerized documentation and armed with the latest communication equipment.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-12 mb-3">
-                        <div class="card widget-service-card h-100 customs-clearance">
-                            <div class="card-body h-100">
-                                <div class="icon">
-                                    <img src="" alt="">
-                                </div>
-                                <h5 class="card-title">Customs Clearance</h5>
-                                <div class="card-text">
-                                    <p>
-                                        Indian customs procedures are complex and involves various dox, incentives/concessions in duty. Our team consists of well experienced and trained staff, supported by fully computerized documentation and armed with the latest communication equipment.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
             </div>
         </section>
@@ -357,9 +287,26 @@
         </section>
         <section class="gandhi-quote">
             <div class="container">
-                <div class="row g-0 m-0 justify-content-center">
+                <!-- <div class="row g-0 m-0 justify-content-center mb-3">
                     <div class="col-xl-6 col-lg-8 col-10">
                         <img src="<?= base_url('assets/media/images/gandhi/') ?>quote-01.png" alt="Gandhi Quote 01">
+                    </div>
+                </div> -->
+                <div class="row g-0 m-0 justify-content-center">
+                    <div class="col-xl-6 col-lg-8 col-10">
+                        <div class="row m-0 justify-content-center align-items-center">
+                            <div class="col-xl-3 col-lg-4 col-md-5 col-sm-4 col-6">
+                                <div class="thumbnail-rounded mb-3">
+                                    <img src="<?= base_url('assets/media/images/gandhi/') ?>Mahatma-Gandhi.jpg" alt="Gandhi Quote 01">
+                                </div>
+                            </div>
+                            <div class="col-xl-9 col-lg-8 col-md-7 col-12">
+                                <p>
+                                    A customer is the most important visitor on our premises. he is not dependant on us, we are dependant on him. He is not an interruption of our work, he is a part of it. We are not doing him a favor by serving him. He is doing us a favor by giving us the opportunity to do so.
+                                </p>
+                                <p><strong>- Mahatma Gandhi</strong></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -367,7 +314,7 @@
         <section id="team">
             <div class="container-fluid p-0">
                 <div class="row m-0 justify-content-end">
-                    <div class="col-lg-6 col-12">
+                    <div class="col-xl-5 col-lg-5 col-md-6 col-12">
                         <div class="title mx-3">
                             <p class="section-pill mb-3">Team Members</p>
                             <h2 class="section-title">Our Proficient Team</h2>
@@ -375,18 +322,67 @@
                     </div>
                 </div>
                 <div class="row m-0">
-                    <div class="col-lg-6 col-12">
-
-                    </div>
-                    <div class="col-lg-6 col-12">
-                        <div class="teams-desc mb-3 bg-primary-translucent">
-                            <div class="row">
-                                <div class="col-lg-9 col-12">
-                                    <p>
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio dolore inventore quo adipisci officiis doloribus autem fuga. Vero earum iusto, inventore temporibus iure numquam nostrum rerum doloremque, voluptas optio sit?
-                                    </p>
+                    <div class="col-xxl-8 col-xl-7 col-lg-6 col-md-6 col-12">
+                        <div class="row g-0 justify-content-center">
+                            <div class="col-lg-9 col-md-10 col-sm-10 col-12">
+                                <div class="widget-testimonial-card card mb-3">
+                                    <div class="card-header mb-3">
+                                        <div class="row align-items-end g-2">
+                                            <div class="col-md-auto col-12">
+                                                <h3>Vinay Krishnan</h3>
+                                            </div>
+                                            <div class="col-md-auto col-12">
+                                                <p>(Designation)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="image">
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="text-content">
+                                            <p>
+                                                Vinay Krishnan Managing Partner of Proficient Cargo Services India LLp Joined the Logistics Sector after Completing his Management from the prestigious NMIMS Mumbai.With over 30 years of practical experience in this business he is passionate , dedicated and believes in delivering true value. He says Quality does not come automatically but is a result of a strong committed team working behind the scenes.
+                                            </p>
+                                            <p>
+                                                Vinay strongly upholds his principle of personal ownership and accountability, "I firmly believe in taking complete responsibility for everything I am involved in. If your name is on it, make it count! He has passed on this passion in his team and says When your team align with your passion, delivering value to your customer becomes a certainity." The company derives its tag line 'Logistics Delivered Better' from the confidence in its ability due to the personal commitment of excellence from its Team.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                            <div class="col-lg-9 col-md-10 col-sm-10 col-12">
+                                <div class="widget-testimonial-card card mb-3">
+                                    <div class="card-header mb-3">
+                                        <div class="row align-items-end g-2">
+                                            <div class="col-md-auto col-12">
+                                                <h3>Anita</h3>
+                                            </div>
+                                            <div class="col-md-auto col-12">
+                                                <p>(Designation)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="image">
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="text-content">
+                                            In the fast-paced world of Logistics, where margins for error are razor-thin and every move must be calculated to the last detail, Anita stands as an epitome of precision and poise. With a career spanning over two decade in this service, Anita's reputation as a calm and methodical expert precedes her. Graduating with a degree in Science, she joined as in intern in the Courier Industry later moved up to handle logistics with a Textile manufacturing company. Whether it's optimizing production schedules, streamlining work flows or Delivering just in time, Anita's meticulous planning ensures that every task is executed with minimal room for error.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-4 col-xl-5 col-lg-6 col-md-6 col-12">
+                        <div class="teams-desc mb-3 bg-primary-translucent">
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio dolore inventore quo adipisci officiis doloribus autem fuga. Vero earum iusto, inventore temporibus iure numquam nostrum rerum doloremque, voluptas optio sit?
+                            </p>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio dolore inventore quo adipisci officiis doloribus autem fuga. Vero earum iusto, inventore temporibus iure numquam nostrum rerum doloremque, voluptas optio sit?
+                            </p>
                         </div>
                         <div class="swiper teams-slider">
                             <!-- Additional required wrapper -->
@@ -397,7 +393,7 @@
                                         <div class="slide-content">
                                             <div class="media-content">
                                                 <img src="<?= base_url() ?>assets/media/mockup/service/1.png" class="w-100" alt="...">
-                                                Slide <?= $i?>
+                                                Slide <?= $i ?>
                                             </div>
                                         </div>
                                     </div>
@@ -417,24 +413,21 @@
                         Dramatically enhance interactive metrics for reliable services. Proactively unleash fully researched e-commerce.
                     </p>
                 </div>
-                <div class="swiper testimonial-slider">
-                    <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                        <!-- Slides -->
-                        <?php for ($i = 0; $i < count($brands); $i++) : ?>
-                            <div class="swiper-slide">
-                                <div class="slide-content">
-                                    <div class="testimonial-item">
-                                        <div class="media-content">
-                                            <img src="<?= base_url('assets/media/images/partner/') . $brands[$i] ?>" class="w-100" alt="...">
-                                        </div>
-                                    </div>
-                                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-md-9 col-11">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <img src="<?= base_url() ?>assets/media/images/testimonial/fffai.jpg" alt="FFFAI" class="w-100">
                             </div>
-                        <?php endfor ?>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <img src="<?= base_url() ?>assets/media/images/testimonial/bchaa.jpg" alt="BCHAA" class="w-100">
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <img src="<?= base_url() ?>assets/media/images/testimonial/fiata.jpg" alt="FIATA" class="w-100">
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
         </section>
         <section id="contact-us">
@@ -583,19 +576,33 @@
             }),
             new Swiper('.services', {
                 loop: true,
+                autoplay: {
+                    delay: 1000,
+                    disableOnInteraction: false
+                },
                 slidesPerView: 1,
                 spaceBetween: 10,
+                grid: {
+                    rows: 1,
+                },
                 navigation: {
                     nextEl: '.services .swiper-button-next',
                     prevEl: '.services .swiper-button-prev',
                 },
+
                 breakpoints: {
                     824: {
                         slidesPerView: 2,
+                        grid: {
+                            rows: 3,
+                        },
                         spaceBetween: 20,
                     },
                     1024: {
                         slidesPerView: 3,
+                        grid: {
+                            rows: 2,
+                        },
                         spaceBetween: 30,
                     }
                 }
@@ -606,7 +613,7 @@
                 autoplay: {
                     delay: 5000,
                     disableOnInteraction: false
-                },
+                }
             }),
             new Swiper('.testimonial-slider', {
                 loop: true,

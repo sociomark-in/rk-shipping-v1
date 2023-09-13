@@ -14,14 +14,15 @@
 		background: linear-gradient(
 				-45deg,
 				transparent 50%,
-				$color-pastel-blue 50%,
-				$color-pastel-blue 75%,
+				rgba($color-pastel-blue, 0.5) 50%,
+				rgba($color-pastel-blue, 0.5) 75%,
 				transparent 75%,
 				transparent 100%
 			),
 			linear-gradient(90deg, $color-black 0%, transparent 100%),
 			url("../../assets/media/images/banner/3.png");
 		background-size: cover;
+		background-position-x: 65%;
 		&.swiper-slide-active {
 			.slide-content .title h2,
 			.slide-content .desc p {
