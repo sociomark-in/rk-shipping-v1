@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-defined('APP_NAME') OR define('APP_NAME', 'Proficient Shipping');
+defined('APP_NAME') OR define('APP_NAME', 'Proficient Cargo Services India LLP');
 /*
 |--------------------------------------------------------------------------
 | Display Debug backtrace

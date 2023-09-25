@@ -130,7 +130,10 @@
                             </div>
                             <div class="desc">
                                 <p>
-                                    Proficient Services is a premier provider of shipping-related services, offering an array of options including Container, Shipping, Forwarding, Transportation, Warehousing, Air Freight, Consolidation, Door Delivery Services, Heavy Lift Transportation, and Special Project Handling. Our team of seasoned professionals possesses an extensive network and unparalleled expertise in Air Freighting, Forwarding, Shipping, Transportation, and Warehousing. With our one-stop agency, we cater to the complex needs of our clients, always delivering top-notch services that exceed expectations.
+                                    At <strong>Proficient Cargo Services India LLP</strong>, we're more than just a logistics company; we're your reliable partner for seamless international logistics solutions. Our mission is to serve the Indian industry and business community by offering a comprehensive suite of integrated shipping services. These include Container, Shipping, Forwarding, Transportation, Warehousing, Air Freight, Consolidation, Door to Door Delivery Services, Heavy Lift Transportation, and Special Project Handling. With our advanced facilities and a dedicated team of professionals, we deliver services with the highest level of professionalism.
+                                </p>
+                                <p>
+                                    Its a Small World - ask our clients. We offer unmatched door to door services from all over the world.
                                 </p>
                                 <div class="read-more collapsed" aria-controlled-by="expand-btn">
                                     <p>
@@ -174,12 +177,10 @@
         <section id="services">
             <div class="container">
                 <div class="title text-center">
-                    <p class="section-pill m-auto mb-3">Our Services</p>
+                    <p class="section-pill m-auto mb-3">Our Comprehensive Services</p>
                     <h2 class="section-title">Our Services For You</h2>
                     <p>
-                        <!-- Quickly optimize cooperative models for long-term high-impact ROI. Dynamically drive innovative e-commerce and distributed paradigms. -->
-                        <!-- We offer tailor-made services to suit every customer's needs. Our employees are especially trained to understand every single client's requirements to offer services as desired. In short, we maintain a personal touch with our customer. Our friendly approach and integrity to serve our customers promptly is what sets us apart from major players in the field. -->
-                        We provide customized services that meet each client's unique needs. Our skilled team delivers with precision and maintains a personal connection. Our friendly approach sets us apart, and we aim to exceed your expectations.
+                        We take pride in offering personalized services that cater to the unique needs of each customer. Our dedicated team is specially trained to understand your specific requirements and deliver services precisely as you desire. Our approach is characterized by friendliness, and our commitment to prompt customer service sets us apart in the industry.
                     </p>
                 </div>
                 <div class="row g-0 justify-content-center">
