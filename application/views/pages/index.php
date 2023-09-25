@@ -367,12 +367,12 @@
         </section>
         <section class="gandhi-quote">
             <div class="container">
-                <!-- <div class="row g-0 m-0 justify-content-center mb-3">
+                <div class="row g-0 m-0 justify-content-center mb-3">
                     <div class="col-xl-6 col-lg-8 col-10">
                         <img src="<?= base_url('assets/media/images/gandhi/') ?>quote-01.png" alt="Gandhi Quote 01">
                     </div>
-                </div> -->
-                <div class="row g-0 m-0 justify-content-center">
+                </div>
+                <!-- <div class="row g-0 m-0 justify-content-center">
                     <div class="col-xl-6 col-lg-8 col-10">
                         <div class="row m-0 justify-content-center align-items-center">
                             <div class="col-xl-3 col-lg-4 col-md-5 col-sm-4 col-6">
@@ -388,7 +388,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
         <section id="team">
@@ -422,10 +422,14 @@
                                     <div class="card-body">
                                         <div class="text-content">
                                             <p>
-                                                Vinay Krishnan Managing Partner of Proficient Cargo Services India LLp Joined the Logistics Sector after Completing his Management from the prestigious NMIMS Mumbai.With over 30 years of practical experience in this business he is passionate , dedicated and believes in delivering true value. He says Quality does not come automatically but is a result of a strong committed team working behind the scenes.
+                                                <strong>Vinay Krishnan, Managing Partner</strong> of <?= APP_NAME ?>, is a seasoned professional in the logistics sector. His journey in logistics began after completing his management studies at the renowned NMIMS Mumbai, and he has since amassed over three decades of practical experience in this dynamic industry. His career is characterized by an unwavering passion for logistics, unwavering dedication and an unwavering commitment to delivering genuine value to clients.
                                             </p>
                                             <p>
-                                                Vinay strongly upholds his principle of personal ownership and accountability, "I firmly believe in taking complete responsibility for everything I am involved in. If your name is on it, make it count! He has passed on this passion in his team and says When your team align with your passion, delivering value to your customer becomes a certainity." The company derives its tag line 'Logistics Delivered Better' from the confidence in its ability due to the personal commitment of excellence from its Team.
+                                                Vinay firmly believes that quality is not an automatic outcome but rather the product of a highly dedicated team working diligently behind the scenes. He upholds a core principle of personal ownership and accountability, stating, '<i>I firmly believe in taking complete responsibility for every aspect I am involved in. If your name is associated with it, ensure it counts.</i>' This unwavering commitment to excellence has been instilled throughout his team. Vinay Krishnan has successfully imparted his passion for excellence to his team, emphasizing the importance of alignment between personal dedication and the team's shared objectives. As he aptly puts it,
+                                                <br> '<i>When your team aligns with your passion, delivering value to your customers becomes a certainty.</i>'
+                                            </p>
+                                            <p>
+                                                The company's tagline, 'Logistics Delivered Better', epitomizes its confidence in its capabilities, driven by the unwavering personal commitment to excellence exhibited by the entire team."
                                             </p>
                                         </div>
                                     </div>
@@ -448,7 +452,12 @@
                                     </div>
                                     <div class="card-body">
                                         <div class="text-content">
-                                            In the fast-paced world of Logistics, where margins for error are razor-thin and every move must be calculated to the last detail, Anita stands as an epitome of precision and poise. With a career spanning over two decade in this service, Anita's reputation as a calm and methodical expert precedes her. Graduating with a degree in Science, she joined as in intern in the Courier Industry later moved up to handle logistics with a Textile manufacturing company. Whether it's optimizing production schedules, streamlining work flows or Delivering just in time, Anita's meticulous planning ensures that every task is executed with minimal room for error.
+                                            <p>
+                                                In the dynamic realm of logistics, characterized by tight margins and an imperative for meticulous precision, Anita emerges as a paragon of logical thinking and professionalism. With a career spanning over two decades in this field, Anita has cultivated a reputation as an unflappable and methodical expert. Armed with a Science degree, she commenced her professional journey as an intern in the Courier Industry, later ascending to the helm of logistics management within a prominent Textile manufacturing company.
+                                            </p>
+                                            <p>
+                                                Anita's approach is defined by a commitment to logical problem-solving and methodical planning. Whether the challenge involves optimizing production schedules, streamlining workflows, or ensuring timely deliveries, Anita's meticulous planning and execution leave no room for error. Her dedication to precision and professionalism consistently yields superior results in the intricate landscape of logistics."
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -457,11 +466,9 @@
                     </div>
                     <div class="col-xxl-4 col-xl-5 col-lg-6 col-md-6 col-12">
                         <div class="teams-desc mb-3 bg-primary-translucent">
+                            <h5>Beyond the Professional Realm:</h5>
                             <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio dolore inventore quo adipisci officiis doloribus autem fuga. Vero earum iusto, inventore temporibus iure numquam nostrum rerum doloremque, voluptas optio sit?
-                            </p>
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio dolore inventore quo adipisci officiis doloribus autem fuga. Vero earum iusto, inventore temporibus iure numquam nostrum rerum doloremque, voluptas optio sit?
+                                Both Vinay and Anita are dedicated advocates for causes close to their hearts—supporting education for underprivileged communities and championing the prevention of cruelty to animals. They generously volunteer their time and resources at local animal shelters and rescue organizations, providing a nurturing environment for animals in need. Additionally, they actively contribute to educational programs designed to uplift underprivileged individuals and support the vital work carried out by animal shelters, showcasing their deep commitment to creating a better world for all
                             </p>
                         </div>
                         <div class="swiper teams-slider">
