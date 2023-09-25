@@ -154,7 +154,7 @@
                             <div class="cta py-3">
                                 <div class="persona row g-0 m-0 justify-content-between">
                                     <div class="col-md-auto col-12">
-                                        <a href="" class="btn btn-lg btn-primary"><i class="fa-regular fa-file-pdf me-2"></i>Read Our Brochure</a>
+                                        <a href="<?= base_url() ?>assets/brochure_2023.pdf" title="Proficient Brochure <?= date("Y") ?>" class="btn btn-lg btn-primary"><i class="fa-regular fa-file-pdf me-2"></i>Read Our Brochure</a>
                                     </div>
                                     <div class="col-md-auto col-12 widget-signature text-center">
                                         <div class="d-flex gap-3">
