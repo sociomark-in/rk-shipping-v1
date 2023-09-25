@@ -417,7 +417,7 @@
                                         </div>
                                     </div>
                                     <div class="image">
-                                        <img src="" alt="">
+                                        <img src="<?= base_url() ?>assets/media/images/team/vinay_profile_400x400.jpg" alt="Vinay 400x400">
                                     </div>
                                     <div class="card-body">
                                         <div class="text-content">
@@ -448,7 +448,7 @@
                                         </div>
                                     </div>
                                     <div class="image">
-                                        <img src="" alt="">
+                                        <img src="<?= base_url() ?>assets/media/images/team/anita_profile_400x400.jpg" alt="Anita 400x400">
                                     </div>
                                     <div class="card-body">
                                         <div class="text-content">
