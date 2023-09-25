@@ -94,6 +94,28 @@ main {
 					margin: 0 !important;
 				}
 			}
+			.services-slider {
+				.swiper-slide {
+					.card {
+						margin: 0;
+						.card-body{
+							min-height: unset;
+							padding: 1rem;
+						}
+					}
+					&.swiper-slide-active {
+						.testimonial-item {
+							filter: grayscale(0);
+						}
+					}
+				}
+				// .testimonial-item {
+				// 	filter: grayscale(1);
+				// 	&:hover {
+				// 		filter: grayscale(0);
+				// 	}
+				// }
+			}
 		}
 		&#testimonials {
 			min-height: fit-content;

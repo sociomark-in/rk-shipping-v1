@@ -182,31 +182,110 @@
                         We provide customized services that meet each client's unique needs. Our skilled team delivers with precision and maintains a personal connection. Our friendly approach sets us apart, and we aim to exceed your expectations.
                     </p>
                 </div>
-                <div class="services swiper">
-                    <div class="swiper-wrapper">
-                        <?php for ($i = 0; $i < 6; $i++) : ?>
-                            <div class="swiper-slide">
-                                <div class="card widget-service-card freight-service">
-                                    <div class="icon">
-                                        <img src="" alt="">
-                                    </div>
-                                    <div class="card-body">
-                                        <h4 class="card-title">Sea / Air Fright <?= $i ?></h4>
-                                        <p class="card-text">
-                                            Direct & Consolidated airfreight/sea freight services world-wide.<br>Preferential bookings covering door to door delivery, time sensitive shipments, dangerous goods and out of gauge cargo.
-                                        </p>
-                                        <!-- <div class="card-footer text-body-secondary">
+                <div class="row g-0 justify-content-center">
+                    <div class="col-lg-9 col-md-10 col-12">
+                        <div class="services swiper">
+                            <div class="swiper-wrapper">
+                                <!-- Sea / Air Fright -->
+                                <div class="swiper-slide">
+                                    <div class="card widget-service-card freight-service">
+                                        <div class="icon">
+                                            <img src="" alt="">
+                                        </div>
+                                        <div class="h-100 card-body">
+                                            <h4 class="card-title">Sea / Air Fright</h4>
+                                            <p class="card-text">
+                                                Direct & Consolidated airfreight/sea freight services world-wide.Preferential bookings covering door to door delivery, time sensitive shipments, dangerous goods and out of gauge cargo. Coordination with Lines and tracking of consignments for freight movement control till final delivery to enable customer to plan distribution and disbursement logistics of goods even before arrival. <br>
+                                                Preferential bookings covering door to door delivery, time sensitive shipments, dangerous goods, over dimension cargo
+                                            </p>
+                                            <!-- <div class="card-footer text-body-secondary">
                                             <a href="#" class="btn btn-primary">Go somewhere</a>
                                         </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Custom Clearance -->
+                                <div class="swiper-slide">
+                                    <div class="card widget-service-card freight-service">
+                                        <div class="icon">
+                                            <img src="" alt="">
+                                        </div>
+                                        <div class="h-100 card-body">
+                                            <h4 class="card-title">Custom Clearance</h4>
+                                            <p class="card-text">
+                                                Our Mumbai team is an expert in handling even the most complex Indian customs procedures, guaranteeing seamless transactions for our clients. Our range of air freight, forwarding, shipping, and transportation solutions come at a reasonable cost, all while holding the necessary government licenses. With our industry experience, we add significant value to our clients' supply-chain operations.
+                                            </p>
+                                            <!-- <div class="card-footer text-body-secondary">
+                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Warehousing -->
+                                <div class="swiper-slide">
+                                    <div class="card widget-service-card freight-service">
+                                        <div class="icon">
+                                            <img src="" alt="">
+                                        </div>
+                                        <div class="h-100 card-body">
+                                            <h4 class="card-title">Warehousing</h4>
+                                            <p class="card-text">
+                                                Exclusive warehousing contracts with warehouses located inside mumbai and outside mumbai enable us to provide our clients with safe / better rent to our clients.We also can arrange for goods to be stored in Bonded warehouse within and outside mumbai limits.
+                                            </p>
+                                            <!-- <div class="card-footer text-body-secondary">
+                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Transport Planning -->
+                                <div class="swiper-slide">
+                                    <div class="card widget-service-card freight-service">
+                                        <div class="icon">
+                                            <img src="" alt="">
+                                        </div>
+                                        <div class="h-100 card-body">
+                                            <h4 class="card-title">Transport Planning</h4>
+                                            <p class="card-text">
+                                                Inland surface transportation, Full & Part Container loads loaded at your door or from our premises. <br>
+                                                Packing, Crating, Marking, Survey and inspection
+                                            </p>
+                                            <!-- <div class="card-footer text-body-secondary">
+                                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper services-slider">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="widget-service-card card">
+                                <div class="card-body">
+                                    <h3>One Stop Shop</h3>
+                                    <p>For all your supply chain needs</p>
+                                </div>
+                            </div>
+                        </div>
+                        <?php for ($i = 0; $i < count($brands); $i++) : ?>
+                            <div class="swiper-slide">
+                                <div class="widget-service-card card">
+                                    <div class="card-body">
+                                        <h3>Service <?= $i ?></h3>
+                                        <p>Service <?= $i ?></p>
                                     </div>
                                 </div>
                             </div>
                         <?php endfor ?>
                     </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
                 </div>
-            </div>
         </section>
         <section id="why-us">
             <div class="container">
@@ -598,13 +677,6 @@
                         },
                         spaceBetween: 20,
                     },
-                    1024: {
-                        slidesPerView: 3,
-                        grid: {
-                            rows: 2,
-                        },
-                        spaceBetween: 30,
-                    }
                 }
             }),
             new Swiper('.teams-slider', {
@@ -613,6 +685,34 @@
                 autoplay: {
                     delay: 5000,
                     disableOnInteraction: false
+                }
+            }),
+            new Swiper('.services-slider', {
+                loop: true,
+                centeredSlides: true,
+                autoplay: {
+                    delay: 2000,
+                    disableOnInteraction: false
+                },
+                slidesPerView: 1,
+                spaceBetween: 10,
+                // navigation: {
+                //     nextEl: '.testimonial-slider .swiper-button-next',
+                //     prevEl: '.testimonial-slider .swiper-button-prev',
+                // },
+                breakpoints: {
+                    824: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 20,
+                    },
+                    1400: {
+                        slidesPerView: 4,
+                        spaceBetween: 30,
+                    }
                 }
             }),
             new Swiper('.testimonial-slider', {
