@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/googlelogin/public_html/repositories/proficient
+    - /bin/rsync -av --delete $DEPLOYPATH
