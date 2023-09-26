@@ -35,7 +35,21 @@ class Pages extends CI_Controller {
 			'page'=>[
 				'title' => APP_NAME . " • Logistics Delivered Better"
 			],
-			'brands' => $map
+			'brands' => $map,
+			'services' => [
+				["Door to Door"],
+				["Fright Forwarding", "Sea, Air, Rail"],
+				["Hazardous Cargo", "Management & Movement"],
+				["Heavy Lift"],["ODC Consignments"],
+				["Project Cargo"],
+				["3PL"],["Custom Broker"],
+				["Exhibition Cargo"],
+				["Cargo Consolidation"],
+				["Consultancy"],
+				["Bonded Warehousing"],
+				["Cargo Insurance"],
+				["Packing, Labeling, Distribution"],
+			]
 		];
 		$this->load->view('pages/index', $this->data);
 	}

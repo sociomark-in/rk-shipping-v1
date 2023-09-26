@@ -103,7 +103,7 @@
         </section>
         <section id="about-us">
             <div class="container">
-                <div class="row m-0">
+                <div class="row m-0 align-items-center">
                     <div class="col-xl-7 col-md-6 col-12">
                         <div class="media-content mb-5">
                             <div class="img-overlap">
@@ -275,16 +275,16 @@
                                 </div>
                             </div>
                         </div>
-                        <?php for ($i = 0; $i < count($brands); $i++) : ?>
+                        <?php foreach ($services as $service) : ?>
                             <div class="swiper-slide">
-                                <div class="widget-service-card card">
+                                <div class="widget-service-card card h-100">
                                     <div class="card-body">
-                                        <h3>Service <?= $i ?></h3>
-                                        <p>Service <?= $i ?></p>
+                                        <!-- <h3><?= $service[0]??= "" ?></h3> -->
+                                        <h5><?= $service[0]??= "" ?></h5>
                                     </div>
                                 </div>
                             </div>
-                        <?php endfor ?>
+                        <?php endforeach ?>
                     </div>
                 </div>
         </section>
@@ -698,10 +698,10 @@
             new Swiper('.services-slider', {
                 loop: true,
                 centeredSlides: true,
-                autoplay: {
-                    delay: 2000,
-                    disableOnInteraction: false
-                },
+                // autoplay: {
+                //     delay: 2000,
+                //     disableOnInteraction: false
+                // },
                 slidesPerView: 1,
                 spaceBetween: 10,
                 // navigation: {
