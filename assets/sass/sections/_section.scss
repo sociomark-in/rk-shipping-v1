@@ -1,6 +1,7 @@
 main {
 	section {
 		.title {
+			position: relative;
 			margin-bottom: 1rem;
 			.section-pill {
 				border-radius: 2rem;
@@ -76,21 +77,46 @@ main {
 			}
 		}
 		&#services {
-			background: linear-gradient(
-				0deg,
-				transparent 0%,
-				transparent 30%,
-				rgba($color: $color-primary, $alpha: 0.1) 30%,
-				rgba($color: $color-primary, $alpha: 0.1) 100%
-			);
-			background-size: cover;
-			background-repeat: repeat;
-
-			.swiper .swiper-wrapper{
+			padding: 0;
+			position: relative;
+			.videowrapper {
+				position: absolute;
+				z-index: 0;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+				video {
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+					object-position: center;
+				}
+			}
+			.text-content {
+				position: relative;
+				z-index: 1;
+				padding: calc(max(5%, 1rem)) 0;
+				padding-top: calc(max(7%, 1.5rem));
+				min-height: 80vh;
+				background-color: rgba($color-primary-dark, 0.8);
+				background-size: cover;
+				background-repeat: repeat;
+				.title{
+					h2{
+						color: $color-white;
+					}
+					p{
+						color: $color-white;
+					}
+				}
+			}
+			.swiper .swiper-wrapper {
 				flex-direction: row;
 				gap: 1rem;
 				padding: 1rem 0;
-				.swiper-slide{
+				.swiper-slide {
 					margin: 0 !important;
 				}
 			}
@@ -98,7 +124,7 @@ main {
 				.swiper-slide {
 					.card {
 						margin: 0;
-						.card-body{
+						.card-body {
 							min-height: unset;
 							padding: 1rem;
 						}
@@ -229,12 +255,12 @@ main {
 		&.gandhi-quote {
 			min-height: fit-content;
 			padding: 2rem 0;
-			.thumbnail-rounded{
+			.thumbnail-rounded {
 				width: 100%;
 				aspect-ratio: 1;
 				border-radius: 0.5rem;
 				overflow: hidden;
-				img{
+				img {
 					width: 100%;
 					height: 100%;
 					object-fit: cover;

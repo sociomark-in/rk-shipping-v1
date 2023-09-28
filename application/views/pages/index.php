@@ -175,118 +175,131 @@
             </div>
         </section>
         <section id="services">
-            <div class="container">
-                <div class="title text-center">
-                    <p class="section-pill m-auto mb-3">Our Comprehensive Services</p>
-                    <h2 class="section-title">Our Services For You</h2>
-                    <p>
-                        We take pride in offering personalized services that cater to the unique needs of each customer. Our dedicated team is specially trained to understand your specific requirements and deliver services precisely as you desire. Our approach is characterized by friendliness, and our commitment to prompt customer service sets us apart in the industry.
-                    </p>
+            <div class="videowrapper">
+                <video id="myVideomob" class="res-video" muted loop autoplay poster="<?= base_url('assets/media/images/') ?>posters/video-poster-img.jpg">
+                    <source src="<?= base_url('assets/media/images/') ?>video/My-Video2.mp4" type="video/mp4">
+                    <source src="<?= base_url('assets/media/images/') ?>video/My-Video2.mp4" type="video/webm">
+                </video>
+                <div class="vidbuttons">
+                    <button type="button" class="play playpausebtn" style="display: none;"></button>
+                    <button type="button" class="pause playpausebtn" style="display: block;"></button>
                 </div>
-                <div class="row g-0 justify-content-center">
-                    <div class="col-lg-9 col-md-10 col-12">
-                        <div class="services swiper">
-                            <div class="swiper-wrapper">
-                                <!-- Sea / Air Fright -->
-                                <div class="swiper-slide">
-                                    <div class="card widget-service-card freight-service">
-                                        <div class="icon">
-                                            <img src="" alt="">
+            </div>
+            <div class="text-content">
+                <div class="container">
+                    <div class="title text-center">
+                        <p class="section-pill m-auto mb-3">Our Comprehensive Services</p>
+                        <h2 class="section-title">Our Services For You</h2>
+                        <p>
+                            We take pride in offering personalized services that cater to the unique needs of each customer. Our dedicated team is specially trained to understand your specific requirements and deliver services precisely as you desire. Our approach is characterized by friendliness, and our commitment to prompt customer service sets us apart in the industry.
+                        </p>
+                    </div>
+                    <div class="row g-0 justify-content-center">
+                        <div class="col-lg-9 col-md-10 col-12">
+                            <div class="services swiper">
+                                <div class="swiper-wrapper">
+                                    <!-- Sea / Air Fright -->
+                                    <div class="swiper-slide">
+                                        <div class="card widget-service-card freight-service">
+                                            <div class="icon">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="h-100 card-body">
+                                                <h4 class="card-title">Sea / Air Fright</h4>
+                                                <p class="card-text">
+                                                    Direct & Consolidated airfreight/sea freight services world-wide.Preferential bookings covering door to door delivery, time sensitive shipments, dangerous goods and out of gauge cargo. Coordination with Lines and tracking of consignments for freight movement control till final delivery to enable customer to plan distribution and disbursement logistics of goods even before arrival. <br>
+                                                    Preferential bookings covering door to door delivery, time sensitive shipments, dangerous goods, over dimension cargo
+                                                </p>
+                                                <!-- <div class="card-footer text-body-secondary">
+                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            </div> -->
+                                            </div>
                                         </div>
-                                        <div class="h-100 card-body">
-                                            <h4 class="card-title">Sea / Air Fright</h4>
-                                            <p class="card-text">
-                                                Direct & Consolidated airfreight/sea freight services world-wide.Preferential bookings covering door to door delivery, time sensitive shipments, dangerous goods and out of gauge cargo. Coordination with Lines and tracking of consignments for freight movement control till final delivery to enable customer to plan distribution and disbursement logistics of goods even before arrival. <br>
-                                                Preferential bookings covering door to door delivery, time sensitive shipments, dangerous goods, over dimension cargo
-                                            </p>
-                                            <!-- <div class="card-footer text-body-secondary">
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div> -->
+                                    </div>
+                                    <!-- Custom Clearance -->
+                                    <div class="swiper-slide">
+                                        <div class="card widget-service-card freight-service">
+                                            <div class="icon">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="h-100 card-body">
+                                                <h4 class="card-title">Custom Clearance</h4>
+                                                <p class="card-text">
+                                                    Our Mumbai team is an expert in handling even the most complex Indian customs procedures, guaranteeing seamless transactions for our clients. Our range of air freight, forwarding, shipping, and transportation solutions come at a reasonable cost, all while holding the necessary government licenses. With our industry experience, we add significant value to our clients' supply-chain operations.
+                                                </p>
+                                                <!-- <div class="card-footer text-body-secondary">
+                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            </div> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Warehousing -->
+                                    <div class="swiper-slide">
+                                        <div class="card widget-service-card freight-service">
+                                            <div class="icon">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="h-100 card-body">
+                                                <h4 class="card-title">Warehousing</h4>
+                                                <p class="card-text">
+                                                    Exclusive warehousing contracts with warehouses located inside mumbai and outside mumbai enable us to provide our clients with safe / better rent to our clients.We also can arrange for goods to be stored in Bonded warehouse within and outside mumbai limits.
+                                                </p>
+                                                <!-- <div class="card-footer text-body-secondary">
+                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            </div> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Transport Planning -->
+                                    <div class="swiper-slide">
+                                        <div class="card widget-service-card freight-service">
+                                            <div class="icon">
+                                                <img src="" alt="">
+                                            </div>
+                                            <div class="h-100 card-body">
+                                                <h4 class="card-title">Transport Planning</h4>
+                                                <p class="card-text">
+                                                    Inland surface transportation, Full & Part Container loads loaded at your door or from our premises. <br>
+                                                    Packing, Crating, Marking, Survey and inspection
+                                                </p>
+                                                <!-- <div class="card-footer text-body-secondary">
+                                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            </div> -->
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Custom Clearance -->
-                                <div class="swiper-slide">
-                                    <div class="card widget-service-card freight-service">
-                                        <div class="icon">
-                                            <img src="" alt="">
-                                        </div>
-                                        <div class="h-100 card-body">
-                                            <h4 class="card-title">Custom Clearance</h4>
-                                            <p class="card-text">
-                                                Our Mumbai team is an expert in handling even the most complex Indian customs procedures, guaranteeing seamless transactions for our clients. Our range of air freight, forwarding, shipping, and transportation solutions come at a reasonable cost, all while holding the necessary government licenses. With our industry experience, we add significant value to our clients' supply-chain operations.
-                                            </p>
-                                            <!-- <div class="card-footer text-body-secondary">
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div> -->
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Warehousing -->
-                                <div class="swiper-slide">
-                                    <div class="card widget-service-card freight-service">
-                                        <div class="icon">
-                                            <img src="" alt="">
-                                        </div>
-                                        <div class="h-100 card-body">
-                                            <h4 class="card-title">Warehousing</h4>
-                                            <p class="card-text">
-                                                Exclusive warehousing contracts with warehouses located inside mumbai and outside mumbai enable us to provide our clients with safe / better rent to our clients.We also can arrange for goods to be stored in Bonded warehouse within and outside mumbai limits.
-                                            </p>
-                                            <!-- <div class="card-footer text-body-secondary">
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div> -->
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Transport Planning -->
-                                <div class="swiper-slide">
-                                    <div class="card widget-service-card freight-service">
-                                        <div class="icon">
-                                            <img src="" alt="">
-                                        </div>
-                                        <div class="h-100 card-body">
-                                            <h4 class="card-title">Transport Planning</h4>
-                                            <p class="card-text">
-                                                Inland surface transportation, Full & Part Container loads loaded at your door or from our premises. <br>
-                                                Packing, Crating, Marking, Survey and inspection
-                                            </p>
-                                            <!-- <div class="card-footer text-body-secondary">
-                                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                                        </div> -->
-                                        </div>
-                                    </div>
-                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
                             </div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
                         </div>
                     </div>
-                </div>
-                <div class="swiper services-slider">
-                    <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                        <!-- Slides -->
-                        <div class="swiper-slide">
-                            <div class="widget-service-card card">
-                                <div class="card-body">
-                                    <h3>One Stop Shop</h3>
-                                    <p>For all your supply chain needs</p>
-                                </div>
-                            </div>
-                        </div>
-                        <?php foreach ($services as $service) : ?>
+                    <div class="swiper services-slider">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
                             <div class="swiper-slide">
-                                <div class="widget-service-card card h-100">
+                                <div class="widget-service-card card">
                                     <div class="card-body">
-                                        <!-- <h3><?= $service[0]??= "" ?></h3> -->
-                                        <h5><?= $service[0]??= "" ?></h5>
+                                        <h3>One Stop Shop</h3>
+                                        <p>For all your supply chain needs</p>
                                     </div>
                                 </div>
                             </div>
-                        <?php endforeach ?>
+                            <?php foreach ($services as $service) : ?>
+                                <div class="swiper-slide">
+                                    <div class="widget-service-card card h-100">
+                                        <div class="card-body">
+                                            <!-- <h3><?= $service[0] ??= "" ?></h3> -->
+                                            <h5><?= $service[0] ??= "" ?></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php endforeach ?>
+                        </div>
                     </div>
                 </div>
+            </div>
         </section>
         <section id="why-us">
             <div class="container">
@@ -301,7 +314,7 @@
                                 <ul class="widget-pointers_with_icon row m-0">
                                     <li class="point d-flex gap-3 col-md-6 col-12">
                                         <div class="icon">
-                                            <img src="<?= base_url('assets/media/images/wcu/') ?>icon-1.png" alt="">
+
                                         </div>
                                         <div class="text">
                                             Collaborative Customer Relationships
@@ -309,7 +322,7 @@
                                     </li>
                                     <li class="point d-flex gap-3 col-md-6 col-12">
                                         <div class="icon">
-                                            <img src="<?= base_url('assets/media/images/wcu/') ?>icon-1.png" alt="">
+
                                         </div>
                                         <div class="text">
                                             Optimized Network to Save You Money
@@ -317,7 +330,7 @@
                                     </li>
                                     <li class="point d-flex gap-3 col-md-6 col-12">
                                         <div class="icon">
-                                            <img src="<?= base_url('assets/media/images/wcu/') ?>icon-1.png" alt="">
+
                                         </div>
                                         <div class="text">
                                             Proven Industry Expertise
@@ -325,7 +338,7 @@
                                     </li>
                                     <li class="point d-flex gap-3 col-md-6 col-12">
                                         <div class="icon">
-                                            <img src="<?= base_url('assets/media/images/wcu/') ?>icon-1.png" alt="">
+
                                         </div>
                                         <div class="text">
                                             Flexible Transportation Solutions
@@ -648,9 +661,9 @@
             </div>
         </section>
     </main>
-    <!-- <footer>
+    <footer>
         <?php $this->load->view('components/_common_footer') ?>
-    </footer> -->
+    </footer>
     <?php $this->load->view('components/_common_js') ?>
     <script>
         const swiper = [

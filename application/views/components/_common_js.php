@@ -4,8 +4,8 @@
 <script>
     $(function() {
         $.scrollify({
-            section: "section",
-            interstitialSection : "section.gandhi-quote, section#testimonials, section#contact-us",
+            section: "main section",
+            interstitialSection : "section.gandhi-quote, section#testimonials, section#contact-us, footer",
             scrollSpeed: 50,
         });
     });
