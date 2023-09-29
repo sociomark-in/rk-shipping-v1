@@ -1,67 +1,66 @@
 :root {
-    --main-color: $color-primary;
-    --heading-color: #080C24;
-    --paragraph-color: #565969;
-    // --body-font: 'Public Sans', sans-serif;
-    --body-font: 'Lato', sans-serif;
-    // --heading-font: 'Yantramanav', sans-serif;
-    --heading-font: 'Robinson Regular', sans-serif;
-    --body-font-size: max(16px, 1vw);
-    --line-height30: 1.5;
+	--main-color: $color-primary;
+	--heading-color: #080c24;
+	--paragraph-color: #565969;
+	// --body-font: 'Public Sans', sans-serif;
+	--body-font: "Lato", sans-serif;
+	// --heading-font: 'Yantramanav', sans-serif;
+	--heading-font: "Robinson Regular", sans-serif;
+	--body-font-size: max(16px, 1vw);
+	--line-height30: 1.5;
 }
 
 html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    overflow-x: hidden;
-    font-family: var(--body-font);
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	overflow-x: hidden;
+	font-family: var(--body-font);
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    outline: none;
-    /* WebKit  */
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	outline: none;
+	/* WebKit  */
 
-    font-family: 'Open Sans', sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 
 body {
-    color: var(--paragraph-color);
-    overflow-x: hidden;
-    font-family: var(--body-font);
-    line-height: var(--line-height30);
-    font-size: var(--body-font-size);
+	color: var(--paragraph-color);
+	overflow-x: hidden;
+	font-family: var(--body-font);
+	line-height: var(--line-height30);
+	font-size: var(--body-font-size);
 }
 
-
 h1 {
-    font-size: 84px;
-    line-height: 90px;
+	font-size: 84px;
+	line-height: 90px;
 }
 
 h2 {
-    font-size: 40px;
-    line-height: 1.3380952380952381;
+	font-size: 40px;
+	line-height: 1.3380952380952381;
 }
 
 h3 {
-    font-size: 36px;
-    line-height: 1.3833333333333333;
+	font-size: 36px;
+	line-height: 1.3833333333333333;
 }
 
 h4 {
-    font-size: 30px;
-    line-height: 1.3380952380952381;
+	font-size: 30px;
+	line-height: 1.3380952380952381;
 }
 h5 {
-    font-size: 24px;
-    line-height: 1.3380952380952381;
+	font-size: 24px;
+	line-height: 1.3380952380952381;
 }
 h6 {
-    font-size: 20px;
-    line-height: 1.2380952380952381;
+	font-size: 20px;
+	line-height: 1.2380952380952381;
 }
 h1,
 h2,
@@ -69,68 +68,68 @@ h3,
 h4,
 h5,
 h6 {
-    color: var(--heading-color);
-    font-weight: 700;
-    // font-family: var(--heading-font);
-    font-family: 'Oswald', sans-serif;
-    font-weight: 500;
+	color: var(--heading-color);
+	font-weight: 700;
+	// font-family: var(--heading-font);
+	font-family: "Oswald", sans-serif;
+	font-weight: 500;
 }
 
 p {
-    color: var(--paragraph-color);
-    margin-bottom: 10px;
+	color: var(--paragraph-color);
+	margin-bottom: 10px;
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
-    transition: 0.4s;
+	color: inherit;
+	text-decoration: none;
+	transition: 0.4s;
 }
 
 a,
 a:hover,
 a:focus,
 a:active {
-    text-decoration: none;
-    outline: none;
-    color: inherit;
+	text-decoration: none;
+	outline: none;
+	color: inherit;
 }
 a:hover {
-    color: var(--main-color);
+	color: var(--main-color);
 }
 pre {
-    word-break: break-word;
+	word-break: break-word;
 }
 
 a i {
-    padding: 0 2px;
+	padding: 0 2px;
 }
 
 img {
-    max-width: 100%;
+	max-width: 100%;
 }
 
 ol {
-    counter-reset: counter;
-    padding-left: 0;
+	counter-reset: counter;
+	padding-left: 0;
 }
 
 ol li {
-    list-style: none;
-    margin-bottom: 1rem;
+	list-style: none;
+	margin-bottom: 1rem;
 }
 
 ol li:before {
-    counter-increment: counter;
-    content: counter(counter);
-    font-weight: 500;
-    margin-right: 10px;
+	counter-increment: counter;
+	content: counter(counter);
+	font-weight: 500;
+	margin-right: 10px;
 }
 
 button:hover,
 button:active,
 button:focus {
-    outline: 0;
+	outline: 0;
 }
 
 /*input and button type focus outline disable*/
@@ -147,23 +146,33 @@ input[type="button"]:focus,
 input[type="reset"]:focus,
 input[type="submit"]:focus,
 select:focus {
-    outline: none;
-    box-shadow: 0 0 0 1px #ddd;
+	outline: none;
+	box-shadow: 0 0 0 1px #ddd;
 }
 
 code {
-    color: #faa603;
+	color: #faa603;
 }
 
 embed,
 iframe,
 object {
-    max-width: 100%;
+	max-width: 100%;
 }
 
 dl,
 ol,
 ul {
-    padding-left: 15px;
+	padding-left: 15px;
 }
 
+$colors: (
+	"primary": $color-primary,
+	"primary-dark": $color-primary-dark,
+);
+
+@each $class, $color in $colors {
+	.bg-subtle-#{$class} {
+		background-color: rgba($color, $alpha: 0.3);
+	}
+}

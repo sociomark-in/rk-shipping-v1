@@ -143,6 +143,24 @@ main {
 				// }
 			}
 		}
+		&.map-section{
+			padding-bottom: 0;
+			padding-top: 3rem;
+			.media-content{
+				.svg-map{
+					path{
+						fill: rgba($color-primary, 0.2);
+					}
+				}
+			}
+			.text-content{
+				aside{
+					h3,p{
+						margin: 0;
+					}
+				}
+			}
+		}
 		&#testimonials {
 			min-height: fit-content;
 			.testimonial-slider {

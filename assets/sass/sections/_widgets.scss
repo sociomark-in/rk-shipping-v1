@@ -292,3 +292,21 @@ $colors: (
 		border-top: 1px solid rgba($color: #000000, $alpha: 0.4);
 	}
 }
+
+ul.widget-list {
+	li {
+		list-style: none;
+		&::before {
+			content: "";
+			border-color: transparent $color-primary;
+			border-style: solid;
+			border-width: 0.5em 0 0.5em 0.7em;
+			display: block;
+			height: 0;
+			width: 0;
+			left: -1.3em;
+			top: 1.3em;
+			position: relative;
+		}
+	}
+}
