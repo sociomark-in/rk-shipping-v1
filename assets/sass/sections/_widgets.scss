@@ -80,12 +80,15 @@ $colors: (
 
 .widget-service-card {
 	position: relative;
-	border-radius: 0.25rem;
+	background: rgba($color: $color-white, $alpha: 0.1);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(10px);
 	margin: 2rem 0;
 	border: none;
 	box-shadow: 2px 4px 10px 0 rgba($color: $color-primary-dark, $alpha: 0.1);
 	* {
-		color: $color-primary-dark;
+		color: $color-white;
 	}
 	.icon {
 		position: absolute;

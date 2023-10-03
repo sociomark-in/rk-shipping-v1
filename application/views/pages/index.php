@@ -102,17 +102,17 @@
             </div>
         </section>
         <section id="about-us">
-            <div class="container">
-                <div class="row m-0 align-items-center">
+            <div class="">
+                <div class="row g-0 m-0 align-items-center">
                     <div class="col-xl-7 col-md-6 col-12">
                         <div class="media-content mb-5">
                             <div class="img-overlap">
-                                <img class="shape" src="<?= base_url() ?>assets/media/images/about/shape.png" alt="">
+                                <!-- <img class="shape" src="<?= base_url() ?>assets/media/images/about/shape.png" alt=""> -->
                                 <!-- <img class="img-front d-none d-md-block" src="<?= base_url() ?>assets/media/mockup/about/2.png" alt=""> -->
                                 <img class="img-back" src="<?= base_url() ?>assets/media/images/about/profile_old.png" alt="">
                                 <!-- <img class="img-back" src="<?= base_url() ?>assets/media/images/about/profile.jpg" alt=""> -->
                             </div>
-                            <div class="img-text">
+                            <div class="img-text d-none">
                                 <div class="card widget-card-01">
                                     <div class="card-body">
                                         <h3>40</h3>
@@ -127,6 +127,12 @@
                             <div class="title">
                                 <p class="section-pill">About Us</p>
                                 <!-- <h2 class="section-title">About Us</h2> -->
+                            </div>
+                            <div class="quote">
+                                <blockquote>
+                                    Made for Managing 
+                                    <span class="d-block">Your Supply Chain</span>
+                                </blockquote>
                             </div>
                             <div class="desc">
                                 <p>
@@ -402,6 +408,32 @@
                         </div>
                     </div>
                 </div> -->
+            </div>
+        </section>
+        <section id="testimonials">
+            <div class="container">
+                <div class="title text-center mb-3">
+                    <p class="section-pill m-auto mb-3">Happy Clients</p>
+                    <h2 class="section-title">Trusted by our 365,000 Clients</h2>
+                    <p>
+                        Dramatically enhance interactive metrics for reliable services. Proactively unleash fully researched e-commerce.
+                    </p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-md-9 col-11">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <img src="<?= base_url() ?>assets/media/images/testimonial/fffai.jpg" alt="FFFAI" class="w-100">
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <img src="<?= base_url() ?>assets/media/images/testimonial/bchaa.jpg" alt="BCHAA" class="w-100">
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <img src="<?= base_url() ?>assets/media/images/testimonial/fiata.jpg" alt="FIATA" class="w-100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="map-section" id="india-map">
@@ -1619,32 +1651,6 @@
                                         </div>
                                     </div>
                                 <?php endfor ?>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="testimonials">
-            <div class="container">
-                <div class="title text-center mb-3">
-                    <p class="section-pill m-auto mb-3">Happy Clients</p>
-                    <h2 class="section-title">Trusted by our 365,000 Clients</h2>
-                    <p>
-                        Dramatically enhance interactive metrics for reliable services. Proactively unleash fully researched e-commerce.
-                    </p>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 col-md-9 col-11">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <img src="<?= base_url() ?>assets/media/images/testimonial/fffai.jpg" alt="FFFAI" class="w-100">
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <img src="<?= base_url() ?>assets/media/images/testimonial/bchaa.jpg" alt="BCHAA" class="w-100">
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <img src="<?= base_url() ?>assets/media/images/testimonial/fiata.jpg" alt="FIATA" class="w-100">
                             </div>
                         </div>
                     </div>
