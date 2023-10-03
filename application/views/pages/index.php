@@ -130,7 +130,7 @@
                             </div>
                             <div class="quote">
                                 <blockquote>
-                                    Made for Managing 
+                                    Made for Managing
                                     <span class="d-block">Your Supply Chain</span>
                                 </blockquote>
                             </div>
@@ -1545,10 +1545,6 @@
                                         <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eveniet ex aliquam, magnam praesentium facere?</li>
                                         <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eveniet ex aliquam, magnam praesentium facere?</li>
                                         <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eveniet ex aliquam, magnam praesentium facere?</li>
-                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eveniet ex aliquam, magnam praesentium facere?</li>
-                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eveniet ex aliquam, magnam praesentium facere?</li>
-                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eveniet ex aliquam, magnam praesentium facere?</li>
-                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eveniet ex aliquam, magnam praesentium facere?</li>
                                     </ul>
                                 </div>
                             </div>
@@ -1751,17 +1747,11 @@
                                             </div>
                                             <div class="col-lg-6 col-12">
                                                 <div class="mb-3">
-                                                    <label class="form-label" for="">Your Email Address</label>
-                                                    <input type="text" class="form-control">
+                                                    <label class="form-label" for="">Your Contact Number</label>
+                                                    <input type="number" min="0" maxlength="10" minlength="10" class="form-control">
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6 col-12">
-                                                <div class="mb-3">
-                                                    <label class="form-label" for="">Your Name</label>
-                                                    <input type="text" class="form-control">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 col-12">
+                                            <div class="col-12">
                                                 <div class="mb-3">
                                                     <label class="form-label" for="">Your Email Address</label>
                                                     <input type="text" class="form-control">
