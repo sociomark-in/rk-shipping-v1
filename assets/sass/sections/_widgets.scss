@@ -39,6 +39,33 @@ $colors: (
 	font-weight: 600;
 }
 
+.icon{
+	&._sea__air__fright{
+		background-position: 6px -200px !important;
+	}
+	&._custom__clearance{
+		background-position: -60px -135px !important;
+	}
+	&._warehousing{
+		background-position: -62px -70px !important;
+	}
+	&._transport__planning{
+		background-position: -57px -195px !important;
+	}
+	
+	
+	&._collaborative__customer{
+		background-position: 0px -98px !important;
+	}
+	&._optimized__network{
+		background-position: -47px 0px !important;
+	}
+	&._industry__expertise{}
+	&._flexible__transportation{
+		background-position: 0px -50px !important;
+	}
+}
+
 .widget-card-01 {
 	width: 100%;
 	height: 100%;
@@ -206,6 +233,10 @@ $colors: (
 		border-radius: 0;
 		&:focus {
 			box-shadow: 0 0 0 1px #ddd;
+		}
+
+		&::placeholder{
+			color: rgba($color: $color-white, $alpha: 0.5);
 		}
 	}
 	.form-label {

@@ -138,17 +138,15 @@
                                 <p>
                                     At <strong>Proficient Cargo Services India LLP</strong>, we're more than just a logistics company; we're your reliable partner for seamless international logistics solutions. Our mission is to serve the Indian industry and business community by offering a comprehensive suite of integrated shipping services. These include Container, Shipping, Forwarding, Transportation, Warehousing, Air Freight, Consolidation, Door to Door Delivery Services, Heavy Lift Transportation, and Special Project Handling. With our advanced facilities and a dedicated team of professionals, we deliver services with the highest level of professionalism.
                                 </p>
+                                <h5>'IT'S A SMALL WORLD' Ask our Clients</h5>
                                 <p>
-                                    Its a Small World - ask our clients. We offer unmatched door to door services from all over the world.
+                                    We offer unmatched door to door services from all over the world.
                                 </p>
                                 <div class="read-more collapsed" aria-controlled-by="expand-btn">
                                     <p>
                                         Proficient Services was established to provide the Indian industry and business community with integrated shipping related services ranging from Container, Shipping, Forwarding, Transportation, Warehousing, Air Freighting, Consolidation, Door to Door Delivery Services, Heavy Lift Transportation and Special Project Handling etc. We are fully geared with facilities and manpower to provide services to our client with a high standard of professionalism. Our combined existing networks and experience in the Air Freighting, Forwarding, Shipping, Transportation and warehousing gives us the edge over our competitors to become a one stop Shipping and Air Freighting agency catering effectively to the complex needs of our clients.
                                     </p>
-
-                                    <p>
-                                        'IT'S A SMALL WORLD' Ask our clients
-                                    </p>
+                                    <h5>'IT'S A SMALL WORLD' Ask our clients</h5>
                                     <p>
                                         Our association with established agents worldwide enhance our services Internationally. As a result we are able to co-ordinate, plan, arrange and control the timely shipment of your materials, equipments and project cargos from various worldwide sources to various construction sites, supply base and other locations that you may assign.
                                     </p>
@@ -207,8 +205,7 @@
                                     <!-- Sea / Air Fright -->
                                     <div class="swiper-slide">
                                         <div class="card widget-service-card freight-service">
-                                            <div class="icon">
-                                                <img src="" alt="">
+                                            <div class="icon _sea__air__fright">
                                             </div>
                                             <div class="h-100 card-body">
                                                 <h4 class="card-title">Sea / Air Fright</h4>
@@ -225,8 +222,7 @@
                                     <!-- Custom Clearance -->
                                     <div class="swiper-slide">
                                         <div class="card widget-service-card freight-service">
-                                            <div class="icon">
-                                                <img src="" alt="">
+                                            <div class="icon _custom__clearance">
                                             </div>
                                             <div class="h-100 card-body">
                                                 <h4 class="card-title">Custom Clearance</h4>
@@ -242,8 +238,7 @@
                                     <!-- Warehousing -->
                                     <div class="swiper-slide">
                                         <div class="card widget-service-card freight-service">
-                                            <div class="icon">
-                                                <img src="" alt="">
+                                            <div class="icon _warehousing">
                                             </div>
                                             <div class="h-100 card-body">
                                                 <h4 class="card-title">Warehousing</h4>
@@ -259,8 +254,7 @@
                                     <!-- Transport Planning -->
                                     <div class="swiper-slide">
                                         <div class="card widget-service-card freight-service">
-                                            <div class="icon">
-                                                <img src="" alt="">
+                                            <div class="icon _transport__planning">
                                             </div>
                                             <div class="h-100 card-body">
                                                 <h4 class="card-title">Transport Planning</h4>
@@ -319,23 +313,22 @@
                             <div class="desc">
                                 <ul class="widget-pointers_with_icon row m-0">
                                     <li class="point d-flex gap-3 col-md-6 col-12">
-                                        <div class="icon">
-
+                                        <div class="icon _collaborative__customer">
                                         </div>
                                         <div class="text">
                                             Collaborative Customer Relationships
                                         </div>
                                     </li>
                                     <li class="point d-flex gap-3 col-md-6 col-12">
-                                        <div class="icon">
 
+                                        <div class="icon _optimized__network">
                                         </div>
                                         <div class="text">
                                             Optimized Network to Save You Money
                                         </div>
                                     </li>
                                     <li class="point d-flex gap-3 col-md-6 col-12">
-                                        <div class="icon">
+                                        <div class="icon _industry__expertise">
 
                                         </div>
                                         <div class="text">
@@ -343,7 +336,7 @@
                                         </div>
                                     </li>
                                     <li class="point d-flex gap-3 col-md-6 col-12">
-                                        <div class="icon">
+                                        <div class="icon _flexible__transportation">
 
                                         </div>
                                         <div class="text">
@@ -1556,8 +1549,8 @@
                         <aside class="bg-subtle-primary p-4 mb-3">
                             <div class="row g-0 justify-content">
                                 <div class="col-xl-10 col-lg-11">
-                                    <p>Lorem ipsum dolor sit</p>
-                                    <h3>Shipments Anywhere in India</h3>
+                                    <!-- <p>Lorem ipsum dolor sit</p> -->
+                                    <h3>Global Network with Local Knowledge</h3>
                                 </div>
                             </div>
                         </aside>
@@ -1578,7 +1571,7 @@
                                             <ul class="widget-list">
                                                 <li>USA & Canada</li>
                                                 <li>Gulf & Mediterranean</li>
-                                                <li>Scandinavian & Cis Countries</li>                                            
+                                                <li>Scandinavian & Cis Countries</li>
                                                 <li>South, Central & Latin America</li>
                                             </ul>
                                         </div>
@@ -1796,8 +1789,8 @@
                                             </div>
                                             <div class="col-12">
                                                 <div class="mb-3">
-                                                    <label class="form-label" for="">Your Email Address</label>
-                                                    <textarea class="form-control"></textarea>
+                                                    <label class="form-label" for="">Your Message</label>
+                                                    <textarea class="form-control" placeholder="What do you want today...."></textarea>
                                                 </div>
                                             </div>
                                             <div class="col-12">
