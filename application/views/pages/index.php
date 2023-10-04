@@ -357,24 +357,24 @@
                             <div class="col-lg-10 col-12">
                                 <div class="widget-counter row m-0">
                                     <div class="col-lg-4 col-md-6 col-12 widget-counter-element">
-                                        <h3><span class="counterPlugin">5000</span>+</h3>
-                                        <h4>Project Complete</h4>
+                                        <h3><span class="counterPlugin">150</span>+</h3>
+                                        <h4>Clients</h4>
                                         <p>
-                                            Conveniently impact front-end niches via maintainable.
+                                            Impact front-end niches via maintainable client oriented services.
                                         </p>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-12 widget-counter-element">
-                                        <h3><span class="counterPlugin">300</span>+</h3>
-                                        <h4>Project Complete</h4>
+                                        <h3><span class="counterPlugin">100</span>+</h3>
+                                        <h4>Countries</h4>
                                         <p>
-                                            Conveniently impact front-end niches via maintainable.
+                                            Conveniently reachable to any part of the world.
                                         </p>
                                     </div>
                                     <div class="col-lg-4 col-md-6 col-12 widget-counter-element">
-                                        <h3><span class="counterPlugin">600</span>+</h3>
-                                        <h4>Project Complete</h4>
+                                        <h3><span class="counterPlugin">150</span>+</h3>
+                                        <h4>Cities</h4>
                                         <p>
-                                            Conveniently impact front-end niches via maintainable.
+                                            Covering most of the Metropolitan , Tier A & B Cities in India.
                                         </p>
                                     </div>
                                 </div>
@@ -542,7 +542,7 @@
                         <aside class="bg-subtle-primary py-4 pe-3 mb-3">
                             <div class="row g-0 justify-content-end">
                                 <div class="col-xl-10 col-lg-11">
-                                    <p>Lorem ipsum dolor sit</p>
+                                    <p>Single window contact for your...</p>
                                     <h3>Shipments Anywhere in India</h3>
                                 </div>
                             </div>
@@ -550,15 +550,38 @@
                         <div class="row justify-content-end">
                             <div class="col-xl-10 col-lg-11">
                                 <div class="content">
-                                    <ul class="widget-list">
-                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eveniet ex aliquam, magnam praesentium facere?</li>
-                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eveniet ex aliquam, magnam praesentium facere?</li>
-                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eveniet ex aliquam, magnam praesentium facere?</li>
-                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eveniet ex aliquam, magnam praesentium facere?</li>
-                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eveniet ex aliquam, magnam praesentium facere?</li>
-                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eveniet ex aliquam, magnam praesentium facere?</li>
-                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eveniet ex aliquam, magnam praesentium facere?</li>
-                                    </ul>
+                                    <div class="row m-0">
+                                        <div class="col-lg-6 col-12">
+                                            <ul class="widget-list">
+                                                <li>Aurangabad, Maharashtra</li>
+                                                <li>Mumbai, Maharashtra</li>
+                                                <li>Nashik, Maharashtra</li>
+                                                <li>Kolhapur,Maharashtra</li>
+                                                <li>Solapur, Maharashtra</li>
+                                                <li>Jaipur, Rajasthan</li>
+                                                <li>Indore, Rajasthan</li>
+                                                <li>Pune, Maharashtra</li>
+                                                <li>Goa, Goa</li>
+                                                <li>Kolkata, West Bengal</li>
+                                                <li>New Delhi</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-6 col-12">
+                                            <ul class="widget-list">
+                                                <li>Cochin, Kerala</li>
+                                                <li>Ahmedabad, Gujarat</li>
+                                                <li>Rajkot, Gujarat</li>
+                                                <li>Gandhinagar, Gujarat</li>
+                                                <li>Kandla, Gujarat</li>
+                                                <li>Coimbatore, Tamil Nadu</li>
+                                                <li>Karur, Tamil Nadu</li>
+                                                <li>Chennai, Tamil Nadu</li>
+                                                <li>Tuticorin, Tamil Nadu</li>
+                                                <li>Hyderabad, Telangana</li>
+                                                <li>Belgaon, Karnataka</li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1541,11 +1564,25 @@
                         <div class="row justify-content">
                             <div class="col-xl-10 col-lg-11">
                                 <div class="content">
-                                    <ul class="widget-list">
-                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eveniet ex aliquam, magnam praesentium facere?</li>
-                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eveniet ex aliquam, magnam praesentium facere?</li>
-                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eveniet ex aliquam, magnam praesentium facere?</li>
-                                    </ul>
+                                    <div class="row m-0">
+                                        <div class="col-lg-6 col-12">
+                                            <ul class="widget-list">
+                                                <li>Africa</li>
+                                                <li>Australia & New Zealand</li>
+                                                <li>China</li>
+                                                <li>Europe</li>
+                                                <li>Far East & South East Asia</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-6 col-12">
+                                            <ul class="widget-list">
+                                                <li>USA & Canada</li>
+                                                <li>Gulf & Mediterranean</li>
+                                                <li>Scandinavian & Cis Countries</li>                                            
+                                                <li>South, Central & Latin America</li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
