@@ -129,9 +129,11 @@
                                 <!-- <h2 class="section-title">About Us</h2> -->
                             </div>
                             <div class="quote">
-                                <blockquote>
-                                    Made for Managing
-                                    <span class="d-block">Your Supply Chain</span>
+                                <blockquote class="text-black">
+                                    <strong>
+                                        Made for Managing
+                                        <span class="d-block">Your Supply Chain</span>
+                                    </strong>
                                 </blockquote>
                             </div>
                             <div class="desc">
@@ -435,9 +437,10 @@
                     <div class="media-content">
                         <svg class="w-100 svg-map" baseprofile="tiny" fill="#ececec" height="857" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".1" version="1.2" viewbox="0 0 1000 1136" width="1000" xmlns="http://www.w3.org/2000/svg">
                             <style>
-                                path.hover{
+                                path.hover {
                                     fill: #d10505;
                                 }
+
                                 text {
                                     pointer-events: none;
                                 }
@@ -1782,20 +1785,38 @@
                                 Both Vinay and Anita are dedicated advocates for causes close to their hearts—supporting education for underprivileged communities and championing the prevention of cruelty to animals. They generously volunteer their time and resources at local animal shelters and rescue organizations, providing a nurturing environment for animals in need. Additionally, they actively contribute to educational programs designed to uplift underprivileged individuals and support the vital work carried out by animal shelters, showcasing their deep commitment to creating a better world for all
                             </p>
                         </div>
-                        <div class="swiper teams-slider">
+                        <div class="swiper widget-teams-slider">
                             <!-- Additional required wrapper -->
                             <div class="swiper-wrapper">
                                 <!-- Slides -->
-                                <?php for ($i = 0; $i < 12; $i++) : ?>
-                                    <div class="swiper-slide bg-white">
-                                        <div class="slide-content">
-                                            <div class="media-content">
-                                                <img src="<?= base_url() ?>assets/media/mockup/service/1.png" class="w-100" alt="...">
-                                                Slide <?= $i ?>
-                                            </div>
+                                <div class="swiper-slide bg-white">
+                                    <div class="slide-content">
+                                        <div class="media-content">
+                                            <img src="<?= base_url() ?>assets/media/team/1000031576-01.jpeg" class="w-100" alt="...">
                                         </div>
                                     </div>
-                                <?php endfor ?>
+                                </div>
+                                <div class="swiper-slide bg-white">
+                                    <div class="slide-content">
+                                        <div class="media-content">
+                                            <img src="<?= base_url() ?>assets/media/team/1000031577-01.jpeg" class="w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide bg-white">
+                                    <div class="slide-content">
+                                        <div class="media-content">
+                                            <img src="<?= base_url() ?>assets/media/team/1000031578-01.jpeg" class="w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide bg-white">
+                                    <div class="slide-content">
+                                        <div class="media-content">
+                                            <img src="<?= base_url() ?>assets/media/team/Team pro.jpg" class="w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1939,6 +1960,10 @@
                     nextEl: '.banner .swiper-button-next',
                     prevEl: '.banner .swiper-button-prev',
                 },
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: false
+                },
             }),
             new Swiper('.services', {
                 loop: true,
@@ -1966,21 +1991,21 @@
                     },
                 }
             }),
-            new Swiper('.teams-slider', {
+            new Swiper('.widget-teams-slider', {
                 loop: true,
                 effect: 'fade',
                 autoplay: {
-                    delay: 5000,
+                    delay: 3000,
                     disableOnInteraction: false
                 }
             }),
             new Swiper('.services-slider', {
                 loop: true,
                 centeredSlides: true,
-                // autoplay: {
-                //     delay: 2000,
-                //     disableOnInteraction: false
-                // },
+                autoplay: {
+                    delay: 2000,
+                    disableOnInteraction: false
+                },
                 slidesPerView: 1,
                 spaceBetween: 10,
                 // navigation: {
