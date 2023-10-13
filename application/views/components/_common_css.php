@@ -6,5 +6,6 @@
   href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
 />
 
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 <link rel="stylesheet" href="<?= base_url("assets/css/style.min.css") ?>">

@@ -26,9 +26,10 @@ main {
 			padding: calc(max(5%, 1rem)) 0;
 			padding-top: calc(max(7%, 1.5rem));
 			min-height: 80vh;
+			overflow-x: hidden;
 		}
 		&#about-us {
-			padding: 2rem 0;
+			padding: 0;
 			.media-content {
 				position: relative;
 				.img-overlap {
@@ -40,7 +41,7 @@ main {
 						bottom: -3rem;
 					}
 					.img-back {
-						width: 95%;
+						width: 100%;
 					}
 					.shape {
 						position: absolute;
@@ -60,16 +61,10 @@ main {
 			}
 			.quote {
 				blockquote {
-					font-size: calc(max(4vw, 3rem));
+					font-size: calc(max(2.5vw, 2rem));
 					line-height: 0.9;
 					text-transform: uppercase;
-					font-family: "Oswald", sans-serif;
-					font-weight: 500;
-					* {
-						text-transform: uppercase;
-						font-family: "Oswald", sans-serif;
-						font-weight: 500;
-					}
+					font-weight: 700;
 				}
 			}
 			.text-content {
@@ -300,6 +295,25 @@ main {
 					object-position: top;
 				}
 			}
+		}
+		&.text{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			min-height: max(12vh,6rem);
+			padding: 2rem 0;
+		}
+	}
+	article.wrapper{
+		section.text{
+			position: sticky;
+			top: 0;
+			left: 0;
+			width: 100%;
+			background-color: $color-white;
+			z-index: 20;
 		}
 	}
 }

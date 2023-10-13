@@ -4,6 +4,7 @@
 	--paragraph-color: #565969;
 	// --body-font: 'Public Sans', sans-serif;
 	--body-font: "Lato", sans-serif;
+	--body-font: 'Inter', sans-serif;
 	// --heading-font: 'Yantramanav', sans-serif;
 	--heading-font: "Robinson Regular", sans-serif;
 	--body-font-size: max(16px, 1vw);
@@ -24,12 +25,12 @@ html {
 	outline: none;
 	/* WebKit  */
 
-	font-family: "Open Sans", sans-serif;
+	// font-family: "Open Sans", sans-serif;
+	font-family: 'Inter', sans-serif;
 }
 
 body {
 	color: var(--paragraph-color);
-	overflow-x: hidden;
 	font-family: var(--body-font);
 	line-height: var(--line-height30);
 	font-size: var(--body-font-size);
@@ -72,7 +73,8 @@ h6 {
 	font-weight: 700;
 	// font-family: var(--heading-font);
 	font-family: "Oswald", sans-serif;
-	font-weight: 500;
+	font-family: 'Inter', sans-serif;
+	// font-weight: 500;
 }
 
 p {

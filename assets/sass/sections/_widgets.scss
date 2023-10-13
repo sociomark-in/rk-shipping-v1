@@ -11,6 +11,16 @@ $colors: (
 	background-color: rgba($color: $color-primary, $alpha: 0.2);
 }
 
+.quote{
+	&.quote-xl{
+		blockquote{
+			font-size: calc(max(6vw, 5.5rem));
+			text-transform: uppercase;
+			line-height: 1;
+		}
+	}
+}
+
 .btn,
 .btn-lg {
 	border: none;
