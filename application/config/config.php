@@ -25,7 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 // $config['base_url'] = 'https://test.apogeedigitech.in/proficient/';
 $config['base_url'] = 'http://localhost:8000/proficient-v1.1/';
-// $config['base_url'] = 'https://test.apogeedigitech.in/repositories/proficient/';
+$config['base_url'] = 'https://test.apogeedigitech.in/repositories/proficient/';
 
 /*
 |--------------------------------------------------------------------------

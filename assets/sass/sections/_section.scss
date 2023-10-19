@@ -103,6 +103,11 @@ main {
 					object-position: center;
 				}
 			}
+			.swiper{
+				.swiper-wrapper{
+					transition-timing-function: linear;
+				}
+			}
 			.text-content {
 				position: relative;
 				z-index: 1;

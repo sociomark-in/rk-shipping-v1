@@ -2025,8 +2025,10 @@
             new Swiper('.services-slider', {
                 loop: true,
                 centeredSlides: true,
+                speed: 2000,
                 autoplay: {
-                    delay: 2000,
+                    delay: 0,
+					pauseOnMouseEnter: true,
                     disableOnInteraction: false
                 },
                 slidesPerView: 1,
