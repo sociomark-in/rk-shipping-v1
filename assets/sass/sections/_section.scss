@@ -61,7 +61,7 @@ main {
 			}
 			.quote {
 				blockquote {
-					font-size: calc(max(2.5vw, 2rem));
+					font-size: calc(max(2.5vw, 3rem));
 					line-height: 0.9;
 					text-transform: uppercase;
 					font-weight: 700;
@@ -221,7 +221,7 @@ main {
 				z-index: 1;
 				padding: calc(max(5%, 1rem)) 0;
 				padding-top: calc(max(7%, 1.5rem));
-				min-height: 80vh;
+				min-height: fit-content;
 				background-color: rgba($color-primary-dark, 0.8);
 				.contact-footer {
 					* {

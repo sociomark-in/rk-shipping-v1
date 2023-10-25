@@ -7,6 +7,17 @@ $colors: (
 	"dark": $color-primary-dark,
 );
 
+.text-full-5{
+	font-size: calc(max(5vw, 3rem)) !important;
+}
+.text-full-10{
+	font-size: 10vw !important;
+}
+
+.text-uppercase{
+	text-transform: uppercase !important;
+}
+
 .bg-primary-translucent {
 	background-color: rgba($color: $color-primary, $alpha: 0.2);
 }
@@ -14,9 +25,10 @@ $colors: (
 .quote{
 	&.quote-xl{
 		blockquote{
-			font-size: calc(max(6vw, 5.5rem));
-			text-transform: uppercase;
+			font-size: calc(max(6vw, 3rem));
 			line-height: 1;
+			font-weight: 500;
+			text-transform: capitalize;
 		}
 	}
 }
