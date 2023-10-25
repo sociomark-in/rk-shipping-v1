@@ -442,32 +442,6 @@
                     </div> -->
 				</div>
 			</section>
-			<section id="testimonials">
-				<div class="container">
-					<div class="title text-center mb-3">
-						<p class="section-pill m-auto mb-3">Happy Clients</p>
-						<h2 class="section-title">Trusted by our 365,000 Clients</h2>
-						<p>
-							Dramatically enhance interactive metrics for reliable services. Proactively unleash fully researched e-commerce.
-						</p>
-					</div>
-					<div class="row justify-content-center">
-						<div class="col-lg-8 col-md-9 col-11">
-							<div class="row justify-content-center">
-								<div class="col-lg-4 col-md-6 col-12">
-									<img src="<?= base_url() ?>assets/media/images/testimonial/fffai.jpg" alt="FFFAI" class="w-100">
-								</div>
-								<div class="col-lg-4 col-md-6 col-12">
-									<img src="<?= base_url() ?>assets/media/images/testimonial/bchaa.jpg" alt="BCHAA" class="w-100">
-								</div>
-								<div class="col-lg-4 col-md-6 col-12">
-									<img src="<?= base_url() ?>assets/media/images/testimonial/fiata.jpg" alt="FIATA" class="w-100">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
 			<section class="map-section" id="world-map">
 				<div class="row m-0 g-md-0">
 					<div class="col-md-6">
@@ -1742,7 +1716,6 @@
 					</div>
 				</div>
 			</section>
-
 			<section id="team">
 				<div class="container-fluid p-0">
 					<div class="row m-0 justify-content-end">
@@ -1861,7 +1834,68 @@
 					</div>
 				</div>
 			</section>
+			<section id="testimonials">
+				<div class="container">
+					<div class="title text-center mb-3">
+						<p class="section-pill m-auto mb-3">Happy Clients</p>
+						<h2 class="section-title">Trusted by our 365,000 Clients</h2>
+						<p>
+							Dramatically enhance interactive metrics for reliable services. Proactively unleash fully researched e-commerce.
+						</p>
+					</div>
+					<div class="row justify-content-center">
+						<div class="col-lg-8 col-md-9 col-11">
+							<div class="row justify-content-center">
+								<div class="col-lg-4 col-md-6 col-12">
+									<img src="<?= base_url() ?>assets/media/images/testimonial/fffai.jpg" alt="FFFAI" class="w-100">
+								</div>
+								<div class="col-lg-4 col-md-6 col-12">
+									<img src="<?= base_url() ?>assets/media/images/testimonial/bchaa.jpg" alt="BCHAA" class="w-100">
+								</div>
+								<div class="col-lg-4 col-md-6 col-12">
+									<img src="<?= base_url() ?>assets/media/images/testimonial/fiata.jpg" alt="FIATA" class="w-100">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 		</article>
+		<section class="text py-3 py-md-5">
+			<div class="container-fluid">
+				<div class="row gap-3 m-0 align-items-center justify-comtent-between">
+					<div class="col-lg-auto col-12">
+						<div class="quote quote-xl">
+							<blockquote class="text-black text-full-7 text-uppercase">
+								<strong>
+									<div data-aos="fade-right">Logistics</div>
+									<div data-aos="fade-right" class="text-primary">Done</div>
+									<div data-aos="fade-left" data-aos-delay="100">Better</div>
+								</strong>
+							</blockquote>
+						</div>
+					</div>
+					<div class="col-lg-auto col-12">
+						<blockquote class="text-black text-full-12 text-uppercase">
+							<strong>
+								<div data-aos="fade-right">=</div>
+							</strong>
+						</blockquote>
+					</div>
+					<div class="col-lg-auto col-12">
+						<div class="quote quote-xl">
+							<blockquote class="text-black text-full-7 text-uppercase">
+								<strong>
+									<div data-aos="fade-right">Logistics</div>
+									<div data-aos="fade-right" class="text-primary">Delivered</div>
+									<div data-aos="fade-left" data-aos-delay="100">Better</div>
+								</strong>
+							</blockquote>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 		<section id="contact-us">
 			<div class="videowrapper">
 				<video id="myVideomob" class="res-video" muted loop autoplay poster="<?= base_url('assets/media/images/') ?>posters/video-poster-img.jpg">

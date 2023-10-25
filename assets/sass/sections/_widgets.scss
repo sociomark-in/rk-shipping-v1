@@ -7,13 +7,13 @@ $colors: (
 	"dark": $color-primary-dark,
 );
 
-.text-full-5{
-	font-size: calc(max(5vw, 3rem)) !important;
+@for $i from 1 to 200 {
+	@if($i % 10 == 0){
+		.text-full-#{$i/10}{
+			font-size: calc(max(#{$i/10}vw, 3rem)) !important;
+		}
+	}
 }
-.text-full-10{
-	font-size: 10vw !important;
-}
-
 .text-uppercase{
 	text-transform: uppercase !important;
 }
