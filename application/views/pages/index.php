@@ -106,7 +106,7 @@
 				<div class="row m-0">
 					<div class="col-lg-6 col-12">
 						<div class="quote quote-xl">
-							<blockquote class="text-black text-full-10 text-uppercase">
+							<blockquote class="text-black text-full-9 text-uppercase">
 								<strong>
 									<div data-aos="fade-right">Made to Manage</div>
 									<div data-aos="fade-left" data-aos-delay="100">Your Supply Chain</div>
@@ -130,7 +130,7 @@
 		</section>
 		<section id="about-us">
 			<div class="">
-				<div class="row g-0 m-0 align-items-center">
+				<div class="row g-0 m-0">
 					<div class="col-xl-7 col-md-6 col-12 mb-3 mb-md-0">
 						<div class="media-content ">
 							<div class="img-overlap">
@@ -149,7 +149,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-5 col-md-6 col-12 px-3">
+					<div class="col-xl-5 col-md-6 col-12 px-3 pt-5">
 						<div class="text-content">
 							<div class="title">
 								<!-- <p class="section-pill">About Us</p> -->
@@ -185,7 +185,7 @@
 							<div class="cta py-3">
 								<div class="persona row g-0 m-0 justify-content-between">
 									<div class="col-md-auto col-12 mb-3">
-										<a href="<?= base_url() ?>assets/brochure_2023.pdf" title="Proficient Brochure <?= date("Y") ?>" class="btn btn-lg btn-primary"><i class="fa-regular fa-file-pdf me-2"></i>Read Our Brochure</a>
+										<a href="<?= base_url() ?>assets/brochure_2023.pdf" title="Proficient Brochure <?= date("Y") ?>" class="btn btn-lg btn-primary"><i class="fa-regular fa-file-pdf me-2"></i>Download Our Brochure</a>
 									</div>
 									<div class="col-md-auto col-12 widget-signature text-center d-none">
 										<div class="d-flex gap-3">
@@ -334,7 +334,7 @@
 					<div class="quote quote-xl text-center">
 						<blockquote class="text-black">
 							<strong>
-								<div data-aos="fade-right">Why Choose Us</div>
+								<div>Why Choose Us</div>
 							</strong>
 						</blockquote>
 					</div>
@@ -1916,7 +1916,7 @@
 									<blockquote class="text-black">
 										<strong>
 											<div data-aos="fade-left" data-aos-delay="300" class="text-light">
-												Lorem ipsum dolor sit amet consectetur adipisicing elit.
+												Experience How Logistics is Done & Delivered Better...
 											</div>
 										</strong>
 									</blockquote>
@@ -1968,7 +1968,7 @@
 											<div class="col-12">
 												<div class="title mb-3">
 													<!-- <p class="section-pill mb-3">Contact Us</p> -->
-													<h2 class="section-title">Reach Out to Us</h2>
+													<h2 class="section-title">Get in touch with Us</h2>
 												</div>
 											</div>
 											<div class="col-lg-12 col-md-6 col-12">
