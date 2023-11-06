@@ -5,16 +5,17 @@ $colors: (
 	"white": $color-white,
 	"primary": $color-primary,
 	"dark": $color-primary-dark,
+	"red": $color-red,
 );
 
 @for $i from 1 to 200 {
-	@if($i % 10 == 0){
-		.text-full-#{$i/10}{
+	@if ($i % 10 == 0) {
+		.text-full-#{$i/10} {
 			font-size: calc(max(#{$i/10}vw, 3rem)) !important;
 		}
 	}
 }
-.text-uppercase{
+.text-uppercase {
 	text-transform: uppercase !important;
 }
 
@@ -22,14 +23,19 @@ $colors: (
 	background-color: rgba($color: $color-primary, $alpha: 0.2);
 }
 
-.quote{
-	&.quote-xl{
-		blockquote{
+.quote {
+	&.quote-xl {
+		blockquote {
 			font-size: calc(max(6vw, 3rem));
 			line-height: 1;
 			font-weight: 500;
 			text-transform: capitalize;
 		}
+	}
+}
+@each $class, $color in $colors {
+	.text-#{$class} {
+		color: $color !important;
 	}
 }
 
@@ -61,29 +67,29 @@ $colors: (
 	font-weight: 600;
 }
 
-.icon{
-	&._sea__air__fright{
+.icon {
+	&._sea__air__fright {
 		background-position: 6px -200px !important;
 	}
-	&._custom__clearance{
+	&._custom__clearance {
 		background-position: -60px -135px !important;
 	}
-	&._warehousing{
+	&._warehousing {
 		background-position: -62px -70px !important;
 	}
-	&._transport__planning{
+	&._transport__planning {
 		background-position: -57px -195px !important;
 	}
-	
-	
-	&._collaborative__customer{
+
+	&._collaborative__customer {
 		background-position: 0px -98px !important;
 	}
-	&._optimized__network{
+	&._optimized__network {
 		background-position: -47px 0px !important;
 	}
-	&._industry__expertise{}
-	&._flexible__transportation{
+	&._industry__expertise {
+	}
+	&._flexible__transportation {
 		background-position: 0px -50px !important;
 	}
 }
@@ -246,13 +252,13 @@ $colors: (
 	}
 }
 
-.widget-teams-slider{
-	.swiper-slide{
-		.media-content{
+.widget-teams-slider {
+	.swiper-slide {
+		.media-content {
 			width: 100%;
 			aspect-ratio: 1.3;
 			overflow: hidden;
-			img{
+			img {
 				width: 100%;
 				height: 100%;
 				object-fit: cover;
@@ -273,7 +279,7 @@ $colors: (
 			box-shadow: 0 0 0 1px #ddd;
 		}
 
-		&::placeholder{
+		&::placeholder {
 			color: rgba($color: $color-white, $alpha: 0.5);
 		}
 	}

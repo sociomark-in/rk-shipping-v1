@@ -118,8 +118,8 @@
 						<div class="quote quote-xl">
 							<blockquote class="text-black">
 								<strong>
-									<div data-aos="fade-left" data-aos-delay="300" class="text-light">
-										Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, similique consequuntur soluta magnam sunt optio.!
+									<div data-aos="fade-left" data-aos-delay="300" class="text-gray text-full-5">
+										we beleive that in a world where Shipments have become Complex, a personal approach is key to ensure you get the most of your shipping experience
 									</div>
 								</strong>
 							</blockquote>
@@ -440,6 +440,24 @@
                             </div>
                         </div>
                     </div> -->
+				</div>
+			</section>
+			<section id="vision">
+				<div class="row m-0 justify-content-center">
+					<div class="col-xxl-6 col-xl-8 col-lg-9 col-md-10 col-12">
+						<div class="text-content">
+							<div class="title">
+								<p class="section-pill mb-3">Our Vision</p>
+								<h2 class="section-title"><span class="text-red">\L\</span>&nbsp;For Logistics</h2>
+							</div>
+							<div class="desc">
+								<p class="text-black">
+									<span class="text-primary"><strong>Our Vision</strong></span> is to SERVE THE Industry with creative concepts, innovative Thinking,CONSISTENT AND QUALITY services.
+									We want to emerge as a <span class="text-primary">PREFERRED PARTNER BY THE INDUSTRY IN LOGISTICS</span>.
+								</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</section>
 			<section class="map-section" id="world-map">
@@ -1869,7 +1887,7 @@
 							<blockquote class="text-black text-full-7 text-uppercase">
 								<strong>
 									<div data-aos="fade-right">Logistics</div>
-									<div data-aos="fade-right" class="text-primary">Done</div>
+									<div data-aos="fade-right" class="text-red">Done</div>
 									<div data-aos="fade-left" data-aos-delay="100">Better</div>
 								</strong>
 							</blockquote>
@@ -1887,7 +1905,7 @@
 							<blockquote class="text-black text-full-7 text-uppercase">
 								<strong>
 									<div data-aos="fade-right">Logistics</div>
-									<div data-aos="fade-right" class="text-primary">Delivered</div>
+									<div data-aos="fade-right" class="text-red">Delivered</div>
 									<div data-aos="fade-left" data-aos-delay="100">Better</div>
 								</strong>
 							</blockquote>
