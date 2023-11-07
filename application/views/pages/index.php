@@ -101,12 +101,12 @@
 				<!-- <div class="swiper-scrollbar"></div> -->
 			</div>
 		</section>
-		<section class="text py-3 py-md-5">
+		<section class="text">
 			<div class="container-fluid">
-				<div class="row m-0">
-					<div class="col-lg-6 col-12">
-						<div class="quote quote-xl">
-							<blockquote class="text-black text-full-9 text-uppercase">
+				<div class="row m-0 align-items-center">
+					<div class="col-xl-5 col-lg-6 col-12">
+						<div class="quote quote-xl py-3 py-md-5">
+							<blockquote class="text-black text-full-7 text-uppercase">
 								<strong>
 									<div data-aos="fade-right">Made to Manage</div>
 									<div data-aos="fade-left" data-aos-delay="100">Your Supply Chain</div>
@@ -114,12 +114,12 @@
 							</blockquote>
 						</div>
 					</div>
-					<div class="col-lg-6 col-12">
-						<div class="quote quote-xl">
+					<div class="col-xl-7 col-lg-6 col-12">
+						<div class="quote quote-xl p-4 py-md-5 bg-subtle-primary">
 							<blockquote class="text-black">
 								<strong>
-									<div data-aos="fade-left" data-aos-delay="300" class="text-gray text-full-5">
-										we beleive that in a world where Shipments have become Complex, a personal approach is key to ensure you get the most of your shipping experience
+									<div data-aos="fade-left" data-aos-delay="300" class="text-gray text-full-4">
+										we believe that in a world where Shipments have become Complex, a personal approach is key to ensure you get the most of your shipping experience
 									</div>
 								</strong>
 							</blockquote>
@@ -416,35 +416,16 @@
 					</div>
 				</div>
 			</section>
-			<section class="gandhi-quote">
-				<div class="container">
-					<div class="row g-0 m-0 justify-content-center mb-3">
-						<div class="col-xl-6 col-lg-8 col-10">
-							<img src="<?= base_url('assets/media/images/gandhi/') ?>quote-01.png" alt="Gandhi Quote 01">
+			<section id="vision">
+				<div class="row m-0">
+					<div class="col-lg-5 col-md-6 col-12">
+						<div class="media-content">
+							<div class="wrap">
+								<img src="<?= base_url('assets/media/images/gandhi/') ?>quote-01.png" alt="Gandhi Quote 01">
+							</div>
 						</div>
 					</div>
-					<!-- <div class="row g-0 m-0 justify-content-center">
-                        <div class="col-xl-6 col-lg-8 col-10">
-                            <div class="row m-0 justify-content-center align-items-center">
-                                <div class="col-xl-3 col-lg-4 col-md-5 col-sm-4 col-6">
-                                    <div class="thumbnail-rounded mb-3">
-                                        <img src="<?= base_url('assets/media/images/gandhi/') ?>Mahatma-Gandhi.jpg" alt="Gandhi Quote 01">
-                                    </div>
-                                </div>
-                                <div class="col-xl-9 col-lg-8 col-md-7 col-12">
-                                    <p>
-                                        A customer is the most important visitor on our premises. he is not dependant on us, we are dependant on him. He is not an interruption of our work, he is a part of it. We are not doing him a favor by serving him. He is doing us a favor by giving us the opportunity to do so.
-                                    </p>
-                                    <p><strong>- Mahatma Gandhi</strong></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-				</div>
-			</section>
-			<section id="vision">
-				<div class="row m-0 justify-content-center">
-					<div class="col-xxl-6 col-xl-8 col-lg-9 col-md-10 col-12">
+					<div class="col-lg-7 col-md-6 col-12">
 						<div class="text-content">
 							<div class="title">
 								<p class="section-pill mb-3">Our Vision</p>
@@ -1887,8 +1868,8 @@
 							<blockquote class="text-black text-full-7 text-uppercase">
 								<strong>
 									<div data-aos="fade-right">Logistics</div>
-									<div data-aos="fade-right" class="text-red">Done</div>
-									<div data-aos="fade-left" data-aos-delay="100">Better</div>
+									<div data-aos="fade-right" data-aos-delay="100" class="text-red">Done</div>
+									<div data-aos="fade-left">Better</div>
 								</strong>
 							</blockquote>
 						</div>
@@ -1905,8 +1886,8 @@
 							<blockquote class="text-black text-full-7 text-uppercase">
 								<strong>
 									<div data-aos="fade-right">Logistics</div>
-									<div data-aos="fade-right" class="text-red">Delivered</div>
-									<div data-aos="fade-left" data-aos-delay="100">Better</div>
+									<div data-aos="fade-right" data-aos-delay="100" class="text-red">Delivered</div>
+									<div data-aos="fade-left">Better</div>
 								</strong>
 							</blockquote>
 						</div>
