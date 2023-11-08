@@ -6,17 +6,17 @@
 <script>
     AOS.init();
     
-    $(function() {
+    // $(function() {
 
-        if (window.matchMedia('(min-width: 768px)').matches) {
-        }
+    //     if (window.matchMedia('(min-width: 768px)').matches) {
+    //     }
 
-        if (window.matchMedia('(min-width: 1500px)').matches) {
-            $.scrollify({
-                section: "main section",
-                interstitialSection: "section.text, section.map-section, section.gandhi-quote, section#testimonials, section#about-us, section#contact-us, footer",
-                scrollSpeed: 50,
-            });
-        }
-    });
+    //     if (window.matchMedia('(min-width: 1500px)').matches) {
+    //         $.scrollify({
+    //             section: "main section",
+    //             interstitialSection: "section.text, section.map-section, section.gandhi-quote, section#testimonials, section#about-us, section#contact-us, footer",
+    //             scrollSpeed: 50,
+    //         });
+    //     }
+    // });
 </script>
