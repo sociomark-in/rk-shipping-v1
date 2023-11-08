@@ -11,7 +11,7 @@
 		left: 5rem;
 	}
 	.swiper-slide {
-		&:nth-child(1) {
+		&.slide-1 {
 			background: linear-gradient(
 					-45deg,
 					transparent 50%,
@@ -25,7 +25,7 @@
 			background-size: cover;
 			background-position-x: 65%;
 		}
-		&:nth-child(2) {
+		&.slide-2 {
 			background: linear-gradient(
 					-45deg,
 					transparent 50%,
@@ -39,7 +39,7 @@
 			background-size: cover;
 			background-position-x: 65%;
 		}
-		&:nth-child(3) {
+		&.slide-3 {
 			background: linear-gradient(
 					-45deg,
 					transparent 50%,
@@ -53,7 +53,7 @@
 			background-size: cover;
 			background-position-x: 65%;
 		}
-		&:nth-child(4) {
+		&.slide-4 {
 			background: linear-gradient(
 					-45deg,
 					transparent 50%,

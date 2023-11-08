@@ -19,7 +19,7 @@
 				<!-- Additional required wrapper -->
 				<div class="swiper-wrapper">
 					<!-- Slides -->
-					<div class="swiper-slide">
+					<div class="swiper-slide slide-01">
 						<div class="slide-content">
 							<div class="row h-100 align-items-center">
 								<div class="col-lg-6 col-10">
@@ -35,7 +35,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="swiper-slide">
+					<div class="swiper-slide slide-02">
 						<div class="slide-content">
 							<div class="row h-100 align-items-center">
 								<div class="col-lg-6 col-10">
@@ -51,7 +51,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="swiper-slide">
+					<div class="swiper-slide slide-03">
 						<div class="slide-content">
 							<div class="row h-100 align-items-center">
 								<div class="col-lg-6 col-10">
@@ -67,7 +67,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="swiper-slide">
+					<div class="swiper-slide slide-04">
 						<div class="slide-content">
 							<div class="row h-100 align-items-center">
 								<div class="col-lg-6 col-10">
