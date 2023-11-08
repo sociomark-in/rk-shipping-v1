@@ -1844,18 +1844,17 @@
 						</p>
 					</div>
 					<div class="row justify-content-center">
-						<div class="col-lg-8 col-md-9 col-11">
-							<div class="row justify-content-center">
-								<div class="col-lg-4 col-md-6 col-12">
-									<img src="<?= base_url() ?>assets/media/images/testimonial/fffai.jpg" alt="FFFAI" class="w-100">
-								</div>
-								<div class="col-lg-4 col-md-6 col-12">
-									<img src="<?= base_url() ?>assets/media/images/testimonial/bchaa.jpg" alt="BCHAA" class="w-100">
-								</div>
-								<div class="col-lg-4 col-md-6 col-12">
-									<img src="<?= base_url() ?>assets/media/images/testimonial/fiata.jpg" alt="FIATA" class="w-100">
-								</div>
-							</div>
+						<div class="col-lg-3 col-md-6 col-12">
+							<img src="<?= base_url() ?>assets/media/images/testimonial/aeo.jpg" alt="FFFAI" class="w-100">
+						</div>
+						<div class="col-lg-3 col-md-6 col-12">
+							<img src="<?= base_url() ?>assets/media/images/testimonial/fffai.jpg" alt="FFFAI" class="w-100">
+						</div>
+						<div class="col-lg-3 col-md-6 col-12">
+							<img src="<?= base_url() ?>assets/media/images/testimonial/bchaa.jpg" alt="BCHAA" class="w-100">
+						</div>
+						<div class="col-lg-3 col-md-6 col-12">
+							<img src="<?= base_url() ?>assets/media/images/testimonial/fiata.jpg" alt="FIATA" class="w-100">
 						</div>
 					</div>
 				</div>
