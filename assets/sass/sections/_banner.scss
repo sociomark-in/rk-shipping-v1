@@ -11,19 +11,7 @@
 		left: 5rem;
 	}
 	.swiper-slide {
-		background: linear-gradient(
-				-45deg,
-				transparent 50%,
-				rgba($color-pastel-blue, 0.5) 50%,
-				rgba($color-pastel-blue, 0.5) 75%,
-				transparent 75%,
-				transparent 100%
-			),
-			linear-gradient(90deg, $color-black 0%, transparent 100%),
-			url("../../assets/media/images/banner/3.png");
-		background-size: cover;
-		background-position-x: 65%;
-		&.slide-1 {
+		&.slide-01 {
 			background: linear-gradient(
 					-45deg,
 					transparent 50%,
@@ -37,7 +25,7 @@
 			background-size: cover;
 			background-position-x: 65%;
 		}
-		&.slide-2 {
+		&.slide-02 {
 			background: linear-gradient(
 					-45deg,
 					transparent 50%,
@@ -51,7 +39,7 @@
 			background-size: cover;
 			background-position-x: 65%;
 		}
-		&.slide-3 {
+		&.slide-03 {
 			background: linear-gradient(
 					-45deg,
 					transparent 50%,
@@ -65,7 +53,7 @@
 			background-size: cover;
 			background-position-x: 65%;
 		}
-		&.slide-4 {
+		&.slide-04 {
 			background: linear-gradient(
 					-45deg,
 					transparent 50%,
