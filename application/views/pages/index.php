@@ -305,18 +305,18 @@
 						<!-- Additional required wrapper -->
 						<div class="swiper-wrapper">
 							<!-- Slides -->
-							<div class="swiper-slide">
+							<!-- <div class="swiper-slide">
 								<div class="widget-service-card card">
 									<div class="card-body">
 										<h3>One Stop Shop</h3>
 										<p>For all your supply chain needs</p>
 									</div>
 								</div>
-							</div>
+							</div> -->
 							<?php foreach ($services as $service) : ?>
 								<div class="swiper-slide">
 									<div class="widget-service-card card h-100">
-										<div class="card-body">
+										<div class="card-body text-center">
 											<!-- <h3><?= $service[0] ??= "" ?></h3> -->
 											<h5><?= $service[0] ??= "" ?></h5>
 										</div>

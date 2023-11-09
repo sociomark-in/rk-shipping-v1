@@ -48,7 +48,9 @@ class Pages extends CI_Controller {
 				["Consultancy"],
 				["Bonded Warehousing"],
 				["Cargo Insurance"],
-				["Packing, Labeling, Distribution"],
+				["Packing"],
+				["Labeling"],
+				["Distribution"],
 			]
 		];
 		$this->load->view('pages/index', $this->data);
