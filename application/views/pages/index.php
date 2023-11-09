@@ -106,7 +106,7 @@
 				<div class="row m-0 align-items-center">
 					<div class="col-xl-5 col-lg-6 col-12">
 						<div class="quote quote-xl py-3 py-md-5">
-							<blockquote class="text-black text-full-7 text-uppercase">
+							<blockquote class="text-black text-full-5 text-uppercase">
 								<strong>
 									<div data-aos="fade-right">Made to Manage</div>
 									<div data-aos="fade-left" data-aos-delay="100">Your Supply Chain</div>
@@ -118,7 +118,7 @@
 						<div class="quote quote-xl p-4 py-md-5 bg-subtle-primary">
 							<blockquote class="text-black">
 								<strong>
-									<div data-aos="fade-left" data-aos-delay="300" class="text-gray text-full-4">
+									<div data-aos="fade-left" data-aos-delay="300" class="text-gray text-full-2">
 										we believe that in a world where Shipments have become Complex, a personal approach is key to ensure you get the most of your shipping experience
 									</div>
 								</strong>
@@ -1730,7 +1730,7 @@
 						<div class="col-xxl-8 col-xl-7 col-lg-6 col-md-6 col-12">
 							<div class="row g-0 justify-content-center">
 								<div class="col-lg-9 col-md-10 col-sm-10 col-12">
-									<div class="widget-testimonial-card card mb-3">
+									<div class="widget-testimonial-card relative-top card mb-3">
 										<div class="card-header mb-3">
 											<div class="row align-items-end g-2">
 												<div class="col-md-auto col-12">
@@ -1862,10 +1862,10 @@
 		</article>
 		<section class="text py-3 py-md-5">
 			<div class="container-fluid">
-				<div class="row gap-3 m-0 align-items-center justify-comtent-between">
+				<div class="row gap-3 m-0 align-items-center justify-content-center">
 					<div class="col-lg-auto col-12">
 						<div class="quote quote-xl">
-							<blockquote class="text-black text-full-7 text-uppercase">
+							<blockquote class="text-black text-full-5 text-uppercase">
 								<strong>
 									<div data-aos="fade-right">Logistics</div>
 									<div data-aos="fade-right" data-aos-delay="100" class="text-red">Done</div>
@@ -1883,7 +1883,7 @@
 					</div>
 					<div class="col-lg-auto col-12">
 						<div class="quote quote-xl">
-							<blockquote class="text-black text-full-7 text-uppercase">
+							<blockquote class="text-black text-full-5 text-uppercase">
 								<strong>
 									<div data-aos="fade-right">Logistics</div>
 									<div data-aos="fade-right" data-aos-delay="100" class="text-red">Delivered</div>
@@ -1909,7 +1909,7 @@
 			<div class="text-content">
 				<div class="contact-section">
 					<div class="container-fluid">
-						<div class="row m-0">
+						<div class="row m-0 align-items-center">
 							<div class="col-lg-6 col-12">
 								<div class="quote quote-xl">
 									<blockquote class="text-black">

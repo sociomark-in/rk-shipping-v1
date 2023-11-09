@@ -42,12 +42,15 @@ nav.navbar {
 		width: 100%;
 		margin: 0 1rem;
 		width: 15rem;
-		height: calc(80vh - 100px);
 		position: fixed;
 		top: 100px;
 		right: 0;
 		.nav-item {
 			padding: 0 1rem;
+			border-bottom: 1px solid;
+			&:last-child{
+				border-bottom: none
+			}
 			&:hover {
 				background: rgba($color: $color-white, $alpha: 0.05);
 				border-radius: 16px;
