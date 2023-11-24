@@ -157,10 +157,12 @@
 							</div>
 							<div class="desc">
 								<div class="quote">
-									<blockquote class="text-black text-full-5">
-										<strong>
-											It's a small world! Ask Our Clients
+									<blockquote class="text-black ">
+										<strong class="text-full-5 mb-3">
+											It's a small world!
 										</strong>
+										<br>
+										Ask Our Clients
 									</blockquote>
 								</div>
 								<p>
@@ -428,7 +430,7 @@
 					<div class="col-lg-7 col-md-6 col-12">
 						<div class="text-content">
 							<div class="title">
-								<p class="section-pill mb-3">Our Vision</p>
+								<!-- <p class="section-pill mb-3">Our Vision</p> -->
 								<h2 class="section-title"><span class="text-red">\L\</span>&nbsp;For Logistics</h2>
 							</div>
 							<div class="desc">
@@ -1401,7 +1403,7 @@
 							<div class="row justify-content">
 								<div class="col-xl-10 col-lg-11">
 									<div class="title">
-										<p class="section-pill mb-3">Our Network</p>
+										<!-- <p class="section-pill mb-3">Our Network</p> -->
 										<h2 class="section-title">Our International Network</h2>
 									</div>
 								</div>
@@ -1652,7 +1654,7 @@
 							<div class="row justify-content-end">
 								<div class="col-xl-10 col-lg-11">
 									<div class="title">
-										<p class="section-pill mb-3">Our Network</p>
+										<!-- <p class="section-pill mb-3">Our Network</p> -->
 										<h2 class="section-title">Our Domestic Network</h2>
 									</div>
 								</div>
@@ -1721,7 +1723,7 @@
 					<div class="row m-0 justify-content-end">
 						<div class="col-xl-5 col-lg-5 col-md-6 col-12">
 							<div class="title mx-3">
-								<p class="section-pill mb-3">Team Members</p>
+								<!-- <p class="section-pill mb-3">Team Members</p> -->
 								<h2 class="section-title">Our Proficient Team</h2>
 							</div>
 						</div>
@@ -1837,7 +1839,7 @@
 			<section id="testimonials">
 				<div class="container">
 					<div class="title text-center mb-3">
-						<p class="section-pill m-auto mb-3">Happy Clients</p>
+						<!-- <p class="section-pill m-auto mb-3">Happy Clients</p> -->
 						<h2 class="section-title">Trusted by our 365,000 Clients</h2>
 						<p>
 							Dramatically enhance interactive metrics for reliable services. Proactively unleash fully researched e-commerce.
