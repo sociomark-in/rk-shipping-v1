@@ -1772,7 +1772,7 @@
 													<h3>Vinay Krishnan</h3>
 												</div>
 												<div class="col-md-auto col-12">
-													<p>(Designation)</p>
+													<p></p>
 												</div>
 											</div>
 										</div>
@@ -1803,7 +1803,7 @@
 													<h3>Anita</h3>
 												</div>
 												<div class="col-md-auto col-12">
-													<p>(Designation)</p>
+													<p></p>
 												</div>
 											</div>
 										</div>
