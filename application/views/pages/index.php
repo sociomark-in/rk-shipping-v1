@@ -353,33 +353,70 @@
 								</div> -->
 								<div class="desc">
 									<ul class="widget-pointers_with_icon row m-0">
-										<li class="point d-flex gap-3 col-md-6 col-12">
-											<div class="icon _collaborative__customer"></div>
-											<div class="text">
-												Collaborative Customer Relationships
+										<div class="point gap-3 col-xl-3 col-md-6 mb-3 col-12">
+											<div class="card h-100">
+												<div class="card-body">
+													<div class="row m-0 g-0 justify-content-center">
+														<div class="col-auto mb-3">
+															<div class="icon _collaborative__customer"></div>
+														</div>
+														<div class="col-12">
+															<div class="text text-center">
+																Collaborative Customer Relationships
+															</div>
+														</div>
+													</div>
+												</div>
 											</div>
-										</li>
-										<li class="point d-flex gap-3 col-md-6 col-12">
-
-											<div class="icon _optimized__network"></div>
-											<div class="text">
-												Optimized Network to Save You Money
+										</div>
+										<div class="point gap-3 col-xl-3 col-md-6 mb-3 col-12">
+											<div class="card h-100">
+												<div class="card-body">
+													<div class="row m-0 g-0 justify-content-center">
+														<div class="col-auto mb-3">
+															<div class="icon _optimized__network"></div>
+														</div>
+														<div class="col-12">
+															<div class="text text-center">
+																Optimized Network to Save You Money
+															</div>
+														</div>
+													</div>
+												</div>
 											</div>
-										</li>
-										<li class="point d-flex gap-3 col-md-6 col-12">
-											<div class="icon _industry__expertise"></div>
-											<div class="text">
-												Proven Industry Expertise
+										</div>
+										<div class="point gap-3 col-xl-3 col-md-6 mb-3 col-12">
+											<div class="card h-100">
+												<div class="card-body">
+													<div class="row m-0 g-0 justify-content-center">
+														<div class="col-auto mb-3">
+															<div class="icon _industry__expertise"></div>
+														</div>
+														<div class="col-12">
+															<div class="text text-center">
+																Proven Industry Expertise
+															</div>
+														</div>
+													</div>
+												</div>
 											</div>
-										</li>
-										<li class="point d-flex gap-3 col-md-6 col-12">
-											<div class="icon _flexible__transportation">
-
+										</div>
+										<div class="point gap-3 col-xl-3 col-md-6 mb-3 col-12">
+											<div class="card h-100">
+												<div class="card-body">
+													<div class="row m-0 g-0 justify-content-center">
+														<div class="col-auto mb-3">
+															<div class="icon _flexible__transportation"></div>
+														</div>
+														<div class="col-12">
+															<div class="text text-center">
+																Flexible Transportation Solutions
+															</div>
+														</div>
+													</div>
+												</div>
 											</div>
-											<div class="text">
-												Flexible Transportation Solutions
-											</div>
-										</li>
+										</div>
 									</ul>
 								</div>
 							</div>
