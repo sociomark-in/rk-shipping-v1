@@ -19,22 +19,6 @@
 				<!-- Additional required wrapper -->
 				<div class="swiper-wrapper">
 					<!-- Slides -->
-					<div class="swiper-slide slide-01">
-						<div class="slide-content">
-							<div class="row h-100 align-items-center">
-								<div class="col-lg-6 col-10">
-									<div class="title">
-										<h2>Logistics Delivered Better</h2>
-									</div>
-									<div class="desc">
-										<p>
-											Twenty plus years in this business does gives us bragging rights to say we can do it better and ofcourse faster!
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
 					<div class="swiper-slide slide-02">
 						<div class="slide-content">
 							<div class="row h-100 align-items-center">
@@ -83,6 +67,22 @@
 										</p>
 										<p>
 											We win when you - <b>Our Customer</b> wins!
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide slide-01">
+						<div class="slide-content">
+							<div class="row h-100 align-items-center">
+								<div class="col-lg-6 col-10">
+									<div class="title">
+										<h2>Logistics Delivered Better</h2>
+									</div>
+									<div class="desc">
+										<p>
+											Twenty plus years in this business does gives us bragging rights to say we can do it better and ofcourse faster!
 										</p>
 									</div>
 								</div>
@@ -303,7 +303,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="swiper services-slider">
+					<div class="swiper services-slider d-none">
 						<!-- Additional required wrapper -->
 						<div class="swiper-wrapper">
 							<!-- Slides -->
@@ -354,24 +354,20 @@
 								<div class="desc">
 									<ul class="widget-pointers_with_icon row m-0">
 										<li class="point d-flex gap-3 col-md-6 col-12">
-											<div class="icon _collaborative__customer">
-											</div>
+											<div class="icon _collaborative__customer"></div>
 											<div class="text">
 												Collaborative Customer Relationships
 											</div>
 										</li>
 										<li class="point d-flex gap-3 col-md-6 col-12">
 
-											<div class="icon _optimized__network">
-											</div>
+											<div class="icon _optimized__network"></div>
 											<div class="text">
 												Optimized Network to Save You Money
 											</div>
 										</li>
 										<li class="point d-flex gap-3 col-md-6 col-12">
-											<div class="icon _industry__expertise">
-
-											</div>
+											<div class="icon _industry__expertise"></div>
 											<div class="text">
 												Proven Industry Expertise
 											</div>
