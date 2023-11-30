@@ -106,10 +106,7 @@
 				<div class="container">
 					<div class="title-text">
 						<h2 class="text-full-4 text-white">
-							<div class="d-flex justify-content-center">
-								<div data-aos="fade-right">Made to Manage</div>
-								<div data-aos="fade-left">&nbsp;Your Supply Chain</div>
-							</div>
+							Made to Manage Your Supply Chain
 						</h2>
 					</div>
 					<div class="desc-text">
