@@ -1955,7 +1955,7 @@
 								<picture>
 									<source media="(min-width: 768px)" srcset="<?= base_url() ?>assets/media/images/service/logistics_cartun_image.jpg">
 									<source srcset="<?= base_url() ?>assets/media/images/service/logistics_cartun_image.jpg">
-									<img src="<?= base_url() ?>assets/media/images/service/logistics_cartun_image.jpg" alt="Cartoon Image">
+									<img class="w-100" src="<?= base_url() ?>assets/media/images/service/logistics_cartun_image.jpg" alt="Cartoon Image">
 								</picture>
 							</div>
 						</div>
