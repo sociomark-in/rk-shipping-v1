@@ -101,7 +101,26 @@
 				<!-- <div class="swiper-scrollbar"></div> -->
 			</div>
 		</section>
-		<section class="text">
+		<section class="text_mtm">
+			<div class="wrapper text-center">
+				<div class="container">
+					<div class="title-text">
+						<h2 class="text-full-4 text-white">
+							<div class="d-flex justify-content-center">
+								<div data-aos="fade-right">Made to Manage</div>
+								<div data-aos="fade-left">&nbsp;Your Supply Chain</div>
+							</div>
+						</h2>
+					</div>
+					<div class="desc-text">
+						<p class="text-full-3 text-white">
+							We believe that in a world where Shipments have become Complex, a personal approach is key to ensure you get the most of your shipping experience
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="" class="d-none">
 			<div class="container-fluid">
 				<div class="row m-0 align-items-center">
 					<div class="col-xl-5 col-lg-6 col-12">

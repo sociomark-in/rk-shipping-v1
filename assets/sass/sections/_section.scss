@@ -285,6 +285,20 @@ main {
 				color: $color-white;
 			}
 		}
+		&.text_mtm{
+			padding-bottom: calc(max(25vw, 3rem));
+			background: url("../media/images/backgrounds/background_01.jpg") no-repeat;
+			background-size: cover;
+			background-position-y: bottom;
+			.title-text{
+				text-decoration: underline;
+				text-decoration-color: $color-white;
+				text-transform: uppercase;
+			}
+			.desc-text{
+				text-transform: capitalize;
+			}
+		}
 
 		&.gandhi-quote {
 			min-height: fit-content;

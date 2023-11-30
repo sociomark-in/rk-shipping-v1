@@ -12,7 +12,7 @@ $colors: (
 	.text-full-#{$i} {
 		@if($i > 5){
 			font-size: calc(max(#{$i}vw, 3rem)) !important;
-		} @elseif($i > 3){
+		} @else if($i > 3){
 			font-size: calc(max(#{$i}vw, 2rem)) !important;
 		} @else{
 			font-size: calc(max(#{$i}vw, 1.2rem)) !important;
