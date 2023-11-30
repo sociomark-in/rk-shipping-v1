@@ -103,8 +103,8 @@ main {
 					object-position: center;
 				}
 			}
-			.swiper{
-				.swiper-wrapper{
+			.swiper {
+				.swiper-wrapper {
 					align-items: center;
 					transition-timing-function: linear;
 				}
@@ -302,24 +302,66 @@ main {
 				}
 			}
 		}
-		&.text{
+		&.wraper_text {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
 			width: 100%;
-			min-height: max(12vh,6rem);
+			min-height: max(12vh, 6rem);
 			padding: 2rem 0;
 		}
+		&.text_tilted {
+			padding: 0;
+			padding-top: 0;
+			color: #1747b5;
+			overflow: hidden;
+			background: #98b5d1;
+			.text_special{
+				font-family: "Edo", sans-serif !important;
+			}
+			.text-content{
+				.text-highlighted{
+					color: $color-white;
+					width: fit-content;
+					background-color: #1747b5;
+					padding: 0 0.25rem;
+				}
+				blockquote{
+					font-size: calc(max(3.5vw, 2rem));
+					.equal{
+						font-size: calc(max(10vw, 3rem));
+						line-height: 0.7;
+					}
+				}
+			}
+			@media screen and (min-width: 1024px) {
+				blockquote {
+					width: fit-content;
+					position: relative;
+					transform-origin: 35% 0%;
+					transform: rotateZ(-35deg);
+				}
+			}
+		}
 	}
-	article.wrapper{
-		section.text{
+	article.wrapper {
+		section.wraper_text {
 			position: sticky;
 			top: 0;
 			left: 0;
 			width: 100%;
 			background-color: $color-white;
 			z-index: 20;
+		}
+	}
+}
+@media screen and (min-width: 1024px) {
+	section{
+		&.text-tilted{
+			background: url("../media/images/backgrounds/paper_texture_blue.jpg") repeat-x, #98b5d1;
+			background-size: 50% auto;
+			background-position: left;
 		}
 	}
 }

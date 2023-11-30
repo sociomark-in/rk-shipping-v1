@@ -8,10 +8,14 @@ $colors: (
 	"red": $color-red,
 );
 
-@for $i from 1 to 200 {
-	@if ($i % 10 == 0) {
-		.text-full-#{$i/10} {
-			font-size: calc(max(#{$i/10}vw, 3rem)) !important;
+@for $i from 1 to 10 {
+	.text-full-#{$i} {
+		@if($i > 5){
+			font-size: calc(max(#{$i}vw, 3rem)) !important;
+		} @elseif($i > 3){
+			font-size: calc(max(#{$i}vw, 2rem)) !important;
+		} @else{
+			font-size: calc(max(#{$i}vw, 1.2rem)) !important;
 		}
 	}
 }

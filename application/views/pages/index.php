@@ -331,10 +331,10 @@
 			</div>
 		</section>
 		<article class="wrapper">
-			<section class="text">
+			<section class="wraper_text">
 				<div class="container">
 					<div class="quote quote-xl text-center">
-						<blockquote class="text-black">
+						<blockquote class="text-black text-full-5">
 							<strong>
 								<div>Why Choose Us</div>
 							</strong>
@@ -1895,7 +1895,7 @@
 				</div>
 			</section>
 		</article>
-		<section class="text py-3 py-md-5">
+		<section class="text d-none py-3 py-md-5">
 			<div class="container-fluid">
 				<div class="row gap-3 m-0 align-items-center justify-content-center">
 					<div class="col-lg-auto col-12">
@@ -1925,6 +1925,54 @@
 									<div data-aos="fade-left">Better</div>
 								</strong>
 							</blockquote>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="text_tilted">
+			<div class="">
+				<div class="row m-0 g-0 align-items-center justify-content-center flex-row-reverse">
+					<div class="col-lg-6 col-12">
+						<div class="media-content">
+							<div class="wrap">
+								<picture>
+									<source media="(min-width: 768px)" srcset="<?= base_url() ?>assets/media/images/service/logistics_cartun_image.jpg">
+									<source srcset="<?= base_url() ?>assets/media/images/service/logistics_cartun_image.jpg">
+									<img src="<?= base_url() ?>assets/media/images/service/logistics_cartun_image.jpg" alt="Cartoon Image">
+								</picture>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-12">
+						<div class="text-content py-5 py-md-0">
+							<div class="quote quote-xl">
+								<blockquote class="text-uppercase">
+									<strong>
+										<div class="row m-0 g-0 align-items-center">
+											<div class="col-auto col-md-12">
+												<div class="text_special">
+													<div data-aos="fade-right">Logistics</div>
+													<div class="text-highlighted" data-aos="fade-right" data-aos-delay="100">Done</div>
+													<div data-aos="fade-left">Better</div>
+												</div>
+											</div>
+											<div class="col-auto col-md-12">
+												<div data-aos="fade-left" class="equal">=</div>
+
+											</div>
+											<div class="col-auto col-md-12">
+												<div class="text_special">
+													<div data-aos="fade-right">Logistics</div>
+													<div class="text-highlighted" data-aos="fade-right" data-aos-delay="100">Delivered</div>
+													<div data-aos="fade-left">Better</div>
+												</div>
+
+											</div>
+										</div>
+									</strong>
+								</blockquote>
+							</div>
 						</div>
 					</div>
 				</div>
