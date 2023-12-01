@@ -176,6 +176,13 @@ main {
 					}
 				}
 			}
+			&#world-map{
+				padding: 0;
+				background-color: #2756da;
+				ul li::before{
+					border-color: transparent yellow;
+				}
+			}
 		}
 		&#testimonials {
 			min-height: fit-content;
