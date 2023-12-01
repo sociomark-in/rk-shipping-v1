@@ -215,16 +215,6 @@ $colors: (
 	border: none;
 	background: none;
 	position: relative;
-	@media screen and (min-width: 1024px) {
-		&.relative-top {
-			position: relative;
-			top: -7rem;
-		}
-		.image {
-			top: 5%;
-			left: -10%;
-		}
-	}
 	.image {
 		position: absolute;
 		width: max(6vw, 3rem);
@@ -234,6 +224,16 @@ $colors: (
 		overflow: hidden;
 		top: 10%;
 		left: 3%;
+	}
+	@media screen and (min-width: 1024px) {
+		&.relative-top {
+			position: relative;
+			top: -7rem;
+		}
+		.image {
+			top: 5%;
+			left: -10%;
+		}
 	}
 	.card-header {
 		background: transparent;
