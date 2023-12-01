@@ -10,11 +10,11 @@ $colors: (
 
 @for $i from 1 to 10 {
 	.text-full-#{$i} {
-		@if($i > 5){
+		@if ($i > 5) {
 			font-size: calc(max(#{$i}vw, 3rem)) !important;
-		} @else if($i > 3){
+		} @else if($i > 3) {
 			font-size: calc(max(#{$i}vw, 2rem)) !important;
-		} @else{
+		} @else {
 			font-size: calc(max(#{$i}vw, 1.2rem)) !important;
 		}
 	}
@@ -220,16 +220,20 @@ $colors: (
 			position: relative;
 			top: -7rem;
 		}
+		.image {
+			top: 5%;
+			left: -10%;
+		}
 	}
 	.image {
 		position: absolute;
-		top: 5%;
-		left: -10%;
 		width: max(6vw, 3rem);
 		aspect-ratio: 1;
 		background-color: $color-white;
 		border-radius: 50%;
 		overflow: hidden;
+		top: 10%;
+		left: 3%;
 	}
 	.card-header {
 		background: transparent;
