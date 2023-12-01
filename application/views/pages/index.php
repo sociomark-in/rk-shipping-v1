@@ -246,13 +246,13 @@
 					<div class="row g-0 justify-content-center">
 						<div class="col-lg-9 col-md-10 col-12">
 							<div class="services swiper">
-								<div class="swiper-wrapper">
+								<div class="swiper-wrapper align-items-start">
 									<!-- Sea / Air Fright -->
 									<div class="swiper-slide">
 										<div class="card widget-service-card freight-service">
 											<div class="icon _sea__air__fright">
 											</div>
-											<div class="h-100 card-body">
+											<div class="card-body">
 												<h4 class="card-title">Sea / Air Fright</h4>
 												<p class="card-text">
 													Direct & Consolidated airfreight/sea freight services world-wide.Preferential bookings covering door to door delivery, time sensitive shipments, dangerous goods and out of gauge cargo. Coordination with Lines and tracking of consignments for freight movement control till final delivery to enable customer to plan distribution and disbursement logistics of goods even before arrival. <br>
@@ -269,7 +269,7 @@
 										<div class="card widget-service-card freight-service">
 											<div class="icon _custom__clearance">
 											</div>
-											<div class="h-100 card-body">
+											<div class="card-body">
 												<h4 class="card-title">Custom Clearance</h4>
 												<p class="card-text">
 													Our Mumbai team is an expert in handling even the most complex Indian customs procedures, guaranteeing seamless transactions for our clients. Our range of air freight, forwarding, shipping, and transportation solutions come at a reasonable cost, all while holding the necessary government licenses. With our industry experience, we add significant value to our clients' supply-chain operations.
@@ -285,7 +285,7 @@
 										<div class="card widget-service-card freight-service">
 											<div class="icon _warehousing">
 											</div>
-											<div class="h-100 card-body">
+											<div class="card-body">
 												<h4 class="card-title">Warehousing</h4>
 												<p class="card-text">
 													Exclusive warehousing contracts with warehouses located inside mumbai and outside mumbai enable us to provide our clients with safe / better rent to our clients.We also can arrange for goods to be stored in Bonded warehouse within and outside mumbai limits.
@@ -301,7 +301,7 @@
 										<div class="card widget-service-card freight-service">
 											<div class="icon _transport__planning">
 											</div>
-											<div class="h-100 card-body">
+											<div class="card-body">
 												<h4 class="card-title">Transport Planning</h4>
 												<p class="card-text">
 													Inland surface transportation, Full & Part Container loads loaded at your door or from our premises. <br>
@@ -321,7 +321,7 @@
 					</div>
 					<div class="swiper services-slider d-none">
 						<!-- Additional required wrapper -->
-						<div class="swiper-wrapper align-items-start">
+						<div class="swiper-wrapper">
 							<!-- Slides -->
 							<!-- <div class="swiper-slide">
 								<div class="widget-service-card card">
@@ -333,7 +333,7 @@
 							</div> -->
 							<?php foreach ($services as $service) : ?>
 								<div class="swiper-slide">
-									<div class="widget-service-card card">
+									<div class="widget-service-card card h-100">
 										<div class="card-body text-center">
 											<!-- <h3><?= $service[0] ??= "" ?></h3> -->
 											<h5><?= $service[0] ??= "" ?></h5>
