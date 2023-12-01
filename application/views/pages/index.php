@@ -321,7 +321,7 @@
 					</div>
 					<div class="swiper services-slider d-none">
 						<!-- Additional required wrapper -->
-						<div class="swiper-wrapper">
+						<div class="swiper-wrapper align-items-start">
 							<!-- Slides -->
 							<!-- <div class="swiper-slide">
 								<div class="widget-service-card card">
@@ -333,7 +333,7 @@
 							</div> -->
 							<?php foreach ($services as $service) : ?>
 								<div class="swiper-slide">
-									<div class="widget-service-card card h-100">
+									<div class="widget-service-card card">
 										<div class="card-body text-center">
 											<!-- <h3><?= $service[0] ??= "" ?></h3> -->
 											<h5><?= $service[0] ??= "" ?></h5>
