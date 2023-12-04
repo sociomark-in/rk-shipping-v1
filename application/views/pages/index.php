@@ -955,7 +955,7 @@
 		</article>
 		<section class="text d-none py-3 py-md-5">
 			<div class="container-fluid">
-				<div class="row gap-3 m-0 align-items-center justify-content-center">
+				<div class="row gap-3 m-0 align-items-center justify-content-between px-3">
 					<div class="col-lg-auto col-12">
 						<div class="quote quote-xl">
 							<blockquote class="text-black text-full-5 text-uppercase">
