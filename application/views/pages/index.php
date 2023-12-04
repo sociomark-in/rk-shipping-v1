@@ -1007,7 +1007,7 @@
 							<div class="quote quote-xl">
 								<blockquote class="text-uppercase">
 									<strong>
-										<div class="row m-0 g-0 align-items-center">
+										<div class="row m-0 g-0 align-items-center justify-content-between px-3">
 											<div class="col-auto col-md-12">
 												<div class="text_special">
 													<div data-aos="fade-right">Logistics</div>
