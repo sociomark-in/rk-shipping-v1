@@ -220,6 +220,7 @@ $colors: (
 		width: max(6vw, 3rem);
 		aspect-ratio: 1;
 		background-color: $color-white;
+		filter: grayscale(1);
 		border-radius: 50%;
 		overflow: hidden;
 		top: 10%;
