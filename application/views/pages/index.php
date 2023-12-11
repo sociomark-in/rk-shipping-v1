@@ -19,6 +19,22 @@
 				<!-- Additional required wrapper -->
 				<div class="swiper-wrapper">
 					<!-- Slides -->
+					<div class="swiper-slide slide-01">
+						<div class="slide-content">
+							<div class="row h-100 align-items-center">
+								<div class="col-lg-6 col-10">
+									<div class="title">
+										<h2>Logistics Delivered Better</h2>
+									</div>
+									<div class="desc">
+										<p>
+											Twenty plus years in this business does gives us bragging rights to say we can do it better and ofcourse faster!
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 					<div class="swiper-slide slide-02">
 						<div class="slide-content">
 							<div class="row h-100 align-items-center">
@@ -73,22 +89,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="swiper-slide slide-01">
-						<div class="slide-content">
-							<div class="row h-100 align-items-center">
-								<div class="col-lg-6 col-10">
-									<div class="title">
-										<h2>Logistics Delivered Better</h2>
-									</div>
-									<div class="desc">
-										<p>
-											Twenty plus years in this business does gives us bragging rights to say we can do it better and ofcourse faster!
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+
 				</div>
 				<!-- If we need pagination -->
 				<!-- <div class="swiper-pagination"></div> -->
@@ -101,7 +102,7 @@
 				<!-- <div class="swiper-scrollbar"></div> -->
 			</div>
 		</section>
-		<section class="text_mtm">
+		<section class="text_mtm d-none">
 			<div class="wrapper text-center">
 				<div class="container">
 					<div class="title-text">
@@ -173,16 +174,26 @@
 							</div>
 							<div class="desc">
 								<div class="quote">
-									<blockquote class="text-black ">
+									<blockquote class="d-none text-black ">
 										<strong class="text-full-5 mb-3">
 											It's a small world!
 										</strong>
 										<br>
 										Ask Our Clients
 									</blockquote>
+									<blockquote class="text-black ">
+										<strong class="text-full-5 mb-3">
+											Made to Manage...
+										</strong>
+										<br>
+										Your Supply Chain
+									</blockquote>
 								</div>
 								<p>
 									At <strong>Proficient Cargo Services India LLP</strong>, we're more than just a logistics company; we're your reliable partner for seamless international logistics solutions. Our mission is to serve the Indian industry and business community by offering a comprehensive suite of integrated shipping services. These include Container, Shipping, Forwarding, Transportation, Warehousing, Air Freight, Consolidation, Door to Door Delivery Services, Heavy Lift Transportation, and Special Project Handling. With our advanced facilities and a dedicated team of professionals, we deliver services with the highest level of professionalism.
+								</p>
+								<p>
+									We believe that in a world where Shipments have become Complex, a personal approach is key to ensure you get the most of your shipping experience
 								</p>
 								<p>
 									We offer unmatched door to door services from all over the world.
@@ -470,6 +481,14 @@
 			<section id="vision">
 				<div class="row m-0">
 					<div class="col-lg-5 col-md-6 col-12">
+						<div class="row m-0 mb-3 align-items-center justify-content-center">
+							<div class="col-auto">
+								<img src="<?= base_url('assets/media/images/') ?>icon/values.png" height="100" alt="">
+							</div>
+							<div class="col-md-auto col-12">
+								<h4>Values</h4>
+							</div>
+						</div>
 						<div class="media-content">
 							<div class="wrap">
 								<img src="<?= base_url('assets/media/images/gandhi/') ?>quote-01.png" alt="Gandhi Quote 01">
@@ -477,6 +496,28 @@
 						</div>
 					</div>
 					<div class="col-lg-7 col-md-6 col-12">
+						<div class="row g-0 m-0 mb-3 align-items-center">
+							<div class="col-lg-6 col-12">
+								<div class="row m-0 mb-3 align-items-center">
+									<div class="col-auto">
+										<img src="<?= base_url('assets/media/images/') ?>icon/vision.png" height="100" alt="">
+									</div>
+									<div class="col-md col-12">
+										<h4>Vision</h4>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-12">
+								<div class="row m-0 mb-3 align-items-center">
+									<div class="col-auto">
+										<img src="<?= base_url('assets/media/images/') ?>icon/mission.png" height="100" alt="">
+									</div>
+									<div class="col-md col-12">
+										<h4>Mission</h4>
+									</div>
+								</div>
+							</div>
+						</div>
 						<div class="text-content">
 							<div class="title">
 								<!-- <p class="section-pill mb-3">Our Vision</p> -->
@@ -953,7 +994,7 @@
 				</div>
 			</section>
 		</article>
-		<section class="text d-none py-3 py-md-5">
+		<!-- <section class="text d-none py-3 py-md-5">
 			<div class="container-fluid">
 				<div class="row gap-3 m-0 align-items-center justify-content-between px-3">
 					<div class="col-lg-auto col-12">
@@ -987,22 +1028,22 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<section class="text_tilted">
 			<div class="">
-				<div class="row m-0 g-0 align-items-center justify-content-center flex-row-reverse">
-					<div class="col-lg-6 col-12">
+				<div class="row m-0 flex-row-reverse">
+					<div class="col-xl-8 col-lg-7 col-md-6 col-12 p-0">
 						<div class="media-content">
 							<div class="wrap">
 								<picture>
-									<source media="(min-width: 768px)" srcset="<?= base_url() ?>assets/media/images/service/logistics_cartun_image.jpg">
-									<source srcset="<?= base_url() ?>assets/media/images/service/logistics_cartun_image.jpg">
-									<img class="w-100" src="<?= base_url() ?>assets/media/images/service/logistics_cartun_image.jpg" alt="Cartoon Image">
+									<source media="(min-width: 768px)" srcset="<?= base_url() ?>assets/media/images/containers-stack.jpg">
+									<source srcset="<?= base_url() ?>assets/media/images/containers-stack.jpg">
+									<img class="w-100" src="<?= base_url() ?>assets/media/images/containers-stack.jpg" alt="Cartoon Stack">
 								</picture>
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-6 col-12">
+					<div class="col-xl-4 col-lg-5 col-md-6 col-12">
 						<div class="text-content py-5 py-md-0">
 							<div class="quote quote-xl">
 								<blockquote class="text-uppercase">
@@ -1049,55 +1090,16 @@
 			</div>
 			<div class="text-content">
 				<div class="contact-section">
-					<div class="container-fluid">
-						<div class="row m-0 align-items-center">
-							<div class="col-lg-6 col-12">
-								<div class="quote quote-xl">
-									<blockquote class="text-black">
-										<strong>
-											<div data-aos="fade-left" data-aos-delay="300" class="text-light">
-												Experience How Logistics is Done & Delivered Better...
-											</div>
-										</strong>
-									</blockquote>
-								</div>
-								<div class="card widget-glassy-card d-none">
-									<div class="card-header">
-										<h4>Get a Quote</h4>
-									</div>
-									<div class="card-body widget-glassy-form">
-										<form action="" method="post">
-											<div class="row m-0">
-												<div class="col-lg-6 col-12">
-													<div class="mb-3">
-														<label class="form-label" for="">Your Name</label>
-														<input type="text" class="form-control">
-													</div>
-												</div>
-												<div class="col-lg-6 col-12">
-													<div class="mb-3">
-														<label class="form-label" for="">Your Contact Number</label>
-														<input type="number" min="0" maxlength="10" minlength="10" class="form-control">
-													</div>
-												</div>
-												<div class="col-12">
-													<div class="mb-3">
-														<label class="form-label" for="">Your Email Address</label>
-														<input type="text" class="form-control">
-													</div>
-												</div>
-												<div class="col-12">
-													<div class="mb-3">
-														<label class="form-label" for="">Your Message</label>
-														<textarea class="form-control" placeholder="What do you want today...."></textarea>
-													</div>
-												</div>
-												<div class="col-12">
-													<button type="submit" class="btn btn-primary me-2">submit</button>
-													<button type="reset" class="btn btn-white-outline me-2">Clear</button>
-												</div>
-											</div>
-										</form>
+					<div class="">
+						<div class="row m-0">
+							<div class="col-lg-6 col-12 p-0">
+								<div class="media-content">
+									<div class="wrap">
+										<picture>
+											<source media="(min-width: 768px)" srcset="<?= base_url() ?>assets/media/images/happy-customer.jpg">
+											<source srcset="<?= base_url() ?>assets/media/images/happy-customer.jpg">
+											<img class="w-100" src="<?= base_url() ?>assets/media/images/happy-customer.jpg" alt="Happy Customer">
+										</picture>
 									</div>
 								</div>
 							</div>
@@ -1106,6 +1108,16 @@
 									<div class="container">
 										<div class="row m-0">
 											<div class="col-12">
+												<div class="quote text-full-3">
+													<blockquote class="text-black">
+														<strong>
+															<div data-aos="fade-left" data-aos-delay="300" class="text-light">
+																Experience How Logistics is Done & Delivered Better...
+															</div>
+														</strong>
+													</blockquote>
+												</div>
+												<hr>
 												<div class="title mb-3">
 													<!-- <p class="section-pill mb-3">Contact Us</p> -->
 													<h2 class="section-title">Get in touch with Us</h2>

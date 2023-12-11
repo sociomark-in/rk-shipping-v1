@@ -209,6 +209,19 @@ main {
 			position: relative;
 			padding: 0;
 			min-height: fit-content;
+			.media-content{
+				width: 100%;
+				height: 100%;
+				.wrap{
+					width: 100%;
+					height: 100%;
+					img{
+						width: 100%;
+						height: 100%;
+						object-fit: cover;
+					}
+				}
+			}
 			.videowrapper {
 				position: absolute;
 				z-index: 0;
@@ -227,8 +240,6 @@ main {
 			.text-content {
 				position: relative;
 				z-index: 1;
-				padding: calc(max(5%, 1rem)) 0;
-				padding-top: calc(max(7%, 1.5rem));
 				min-height: fit-content;
 				background-color: rgba($color-primary-dark, 0.8);
 				.contact-footer {
@@ -338,8 +349,21 @@ main {
 			color: #1747b5;
 			overflow: hidden;
 			background: #98b5d1;
+			.media-content{
+				width: 100%;
+				height: 100%;
+				.wrap{
+					width: 100%;
+					height: 100%;
+					img{
+						width: 100%;
+						height: 100%;
+						object-fit: cover;
+					}
+				}
+			}
 			.text_special{
-				font-family: "Edo", sans-serif !important;
+				// font-family: "Edo", sans-serif !important;
 			}
 			.text-content{
 				.text-highlighted{
@@ -349,19 +373,11 @@ main {
 					padding: 0 0.25rem;
 				}
 				blockquote{
-					font-size: calc(max(3.5vw, 2rem));
+					font-size: calc(max(4vw, 2rem));
 					.equal{
 						font-size: calc(max(10vw, 3rem));
 						line-height: 0.7;
 					}
-				}
-			}
-			@media screen and (min-width: 1024px) {
-				blockquote {
-					width: fit-content;
-					position: relative;
-					transform-origin: 35% 0%;
-					transform: rotateZ(-35deg);
 				}
 			}
 		}
