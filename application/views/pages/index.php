@@ -103,6 +103,7 @@
 				<!-- <div class="swiper-scrollbar"></div> -->
 			</div>
 		</section>
+		<iframe src="<?= base_url() ?>assets/media/audio.mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe> 
 		<audio controls autoplay>
 			<source src="<?= base_url() ?>assets/media/audio.mp3" type="audio/mp3">
 			<!-- <source src="<?= base_url() ?>assets/media/audio.ogg" type="audio/ogg"> -->
