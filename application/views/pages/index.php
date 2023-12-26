@@ -705,7 +705,8 @@
 											</div>
 										</div>
 										<div class="image">
-											<img src="<?= base_url() ?>assets/media/images/team/vinay_profile_400x400.jpg" alt="Vinay 400x400">
+											<!-- <img src="<?= base_url() ?>assets/media/images/team/vinay_profile_400x400.jpg" alt="Vinay 400x400"> -->
+											<img src="<?= base_url() ?>assets/media/images/team/vinay_profile.jpg" alt="Vinay Photo">
 										</div>
 										<div class="card-body">
 											<div class="text-content">
