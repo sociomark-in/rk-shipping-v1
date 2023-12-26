@@ -104,7 +104,7 @@
 			</div>
 		</section>
 		<audio controls autoplay id="backgroundAudio">
-			<source src="<?= base_url() ?>assets/media/audio.mp3" type="audio/mpeg">
+			<source src="<?= base_url() ?>assets/media/audio.mp3" type="audio/mp3">
 			<source src="<?= base_url() ?>assets/media/audio.ogg" type="audio/ogg">
 			Your browser does not support the audio element.
 		</audio>
