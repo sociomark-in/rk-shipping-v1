@@ -9,6 +9,7 @@
 
 <body>
 	<?php $this->load->view('components/_scrollto') ?>
+
 	<header>
 		<?php $this->load->view('components/_common_nav') ?>
 	</header>
@@ -102,6 +103,15 @@
 				<!-- <div class="swiper-scrollbar"></div> -->
 			</div>
 		</section>
+		<audio controls autoplay id="backgroundAudio">
+			<source src="<?= base_url() ?>assets/media/audio.mp3" type="audio/mpeg">
+			<source src="<?= base_url() ?>assets/media/audio.ogg" type="audio/ogg">
+			Your browser does not support the audio element.
+		</audio>
+		<script>
+			var audio = document.getElementById('backgroundAudio');
+			audio.play();
+		</script>
 		<section class="text_mtm d-none">
 			<div class="wrapper text-center">
 				<div class="container">
@@ -478,6 +488,31 @@
 					</div>
 				</div>
 			</section>
+			<section id="testimonials">
+				<div class="container">
+					<div class="title text-center mb-3">
+						<!-- <p class="section-pill m-auto mb-3">Happy Clients</p> -->
+						<h2 class="section-title">Trusted by our 365,000 Clients</h2>
+						<p>
+							Dramatically enhance interactive metrics for reliable services. Proactively unleash fully researched e-commerce.
+						</p>
+					</div>
+					<div class="row justify-content-center">
+						<div class="col-lg-3 col-md-6 col-12">
+							<img src="<?= base_url() ?>assets/media/images/testimonial/aeo.jpg" alt="FFFAI" class="w-100">
+						</div>
+						<div class="col-lg-3 col-md-6 col-12">
+							<img src="<?= base_url() ?>assets/media/images/testimonial/fffai.jpg" alt="FFFAI" class="w-100">
+						</div>
+						<div class="col-lg-3 col-md-6 col-12">
+							<img src="<?= base_url() ?>assets/media/images/testimonial/bchaa.jpg" alt="BCHAA" class="w-100">
+						</div>
+						<div class="col-lg-3 col-md-6 col-12">
+							<img src="<?= base_url() ?>assets/media/images/testimonial/fiata.jpg" alt="FIATA" class="w-100">
+						</div>
+					</div>
+				</div>
+			</section>
 			<section id="vision">
 				<div class="row m-0">
 					<div class="col-lg-5 col-md-6 col-12">
@@ -767,31 +802,6 @@
 									</div>
 								</div>
 							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section id="testimonials">
-				<div class="container">
-					<div class="title text-center mb-3">
-						<!-- <p class="section-pill m-auto mb-3">Happy Clients</p> -->
-						<h2 class="section-title">Trusted by our 365,000 Clients</h2>
-						<p>
-							Dramatically enhance interactive metrics for reliable services. Proactively unleash fully researched e-commerce.
-						</p>
-					</div>
-					<div class="row justify-content-center">
-						<div class="col-lg-3 col-md-6 col-12">
-							<img src="<?= base_url() ?>assets/media/images/testimonial/aeo.jpg" alt="FFFAI" class="w-100">
-						</div>
-						<div class="col-lg-3 col-md-6 col-12">
-							<img src="<?= base_url() ?>assets/media/images/testimonial/fffai.jpg" alt="FFFAI" class="w-100">
-						</div>
-						<div class="col-lg-3 col-md-6 col-12">
-							<img src="<?= base_url() ?>assets/media/images/testimonial/bchaa.jpg" alt="BCHAA" class="w-100">
-						</div>
-						<div class="col-lg-3 col-md-6 col-12">
-							<img src="<?= base_url() ?>assets/media/images/testimonial/fiata.jpg" alt="FIATA" class="w-100">
 						</div>
 					</div>
 				</div>
