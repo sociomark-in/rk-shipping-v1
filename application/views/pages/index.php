@@ -833,9 +833,21 @@
 				</div>
 			</div>
 		</section> -->
-		<section class="text_tilted">
-			<div class="">
-				<div class="row m-0 flex-row-reverse">
+		<section class="video_overlay text_tilted">
+			<div class="videowrapper">
+				<video id="myVideomob" class="res-video" muted loop autoplay poster="<?= base_url('assets/media/images/') ?>posters/video-poster-img.jpg">
+					<source src="<?= base_url('assets/media/images/') ?>video/My-Video2.mp4" type="video/mp4">
+					<source src="<?= base_url('assets/media/images/') ?>video/My-Video2.mp4" type="video/webm">
+				</video>
+				<div class="vidbuttons">
+					<button type="button" class="play playpausebtn" style="display: none;"></button>
+					<button type="button" class="pause playpausebtn" style="display: block;"></button>
+				</div>
+			</div>
+			<div class="text-content">
+				<div class="contact-section">
+					<div class="">
+					<div class="row m-0 flex-row-reverse">
 					<div class="col-xl-8 col-lg-7 col-md-6 col-12 p-0">
 						<div class="media-content">
 							<div class="wrap">
@@ -848,8 +860,8 @@
 						</div>
 					</div>
 					<div class="col-xl-4 col-lg-5 col-md-6 col-12">
-						<div class="text-content py-5 py-md-0">
-							<div class="quote quote-xl">
+						<div class="py-5 p-3">
+							<div class="quote quote-xl text-white">
 								<blockquote class="text-uppercase">
 									<strong>
 										<div class="row m-0 g-0 align-items-center justify-content-between px-3">
@@ -879,9 +891,11 @@
 						</div>
 					</div>
 				</div>
+					</div>
+				</div>
 			</div>
 		</section>
-		<section id="contact-us">
+		<section class="video_overlay">
 			<div class="videowrapper">
 				<video id="myVideomob" class="res-video" muted loop autoplay poster="<?= base_url('assets/media/images/') ?>posters/video-poster-img.jpg">
 					<source src="<?= base_url('assets/media/images/') ?>video/My-Video2.mp4" type="video/mp4">
