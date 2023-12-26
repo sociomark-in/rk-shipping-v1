@@ -848,50 +848,50 @@
 			<div class="text-content">
 				<div class="contact-section">
 					<div class="">
-					<div class="row m-0 flex-row-reverse">
-					<div class="col-xl-8 col-lg-7 col-md-6 col-12 p-0">
-						<div class="media-content">
-							<div class="wrap">
-								<picture>
-									<source media="(min-width: 768px)" srcset="<?= base_url() ?>assets/media/images/containers-stack.jpg">
-									<source srcset="<?= base_url() ?>assets/media/images/containers-stack.jpg">
-									<img class="w-100" src="<?= base_url() ?>assets/media/images/containers-stack.jpg" alt="Cartoon Stack">
-								</picture>
+						<div class="row m-0 flex-row-reverse">
+							<div class="col-md-6 col-12 p-0">
+								<div class="media-content">
+									<div class="wrap">
+										<picture>
+											<source media="(min-width: 768px)" srcset="<?= base_url() ?>assets/media/images/containers-stack.jpg">
+											<source srcset="<?= base_url() ?>assets/media/images/containers-stack.jpg">
+											<img class="w-100" src="<?= base_url() ?>assets/media/images/containers-stack.jpg" alt="Cartoon Stack">
+										</picture>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-5 col-lg-4 col-md-6 col-12">
+								<div class="py-5 p-3">
+									<div class="quote quote-xl text-white">
+										<blockquote class="text-uppercase">
+											<strong>
+												<div class="row m-0 g-0 align-items-center justify-content-between px-3">
+													<div class="col-auto col-md-12">
+														<div class="text_special">
+															<div data-aos="fade-right">Logistics</div>
+															<div class="text-highlighted" data-aos="fade-right" data-aos-delay="100">Done</div>
+															<div data-aos="fade-left">Better</div>
+														</div>
+													</div>
+													<div class="col-auto col-md-12">
+														<div data-aos="fade-left" class="equal">=</div>
+
+													</div>
+													<div class="col-auto col-md-12">
+														<div class="text_special">
+															<div data-aos="fade-right">Logistics</div>
+															<div class="text-highlighted" data-aos="fade-right" data-aos-delay="100">Delivered</div>
+															<div data-aos="fade-left">Better</div>
+														</div>
+
+													</div>
+												</div>
+											</strong>
+										</blockquote>
+									</div>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-xl-4 col-lg-5 col-md-6 col-12">
-						<div class="py-5 p-3">
-							<div class="quote quote-xl text-white">
-								<blockquote class="text-uppercase">
-									<strong>
-										<div class="row m-0 g-0 align-items-center justify-content-between px-3">
-											<div class="col-auto col-md-12">
-												<div class="text_special">
-													<div data-aos="fade-right">Logistics</div>
-													<div class="text-highlighted" data-aos="fade-right" data-aos-delay="100">Done</div>
-													<div data-aos="fade-left">Better</div>
-												</div>
-											</div>
-											<div class="col-auto col-md-12">
-												<div data-aos="fade-left" class="equal">=</div>
-
-											</div>
-											<div class="col-auto col-md-12">
-												<div class="text_special">
-													<div data-aos="fade-right">Logistics</div>
-													<div class="text-highlighted" data-aos="fade-right" data-aos-delay="100">Delivered</div>
-													<div data-aos="fade-left">Better</div>
-												</div>
-
-											</div>
-										</div>
-									</strong>
-								</blockquote>
-							</div>
-						</div>
-					</div>
-				</div>
 					</div>
 				</div>
 			</div>
