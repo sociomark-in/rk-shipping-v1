@@ -2,6 +2,40 @@
 	<img src="<?= base_url() ?>assets/media/images/icon/scrollto-icon.png" alt="Scroll To Top">
 </div>
 
+<div class="audio_play_pause">
+
+</div>
+
+<audio controls autoplay class="d-none" id="backgroundSound">
+	<source src="<?= base_url() ?>assets/media/audio.mp3" type="audio/mp3">
+	<!-- <source src="<?= base_url() ?>assets/media/audio.ogg" type="audio/ogg"> -->
+	Your browser does not support the audio element.
+</audio>
+<button type="button" class="btn btn-primary" id="audioPlayBtn">Sound&nbsp;&nbsp;<span></span></button>
+<style>
+	#audioPlayBtn{
+		position: fixed;
+		bottom: 5%;
+		left: 5%;
+		z-index: 9999;
+	}
+</style>
+<script>
+	var audio = document.getElementById("backgroundSound");
+	audio.volume = 0.3;
+	$('#audioPlayBtn span').html('<i class="fa-solid fa-pause"></i>');
+
+	$('#audioPlayBtn').on('click', ()=>{
+		if(!audio.paused){
+			$('#audioPlayBtn span').html('<i class="fa-solid fa-play"></i>');
+			audio.pause();
+		} else {
+			$('#audioPlayBtn span').html('<i class="fa-solid fa-pause"></i>');
+			audio.play();
+		}
+	})
+</script>
+
 <script>
 	$(document).ready(function() {
 		$(window).scroll(function() {
