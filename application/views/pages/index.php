@@ -331,6 +331,12 @@
 							</div>
 						</div>
 					</div>
+					<div class="services_all_img">
+						<picture>
+							<source media="(min-width: 512px)" srcset="<?= base_url() ?>assets/media/images/services_all_h.png">
+							<img src="<?= base_url() ?>assets/media/images/services_all.png" alt="All Services">
+						</picture>
+					</div>
 					<div class="swiper services-slider d-none">
 						<!-- Additional required wrapper -->
 						<div class="swiper-wrapper">
