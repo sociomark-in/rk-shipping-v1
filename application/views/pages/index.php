@@ -959,12 +959,11 @@
 															</div>
 															<div class="col-md col-12">
 																<div class="title">
-																	<h3>office Address</h3>
+																	<h3>Office Address</h3>
 																</div>
 																<div class="desc">
 																	<p>
-																		CONCORDE, Office Nr 901-903, 9th Floor, Plot Nr 66A , <br>
-																		Sector 11, CBD Belapur , Navi Mumbai 400614.
+																		Valji Shyamji Building,Room No 8,273 Shahid Bhagat Singh Road, Fort, Mumbai 400001
 																	</p>
 																</div>
 															</div>
