@@ -191,7 +191,7 @@
 									</blockquote>
 								</div>
 								<p>
-									At <strong>Proficient Cargo Services India LLP</strong>, we're more than just a logistics company; we're your reliable partner for seamless international logistics solutions. Our mission is to serve the Indian industry and business community by offering a comprehensive suite of integrated shipping services. These include Container, Shipping, Forwarding, Transportation, Warehousing, Air Freight, Consolidation, Door to Door Delivery Services, Heavy Lift Transportation, and Special Project Handling. With our advanced facilities and a dedicated team of professionals, we deliver services with the highest level of professionalism.
+									At <strong>R K Shipping India LLP</strong>, we're more than just a logistics company; we're your reliable partner for seamless international logistics solutions. Our mission is to serve the Indian industry and business community by offering a comprehensive suite of integrated shipping services. These include Container, Shipping, Forwarding, Transportation, Warehousing, Air Freight, Consolidation, Door to Door Delivery Services, Heavy Lift Transportation, and Special Project Handling. With our advanced facilities and a dedicated team of professionals, we deliver services with the highest level of professionalism.
 								</p>
 								<p>
 									We believe that in a world where Shipments have become Complex, a personal approach is key to ensure you get the most of your shipping experience
@@ -201,7 +201,7 @@
 								</p>
 								<div class="read-more collapsed" aria-controlled-by="expand-btn">
 									<p>
-										Proficient Services was established to provide the Indian industry and business community with integrated shipping related services ranging from Container, Shipping, Forwarding, Transportation, Warehousing, Air Freighting, Consolidation, Door to Door Delivery Services, Heavy Lift Transportation and Special Project Handling etc. We are fully geared with facilities and manpower to provide services to our client with a high standard of professionalism. Our combined existing networks and experience in the Air Freighting, Forwarding, Shipping, Transportation and warehousing gives us the edge over our competitors to become a one stop Shipping and Air Freighting agency catering effectively to the complex needs of our clients.
+										R K Shipping Services was established to provide the Indian industry and business community with integrated shipping related services ranging from Container, Shipping, Forwarding, Transportation, Warehousing, Air Freighting, Consolidation, Door to Door Delivery Services, Heavy Lift Transportation and Special Project Handling etc. We are fully geared with facilities and manpower to provide services to our client with a high standard of professionalism. Our combined existing networks and experience in the Air Freighting, Forwarding, Shipping, Transportation and warehousing gives us the edge over our competitors to become a one stop Shipping and Air Freighting agency catering effectively to the complex needs of our clients.
 									</p>
 									<h5>'IT'S A SMALL WORLD' Ask our clients</h5>
 									<p>
@@ -215,7 +215,7 @@
 							<div class="cta py-3">
 								<div class="persona row g-0 m-0 justify-content-between">
 									<div class="col-md-auto col-12 mb-3">
-										<a href="<?= base_url() ?>assets/brochure_2023.pdf" title="Proficient Brochure <?= date("Y") ?>" class="btn btn-lg btn-primary"><i class="fa-regular fa-file-pdf me-2"></i>Download Our Brochure</a>
+										<!-- <a href="<?= base_url() ?>assets/brochure_2023.pdf" title="Proficient Brochure <?= date("Y") ?>" class="btn btn-lg btn-primary"><i class="fa-regular fa-file-pdf me-2"></i>Download Our Brochure</a> -->
 									</div>
 									<div class="col-md-auto col-12 widget-signature text-center d-none">
 										<div class="d-flex gap-3">
@@ -691,7 +691,7 @@
 						<div class="col-xl-5 col-lg-5 col-md-6 col-12">
 							<div class="title mx-3">
 								<!-- <p class="section-pill mb-3">Team Members</p> -->
-								<h2 class="section-title">Our Proficient Team</h2>
+								<h2 class="section-title">Our Team</h2>
 							</div>
 						</div>
 					</div>
