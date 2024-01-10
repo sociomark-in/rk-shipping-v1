@@ -259,13 +259,13 @@
 						<div class="col-lg-9 col-md-10 col-12">
 							<div class="services swiper">
 								<div class="swiper-wrapper align-items-start">
-									<!-- Sea / Air Fright -->
+									<!-- Sea / Airfreight  -->
 									<div class="swiper-slide">
 										<div class="card widget-service-card freight-service">
 											<div class="icon _sea__air__fright">
 											</div>
 											<div class="card-body">
-												<h4 class="card-title">Sea / Air Fright</h4>
+												<h4 class="card-title">Sea / Airfreight </h4>
 												<p class="card-text">
 													Direct & Consolidated airfreight/sea freight services world-wide.Preferential bookings covering door to door delivery, time sensitive shipments, dangerous goods and out of gauge cargo. Coordination with Lines and tracking of consignments for freight movement control till final delivery to enable customer to plan distribution and disbursement logistics of goods even before arrival. <br>
 													Preferential bookings covering door to door delivery, time sensitive shipments, dangerous goods, over dimension cargo
@@ -284,7 +284,7 @@
 											<div class="card-body">
 												<h4 class="card-title">Custom Clearance</h4>
 												<p class="card-text">
-													Our Mumbai team is an expert in handling even the most complex Indian customs procedures, guaranteeing seamless transactions for our clients. Our range of air freight, forwarding, shipping, and transportation solutions come at a reasonable cost, all while holding the necessary government licenses. With our industry experience, we add significant value to our clients' supply-chain operations.
+													Our team is an expert in handling even the most complex Indian customs procedures, guaranteeing seamless transactions for our clients. Our range of air freight, forwarding, shipping, and transportation solutions come at a reasonable cost, all while holding the necessary government licenses. With our industry experience, we add significant value to our clients' supply-chain operations.
 												</p>
 												<!-- <div class="card-footer text-body-secondary">
                                                 <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -300,7 +300,7 @@
 											<div class="card-body">
 												<h4 class="card-title">Warehousing</h4>
 												<p class="card-text">
-													Exclusive warehousing contracts with warehouses located inside mumbai and outside mumbai enable us to provide our clients with safe / better rent to our clients.We also can arrange for goods to be stored in Bonded warehouse within and outside mumbai limits.
+													Exclusive warehousing contracts with warehouses enable us to provide our clients with safe / better rent to our clients.
 												</p>
 												<!-- <div class="card-footer text-body-secondary">
                                                 <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -489,9 +489,9 @@
 				<div class="container">
 					<div class="title text-center mb-3">
 						<!-- <p class="section-pill m-auto mb-3">Happy Clients</p> -->
-						<h2 class="section-title">Trusted by our 365,000 Clients</h2>
+						<h2 class="section-title">Trusted by Our Clients</h2>
 						<p>
-							Dramatically enhance interactive metrics for reliable services. Proactively unleash fully researched e-commerce.
+							Dramatically enhance interactive metrics for reliable services. <!-- Proactively unleash fully researched e-commerce. -->
 						</p>
 					</div>
 					<div class="row justify-content-center">

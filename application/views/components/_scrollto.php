@@ -6,12 +6,12 @@
 
 </div>
 
-<audio controls autoplay class="d-none" id="backgroundSound">
+<audio controls autoplay loop class="d-none" id="backgroundSound">
 	<source src="<?= base_url() ?>assets/media/audio.mp3" type="audio/mp3">
 	<!-- <source src="<?= base_url() ?>assets/media/audio.ogg" type="audio/ogg"> -->
 	Your browser does not support the audio element.
 </audio>
-<button type="button" class="btn btn-primary" id="audioPlayBtn">Sound&nbsp;&nbsp;<span></span></button>
+<button type="button" class="btn btn-primary" id="audioPlayBtn"><span></span></button>
 <style>
 	#audioPlayBtn{
 		position: fixed;
@@ -23,14 +23,14 @@
 <script>
 	var audio = document.getElementById("backgroundSound");
 	audio.volume = 0.3;
-	$('#audioPlayBtn span').html('<i class="fa-solid fa-pause"></i>');
+	$('#audioPlayBtn span').html('<i class="fa-solid fa-pause"></i> Pause');
 
 	$('#audioPlayBtn').on('click', ()=>{
 		if(!audio.paused){
-			$('#audioPlayBtn span').html('<i class="fa-solid fa-play"></i>');
+			$('#audioPlayBtn span').html('<i class="fa-solid fa-play"></i> Play');
 			audio.pause();
 		} else {
-			$('#audioPlayBtn span').html('<i class="fa-solid fa-pause"></i>');
+			$('#audioPlayBtn span').html('<i class="fa-solid fa-pause"></i> Pause');
 			audio.play();
 		}
 	})
