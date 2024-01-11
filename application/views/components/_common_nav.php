@@ -21,10 +21,10 @@
                     <a class="nav-link" href="<?= base_url("#services") ?>">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?= base_url("#why-us") ?>">Why&nbsp;Proficient</a>
+                    <a class="nav-link" href="<?= base_url("#why-us") ?>">Why&nbsp;Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?= base_url("#team") ?>">Proficient&nbsp;Team</a>
+                    <a class="nav-link" href="<?= base_url("#team") ?>">Team</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="<?= base_url("#testimonials") ?>">Our&nbsp;Clients</a>
