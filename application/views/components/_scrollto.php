@@ -27,10 +27,10 @@
 
 	$('#audioPlayBtn').on('click', ()=>{
 		if(!audio.paused){
-			$('#audioPlayBtn span').html('<i class="fa-solid fa-play"></i> Play');
+			$('#audioPlayBtn span').html('<i class="fa-solid fa-play"></i> Play Audio');
 			audio.pause();
 		} else {
-			$('#audioPlayBtn span').html('<i class="fa-solid fa-pause"></i> Pause');
+			$('#audioPlayBtn span').html('<i class="fa-solid fa-pause"></i> Pause Audio');
 			audio.play();
 		}
 	})
