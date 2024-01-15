@@ -1,10 +1,11 @@
 <nav class="navbar fixed-top">
     <div class="container-fluid">
         <a class="navbar-brand" href="<?= base_url("") ?>">
-        <picture>
+        <!-- <picture>
             <source media="(min-width:650px)" srcset="<?= base_url("assets/media/logo-img.png") ?>">
             <img src="<?= base_url("assets/media/logo-img.png") ?>" alt="R K Shipping Logo">
-        </picture>
+        </picture> -->
+		R K Shipping
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -23,12 +24,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="<?= base_url("#why-us") ?>">Why&nbsp;Us</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="<?= base_url("#team") ?>">Team</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="<?= base_url("#testimonials") ?>">Our&nbsp;Clients</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="<?= base_url("#contact-us") ?>">Contact&nbsp;Us</a>
                 </li>

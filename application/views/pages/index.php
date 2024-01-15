@@ -485,7 +485,7 @@
 					</div>
 				</div>
 			</section>
-			<section id="testimonials">
+			<section class="d-none" id="testimonials">
 				<div class="container">
 					<div class="title text-center mb-3">
 						<!-- <p class="section-pill m-auto mb-3">Happy Clients</p> -->
@@ -685,7 +685,7 @@
 					</div>
 				</div>
 			</section>
-			<section id="team">
+			<section class="d-none" id="team">
 				<div class="container-fluid p-0">
 					<div class="row m-0 justify-content-end">
 						<div class="col-xl-5 col-lg-5 col-md-6 col-12">
