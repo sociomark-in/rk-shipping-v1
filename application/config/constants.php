@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-defined('APP_NAME') OR define('APP_NAME', 'R K Shipping India LLP');
+defined('APP_NAME') OR define('APP_NAME', 'R K Shipping Pvt. Ltd.');
 defined('APP_LINK') OR define('APP_LINK', parse_url($_SERVER['HTTP_HOST'], PHP_URL_HOST));
 /*
 |--------------------------------------------------------------------------
