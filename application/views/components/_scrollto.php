@@ -23,7 +23,7 @@
 <script>
 	var audio = document.getElementById("backgroundSound");
 	audio.volume = 0.3;
-	$('#audioPlayBtn span').html('<i class="fa-solid fa-pause"></i> Pause');
+	$('#audioPlayBtn span').html('<i class="fa-solid fa-pause"></i> Pause Audio');
 
 	$('#audioPlayBtn').on('click', ()=>{
 		if(!audio.paused){
