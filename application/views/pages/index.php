@@ -119,7 +119,7 @@
 				</div>
 			</div>
 		</section>
-		<section id="" class="d-none">
+		<section class="d-none">
 			<div class="container-fluid">
 				<div class="row m-0 align-items-center">
 					<div class="col-xl-5 col-lg-6 col-12">
@@ -902,7 +902,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="video_overlay">
+		<section class="video_overlay" id="contact-us">
 			<div class="videowrapper">
 				<video id="myVideomob" class="res-video" muted loop autoplay poster="<?= base_url('assets/media/images/') ?>posters/video-poster-img.jpg">
 					<source src="<?= base_url('assets/media/images/') ?>video/My-Video2.mp4" type="video/mp4">
@@ -963,7 +963,8 @@
 																</div>
 																<div class="desc">
 																	<p>
-																		Valji Shyamji Building,Room No 8,273 Shahid Bhagat Singh Road, Fort, Mumbai 400001
+																		<strong><?= APP_NAME ?></strong>
+																		Valji Shyamji Building,Room No 8,273 Shahid Bhagat Singh Road, Fort, Maharashtra, Mumbai 400001
 																	</p>
 																</div>
 															</div>
@@ -986,7 +987,7 @@
 																</div>
 																<div class="desc">
 																	<p>
-																		<a href="mailto:info@proficient.bz">info@proficient.bz</a>
+																		<a href="mailto:info@rkshipping.com">info@rkshipping.com</a>
 																		<br>
 																		<a href="tel:+912227560939">+91 22 27560939</a>
 																	</p>
