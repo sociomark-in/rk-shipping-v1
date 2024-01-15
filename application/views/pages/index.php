@@ -963,7 +963,7 @@
 																</div>
 																<div class="desc">
 																	<p>
-																		<strong><?= APP_NAME ?></strong>
+																		<strong><?= APP_NAME ?></strong> <br>
 																		Valji Shyamji Building,Room No 8,273 Shahid Bhagat Singh Road, Fort, Maharashtra, Mumbai 400001
 																	</p>
 																</div>
