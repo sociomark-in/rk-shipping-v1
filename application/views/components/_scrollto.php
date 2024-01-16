@@ -23,14 +23,17 @@
 <script>
 	var audio = document.getElementById("backgroundSound");
 	audio.volume = 0.3;
-	$('#audioPlayBtn span').html('<i class="fa-solid fa-pause"></i> Pause Audio');
+	// $('#audioPlayBtn span').html('<i class="fa-solid fa-pause"></i> Pause Audio');
+	$('#audioPlayBtn span').html('Sound On');
 
 	$('#audioPlayBtn').on('click', ()=>{
 		if(!audio.paused){
-			$('#audioPlayBtn span').html('<i class="fa-solid fa-play"></i> Play Audio');
+			// $('#audioPlayBtn span').html('<i class="fa-solid fa-play"></i> Play Audio');
+			$('#audioPlayBtn span').html('Sound Off');
 			audio.pause();
 		} else {
-			$('#audioPlayBtn span').html('<i class="fa-solid fa-pause"></i> Pause Audio');
+			// $('#audioPlayBtn span').html('<i class="fa-solid fa-pause"></i> Pause Audio');
+			$('#audioPlayBtn span').html('Sound On');
 			audio.play();
 		}
 	})
